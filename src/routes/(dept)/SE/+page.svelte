@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="SE 1" longName="Introduction to Structures and Design" units="4" url="/SE#1">
 	<p>Introduction to fundamentals of structures and how structures work. Overview of structural behavior and structural design process through hands-on projects. Lessons learned from structural failures. Professional ethics. Role and responsibility of structural engineers. Introduction to four structural engineering focus sequences. Program or materials fees may apply. Enrollment restricted to <MajorLink name="Structural Engineering">SE27</MajorLink> majors only.</p>
 
@@ -28,7 +28,7 @@
 
 	<p>Prerequisites: student must be of first year standing and a Regents Scholar. Consent of instructor or department stamp.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="101A" shortName="SE 101A" longName="Mechanics I: Statics" units="4" url="/SE#101A">
 	<p>Principles of statics using vectors. Two- and three-dimensional equilibrium of statically determinate structures under discrete and distributed loading including hydrostatics; internal forces and concept of stress; free body diagrams; moment, product of inertia; analysis of trusses and beams.</p>
 
@@ -259,7 +259,7 @@
 
 	<p>Prerequisites: consent of instructor or department stamp.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="200" shortName="SE 200" longName="Applied Mathematics in Structural Engineering" units="4" url="/SE#200">
 	<p>This course is designed to give beginning students the basic preparation in mathematical methods required for graduate Structural Engineering courses. Topics include linear algebra; systems of ordinary differential equations; diffusion and wave propagation problems; integral transforms; and calculus of variations.</p>
 

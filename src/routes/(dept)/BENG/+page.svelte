@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="BENG 1" longName="Introduction to Bioengineering" units="2" url="/BENG#1">
 	<p>An introduction to bioengineering that includes lectures and hands-on laboratory for design projects. The principles of problem definition, engineering inventiveness, team design, prototyping, and testing, as well as information access, engineering standards, communication, ethics, and social responsibility will be emphasized. P/NP grades only.</p>
 
@@ -39,7 +39,7 @@
 
 	<p>Prerequisites: student must be of first-year standing and a Regents Scholar; approved Special Studies form.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100" shortName="BENG 100" longName="Introduction to Probability and Statistics for Bioengineers" units="4" url="/BENG#100">
 	<p>The class provides foundation in probability and statistics. Topics include probability spaces, random variables, independence, common distributions, CLT, estimator accuracy, maximum likelihood, and hypothesis testing. Written problems are provided for each topic. Applications are discussed in regard to bioengineering problems.</p>
 
@@ -365,7 +365,7 @@
 
 	<p>Prerequisites: upper-division standing, completion of ninety units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 2.5, consent of instructor, and a completed and approved Special Studies form. (F,W,S,Su)</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="202" shortName="BENG 202/CSE 282" longName="Bioinformatics II: Introduction to Bioinformatics Algorithms" units="4" url="/BENG#202">
 	<p>(Formerly <CourseLink id={1764} href="/BENG#202">BENG 202</CourseLink>/CSE 257A.) Introduction to methods for sequence analysis. Application to genome and proteome sequences. Protein structure, sequence-structure analysis.</p>
 

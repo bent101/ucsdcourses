@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="COGS 1" longName="Introduction to Cognitive Science" units="4" url="/COGS#1">
 	<p>A team-taught course highlighting development of the field and the broad range of topics covered in the major. Example topics include addiction, analogy, animal cognition, human-computer interaction, language, neuroimaging, neural networks, reasoning, robots, and real-world applications.</p>
 
@@ -82,7 +82,7 @@
 
 	<p>Prerequisites: lower-division standing, completion of thirty units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, and a completed and approved Special Studies form.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100" shortName="COGS 100" longName="Cyborgs Now and in the Future" units="4" url="/COGS#100">
 	<p>Covers the theories of situated, distributed, enactive, and embodied cognition. Explains how cyborgs are a natural consequence of our current understanding of embodied minds embedded in culturally shaped niches; how mental systems can be distributed over other people and things.</p>
 
@@ -458,7 +458,7 @@
 
 	<p>Prerequisites: upper-division standing; 2.5 GPA; consent of instructor and department approval.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="200" shortName="COGS 200" longName="Cognitive Science Seminar" units="4" url="/COGS#200">
 	<p>This seminar emphasizes the conceptual basis of cognitive science, including representation, processing mechanisms, language, and the role of interaction among individuals, culture, and the environment. Current developments in each field are considered as they relate to issues in cognitive science. (May be repeated for credit.)</p>
 

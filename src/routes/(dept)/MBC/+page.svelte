@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Core Curriculum</h2>
+<h2 id="core-curriculum">Core Curriculum</h2>
 <CourseCard id="SIO295S" shortName="SIO 295S" longName="Introduction to Marine Biodiversity and Conservation—Seminar" units="8" url="/MBC#SIO295S">
 	<p>Lectures on ecological, economic, social, and legal issues related to marine biodiversity and case studies on socioeconomic and legal issues. Students are expected to attend field trips at sea and to various sites around San Diego County as part of the corequisite course. Students who have taken SIO 295 may not receive credit for <CourseLink id={4507} href="/MBC#SIO295S">SIO 295S</CourseLink>.</p>
 

@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="ECON 1" longName="Principles of Microeconomics" units="4" url="/ECON#1">
 	<p>Introduction to the study of the economic system. Course will introduce the standard economic models used to examine how individuals and firms make decisions in perfectly competitive markets, and how these decisions affect supply and demand in output markets.</p>
 
@@ -26,7 +26,7 @@
 	<p>The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students. May be repeated when course topics vary. (P/NP grades only.)</p>
 
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100A" shortName="ECON 100A" longName="Microeconomics A" units="4" url="/ECON#100A">
 	<p>Economic analysis of household determination of the demand for goods and services, consumption/saving decisions, and the supply of labor.</p>
 
@@ -442,7 +442,7 @@
 
 	<p>Prerequisites: consent of instructor and department approval.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="200A" shortName="ECON 200A" longName="Microeconomics A" units="4" url="/ECON#200A">
 	<p>Modern consumer and producer theory. Preferences, utility maximization, demand, choice under uncertainty, intertemporal choice. Production, cost, profit maximization and supply. Comparative statics, duality.</p>
 

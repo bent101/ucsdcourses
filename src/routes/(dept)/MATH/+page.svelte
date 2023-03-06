@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="2" shortName="MATH 2" longName="Introduction to College Mathematics" units="4" url="/MATH#2">
 	<p>A highly adaptive course designed to build on students’ strengths while increasing overall mathematical understanding and skill. This multimodality course will focus on several topics of study designed to develop conceptual understanding and mathematical relevance: linear relationships; exponents and polynomials; rational expressions and equations; models of quadratic and polynomial functions and radical equations; exponential and logarithmic functions; and geometry and trigonometry. Workload credit only—not for baccalaureate credit.</p>
 
@@ -103,7 +103,7 @@
 
 	<p>Prerequisites: Must be of first-year standing and a Regent’s Scholar.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100A" shortName="MATH 100A" longName="Abstract Algebra I" units="4" url="/MATH#100A">
 	<p>First course in a rigorous three-quarter introduction to the methods and basic structures of higher algebra. Topics include groups, subgroups and factor groups, homomorphisms, rings, fields. (Students may not receive credit for both <CourseLink id={4556} href="/MATH#100A">MATH 100A</CourseLink> and <CourseLink id={4560} href="/MATH#103A">MATH 103A</CourseLink>.)</p>
 
@@ -514,7 +514,7 @@
 
 	<p>Prerequisites: admission to the Honors Program in mathematics, department stamp.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="200A" shortName="MATH 200A" longName="Algebra I" units="4" url="/MATH#200A">
 	<p>First course in graduate algebra. Topics may include group actions, Sylow theorems, solvable and nilpotent groups, free groups and presentations, semidirect products, polynomial rings, unique factorization, chain conditions, modules over principal ideal domains, rational and Jordan canonical forms, tensor products, projective and flat modules, Galois theory, solvability by radicals, localization, primary decomposition, Hilbert Nullstellensatz, integral extensions, Dedekind domains, Krull dimension.</p>
 
@@ -1108,7 +1108,7 @@
 
 	<p>Prerequisites: consent of instructor. (S/U grades permitted.)</p>
 </CourseCard>
-<h2>Teaching of Mathematics</h2>
+<h2 id="teaching-of-mathematics">Teaching of Mathematics</h2>
 <CourseCard id="500" shortName="MATH 500" longName="Teaching Assistant Training" units="2 or 4" url="/MATH#500">
 	<p>A course in which teaching assistants are aided in learning proper teaching methods through faculty-led discussions, preparation and grading of examinations and other written exercises, academic integrity, and student interactions. Number of units for credit depends on number of hours devoted to teaching assistant duties. May be taken for credit up to nine times for a maximum of thirty-six units. Must have concurrent teaching assistant appointment in mathematics.</p>
 

@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>TDAC—Theatre Acting</h2>
+<h2 id="tdactheatre-acting">TDAC—Theatre Acting</h2>
 <CourseCard id="TDAC1" shortName="TDAC 1" longName="Introduction to Acting" units="4" url="/THEA#TDAC1">
 	<p>A beginning course in the fundamentals of acting: establishing a working vocabulary and acquiring the basic skills of the acting process. Through exercises, compositions, and improvisations, the student actor explores the imagination as the actor’s primary resource, and the basic approach to text through action.</p>
 
@@ -89,7 +89,7 @@
 
 	<p>Prerequisites: consent of the instructor; department stamp.</p>
 </CourseCard>
-<h2>TDDE—Theatre Design</h2>
+<h2 id="tddetheatre-design">TDDE—Theatre Design</h2>
 <CourseCard id="TDDE1" shortName="TDDE 1" longName="Introduction to Design for the Theatre" units="4" url="/THEA#TDDE1">
 	<p>A survey of contemporary and historical concepts and practices in the visual arts of the theatre; studies in text analysis, studio processes and technical production; elementary work in design criticism, scale model making, and costume design. A course serving as an introduction to theatre design and production.</p>
 
@@ -163,7 +163,7 @@
 
 	<p>Prerequisites: admission by consent of instructor only. See department for application form.</p>
 </CourseCard>
-<h2>TDDR—Theatre Directing/Stage Management</h2>
+<h2 id="tddrtheatre-directingstage-management">TDDR—Theatre Directing/Stage Management</h2>
 <CourseCard id="TDDR101" shortName="TDDR 101" longName="Stage Management" units="4" url="/THEA#TDDR101">
 	<p>Discussion and research into the duties, responsibilities, and roles of a stage manager. Work to include studies in script analysis, communication, rehearsal procedures, performance skills, and style and conceptual approach to theatre. THGE or <CourseLink id={6385} href="/THEA#TDGE1">TDGE 1</CourseLink>, THAC or <CourseLink id={6342} href="/THEA#TDAC1">TDAC 1</CourseLink>, and THDE or <CourseLink id={6360} href="/THEA#TDDE1">TDDE 1</CourseLink> recommended.</p>
 
@@ -193,7 +193,7 @@
 
 	<p>Prerequisites: THPR or TDPR 4, THPR or <CourseLink id={6463} href="/THEA#TDPR104">TDPR 104</CourseLink>, THDR or <CourseLink id={6375} href="/THEA#TDDR101">TDDR 101</CourseLink>, consent of instructor, and department stamp.</p>
 </CourseCard>
-<h2>TDDM—Dance Making</h2>
+<h2 id="tddmdance-making">TDDM—Dance Making</h2>
 <CourseCard id="TDDM1" shortName="TDDM 1" longName="Introduction to Dance Making" units="4" url="/THEA#TDDM1">
 	<p>Explores the concepts and processes of dance making through creative projects, discussions, and the examination of major dance works. Recommended preparation: No prior dance experience required. Open to all levels.</p>
 
@@ -212,7 +212,7 @@
 
 	<p>Prerequisites: <CourseLink id={6381} href="/THEA#TDDM1">TDDM 1</CourseLink> or consent of instructor.</p>
 </CourseCard>
-<h2>TDGE—Theatre General</h2>
+<h2 id="tdgetheatre-general">TDGE—Theatre General</h2>
 <CourseCard id="TDGE1" shortName="TDGE 1" longName="Introduction to Theatre" units="4" url="/THEA#TDGE1">
 	<p>An introduction to fundamental concepts in drama and performance. Students will attend performances and learn about how the theatre functions as an art and as an industry in today’s world.</p>
 
@@ -330,7 +330,7 @@
 
 	<p>Prerequisites: upper-division standing, 2.5 GPA, consent of instructor, and department stamp.</p>
 </CourseCard>
-<h2>TDHD—Dance History</h2>
+<h2 id="tdhddance-history">TDHD—Dance History</h2>
 <CourseCard id="TDHD20" shortName="TDHD 20" longName="Looking at Dance" units="4" url="/THEA#TDHD20">
 	<p>Focuses on the foundational aesthetic concepts of dance creation and performance within a diverse range of cultural contexts. Students develop descriptive, perceptual, and analytical skills.</p>
 
@@ -351,7 +351,7 @@
 
 	<p>Prerequisites: <CourseLink id={6469} href="/THEA#TDTR10">TDTR 10</CourseLink>, upper-division standing.</p>
 </CourseCard>
-<h2>TDHT—Theatre History</h2>
+<h2 id="tdhttheatre-history">TDHT—Theatre History</h2>
 <CourseCard id="TDHT10" shortName="TDHT 10" longName="Introduction to Play Analysis" units="4" url="/THEA#TDHT10">
 	<p>An introduction to the fundamental techniques of analyzing dramatic texts. Focus is on the student’s ability to describe textual elements and their relationships to each other as well as on strategies for writing critically about drama.</p>
 
@@ -438,7 +438,7 @@
 
 	<p>Prerequisites: Students must submit an application to enroll in the course to confirm they are aware course is in New York and will accrue additional fees.</p>
 </CourseCard>
-<h2>TDMV—Dance Movement</h2>
+<h2 id="tdmvdance-movement">TDMV—Dance Movement</h2>
 <CourseCard id="TDMV1" shortName="TDMV 1" longName="Beginning Ballet" units="4" url="/THEA#TDMV1">
 	<p>A contemporary approach to beginning-level ballet technique, principles, and terminology. Develops the body for strength, flexibility, and artistic interpretation. Emphasis on developing a foundation in movement for the continuation of ballet training. Historical origin of ballet will be discussed. May be taken for credit six times.</p>
 
@@ -553,7 +553,7 @@
 
 	<p>Prerequisites: upper-division standing and consent of instructor.</p>
 </CourseCard>
-<h2>TDPF—Dance Performance</h2>
+<h2 id="tdpfdance-performance">TDPF—Dance Performance</h2>
 <CourseCard id="TDPF160" shortName="TDPF 160" longName="Studies in Performance—Fall Production" units="2–6" url="/THEA#TDPF160">
 	<p>The in-depth study for a fully staged fall dance production directed and choreographed by faculty, graduate students, and/or guest artists in collaboration with student performers. Admission by audition only. May be taken for credit up to six times for a maximum of twelve units.</p>
 
@@ -579,7 +579,7 @@
 
 	<p>Prerequisites: department stamp required.</p>
 </CourseCard>
-<h2>TDPR—Theatre/Dance Practicum</h2>
+<h2 id="tdprtheatredance-practicum">TDPR—Theatre/Dance Practicum</h2>
 <CourseCard id="TDPR6" shortName="TDPR 6" longName="Theatre Practicum" units="4–6" url="/THEA#TDPR6">
 	<p>A production-oriented course that introduces the student to technical fundamentals of costumes, scenery, lighting, and sound for the theatre. Students will be assigned to participate on a crew for a fully mounted theatrical production supported by the department.</p>
 
@@ -595,7 +595,7 @@
 
 	<p>Prerequisites: <CourseLink id={6375} href="/THEA#TDDR101">TDDR 101</CourseLink> and consent of instructor.</p>
 </CourseCard>
-<h2>TDPW—Theatre Playwriting</h2>
+<h2 id="tdpwtheatre-playwriting">TDPW—Theatre Playwriting</h2>
 <CourseCard id="TDPW1" shortName="TDPW 1" longName="Introduction to Playwriting" units="4" url="/THEA#TDPW1">
 	<p>Beginning workshop in the fundamentals of playwriting. Students discuss material from a workbook that elucidates the basic principles of playwriting, do exercises designed to help them put those principles into creative practice, and are guided through the various stages of the playwriting process that culminate with in-class readings of the short plays they have completed.</p>
 
@@ -620,7 +620,7 @@
 
 	<p>Prerequisites: THPW or <CourseLink id={6464} href="/THEA#TDPW1">TDPW 1</CourseLink> and THPW or <CourseLink id={6465} href="/THEA#TDPW101">TDPW 101</CourseLink>.</p>
 </CourseCard>
-<h2>TDTR—Dance Theory</h2>
+<h2 id="tdtrdance-theory">TDTR—Dance Theory</h2>
 <CourseCard id="TDTR10" shortName="TDTR 10" longName="Introduction to Dance" units="4" url="/THEA#TDTR10">
 	<p>An overview of dance, examining its social and cultural history and its evolution as an art form. Focus is on dance and its many genres as an expressive medium and form of communication.</p>
 
@@ -638,7 +638,7 @@
 
 	<p>Prerequisites: upper-division standing or consent of instructor.</p>
 </CourseCard>
-<h2>TDGR—Theatre Graduate</h2>
+<h2 id="tdgrtheatre-graduate">TDGR—Theatre Graduate</h2>
 <CourseCard id="TDGR200" shortName="TDGR 200" longName="Dynamics" units="1" url="/THEA#TDGR200">
 	<p>A daily program of physical, vocal, and speech exercises designed to prepare the student to move in a focused way into specific class areas with minimum amount of warm-up time. The exercises work on development of flexibility, strength, and coordination throughout the body. Strong emphasis is placed on physical and mental centering within a structured and disciplined approach to preparation.</p>
 

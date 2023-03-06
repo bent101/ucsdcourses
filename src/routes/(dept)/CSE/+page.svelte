@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="3" shortName="CSE 3" longName="Fluency in Information Technology" units="4" url="/CSE#3">
 	<p>Introduces the concepts and skills necessary to effectively use information technology. Includes basic concepts and some practical skills with computer and networks.</p>
 
@@ -90,7 +90,7 @@
 
 	<p>Prerequisites: lower-division standing. Completion of thirty units at UC San Diego with a UC San Diego GPA of 3.0. Special Studies form required. Department stamp required. Consent of instructor and approval of the department.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100" shortName="CSE 100" longName="Advanced Data Structures" units="4" url="/CSE#100">
 	<p>High-performance data structures and supporting algorithms. Use and implementation of data structures like (un)balanced trees, graphs, priority queues, and hash tables. Also, memory management, pointers, recursion. Theoretical and practical performance analysis, both average case and amortized. Uses C++ and STL. Recommended preparation: background in C or C++ programming.</p>
 
@@ -441,7 +441,7 @@
 
 	<p>Prerequisites: Admission to the CSE department honors program. Consent of the instructor. Department stamp required.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="200" shortName="CSE 200" longName="Computability and Complexity" units="4" url="/CSE#200">
 	<p>Computability review, including halting problem, decidable sets, r.e. sets, many-one reductions; TIME(t(n)), SPACE(s(n)) and general relations between these classes; L, P, PSPACE, NP; NP—completeness; hierarchy theorems; RP, BPP.</p>
 

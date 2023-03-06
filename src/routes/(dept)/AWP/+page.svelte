@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="3" shortName="AWP 3" longName="Analytical Writing" units="4" url="/AWP#3">
 	<p><CourseLink id={11} href="/AWP#3">AWP 3</CourseLink> provides writers the opportunity to develop their critical thinking and writing abilities. At the end of <CourseLink id={11} href="/AWP#3">AWP 3</CourseLink>, students will produce a portfolio of work that will determine their readiness to enter the college writing programs. Replaced AWP 1. Students may take <CourseLink id={11} href="/AWP#3">AWP 3</CourseLink>, AWP 1, and ELWR 1 for a combined total of three times to earn a passing grade of C or better to satisfy the UC Entry Level Writing Requirement.</p>
 
@@ -17,7 +17,7 @@
 	<p>This course will introduce critical thinking, reading, writing, speaking, and listening practices appropriate to college-level work. It will prepare students who may not be familiar with the learning expectations of American universities to fully join the academic conversation. Students may not receive credit for <CourseLink id={14} href="/AWP#10">AWP 10</CourseLink> and LTWR 4.</p>
 
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100" shortName="AWP 100" longName="Writing a Researched Argument" units="4" url="/AWP#100">
 	<p>This course offers students intensive instruction in the critical and rhetorical practices necessary to craft strong, research-informed arguments. Students also make short multi-modal presentations to practice delivering what they have written. Course topics will vary.</p>
 
@@ -43,7 +43,7 @@
 
 	<p>Prerequisites: permission of the director of the Analytical Writing Program is required to enroll; 3.0 GPA is required.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="500" shortName="AWP 500" longName="Apprentice Teaching in the Analytical Writing Program" units="1–4" url="/AWP#500">
 	<p>Consideration of pedagogical methods appropriate to undergraduate teaching of analytical writing, especially with regards to courses that fulfill the UC Entry Level Writing Requirement (ELWR). The course is required of all graduate teaching assistants who are engaged in or supporting instruction in the Analytical Writing Program. The course is potentially open to other graduate students seeking expertise in writing pedagogy, contingent upon the approval of the director. May be taken for credit up to eighteen times.</p>
 

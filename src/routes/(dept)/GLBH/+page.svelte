@@ -154,7 +154,7 @@
 
 	<p>Prerequisites: department approval required.</p>
 </CourseCard>
-<h3>Graduate Courses</h3>
+<h3 id="graduate-courses">Graduate Courses</h3>
 <CourseCard id="200" shortName="GLBH 200" longName="Global Health Master’s Core Seminar" units="4" url="/GLBH#200">
 	<p>This seminar course consists of workshops to expand on a student’s thesis project and readings synthesizing key concepts and problems in the field of global health. Students will explore career options in global health and begin work on their final portfolio, due at the end of spring quarter.</p>
 

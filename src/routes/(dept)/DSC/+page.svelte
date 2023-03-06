@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="10" shortName="DSC 10" longName="Principles of Data Science" units="4" url="/DSC#10">
 	<p>This introductory course develops computational thinking and tools necessary to answer questions that arise from large-scale datasets. This course emphasizes an end-to-end approach to data science, introducing programming techniques in Python that cover data processing, modeling, and analysis.</p>
 
@@ -59,7 +59,7 @@
 
 	<p>Prerequisites: <CourseLink id={4546} href="/MATH#20C">MATH 20C</CourseLink> or <CourseLink id={4550} href="/MATH#31BH">MATH 31BH</CourseLink> and <CourseLink id={4543} href="/MATH#18">MATH 18</CourseLink> or <CourseLink id={4549} href="/MATH#31AH">MATH 31AH</CourseLink> and <CourseLink id={1285} href="/DSC#20">DSC 20</CourseLink> and <CourseLink id={1287} href="/DSC#40A">DSC 40A</CourseLink>. Completion of thirty units at UC San Diego with a university GPA of 3.0. Special Studies form, consent of the instructor, and approval of the department required. Priority enrollment is given to data science majors <MajorLink name="Data Science">DS25</MajorLink>. Restricted to first-year and sophomore level students.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100" shortName="DSC 100" longName="Introduction to Data Management" units="4" url="/DSC#100">
 	<p>This course is an introduction to storage and management of large-scale data using classical relational (SQL) systems, with an eye toward applications in data science. The course covers topics including the SQL data model and query language, relational data modeling and schema design, elements of cost-based query optimizations, relational data base architecture, and database-backed applications.</p>
 

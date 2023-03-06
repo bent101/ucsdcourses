@@ -1,6 +1,6 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>African Literature</h2>
-<h3>Upper Division</h3>
+<h2 id="african-literature">African Literature</h2>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTAF120" shortName="LTAF 120" longName="Literature and Film of Modern Africa" units="4" url="/LIT#LTAF120">
 	<p>This course traces the rise of modern literature in traditional African societies disrupted by the colonial and neocolonial experience. Contemporary films by African and Western artists will provide an additional insight into the complex social self-images of the continent. Students may not receive credit for both <CourseLink id={3878} href="/LIT#LTAF120">LTAF 120</CourseLink> and <CourseLink id={3879} href="/LIT#LTAF120GS">LTAF 120GS</CourseLink>.</p>
@@ -10,13 +10,13 @@
 	<p>This course traces the rise of modern literature in traditional African societies disrupted by the colonial and neo-colonial experience. Contemporary films by African and western artists will provide additional insight into the complex social self-images of the continent. Department approval required. Students must apply for and be accepted into the Global Seminars Program. Program or materials fees may apply. Students may not receive credit for both <CourseLink id={3878} href="/LIT#LTAF120">LTAF 120</CourseLink> and <CourseLink id={3879} href="/LIT#LTAF120GS">LTAF 120GS</CourseLink>.</p>
 
 </CourseCard>
-<h2>Literature Of The Americas</h2>
-<h3>Lower Division</h3>
+<h2 id="literature-of-the-americas">Literature Of The Americas</h2>
+<h3 id="lower-division">Lower Division</h3>
 <CourseCard id="LTAM87" shortName="LTAM 87" longName="First-year Student Seminar" units="1" url="/LIT#LTAM87">
 	<p>The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students.</p>
 
 </CourseCard>
-<h3>Upper Division</h3>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTAM100" shortName="LTAM 100" longName="Latino/a Cultures in the United States" units="4" url="/LIT#LTAM100">
 	<p>An introductory historical and cultural overview of the various Latino/a populations in the United States with a study of representative cultural texts.</p>
@@ -50,15 +50,15 @@
 	<p>Study of the relationships between cultural production (literature, film, popular culture), social change, and political conflict, covering topics such as colonialism, imperialism, modernization, social movements, dictatorship, and revolution. May be taken for credit up to three times as topics vary.</p>
 
 </CourseCard>
-<h2>Chinese Literature</h2>
-<h3>Upper Division</h3>
+<h2 id="chinese-literature">Chinese Literature</h2>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTCH101" shortName="LTCH 101" longName="Readings in Contemporary Chinese Literature" units="4" url="/LIT#LTCH101">
 	<p>Intended for students who have the competence to read contemporary Chinese texts, poetry, short stories, and criticism in vernacular Chinese. May be taken for credit up to four times as topics vary.</p>
 
 </CourseCard>
-<h2>Comparative Literature</h2>
-<h3>Graduate</h3>
+<h2 id="comparative-literature">Comparative Literature</h2>
+<h3 id="graduate">Graduate</h3>
 <p class="note">Prerequisites: graduate standing or consent of instructor.</p>
 <CourseCard id="LTCO201" shortName="LTCO 201" longName="Theories and Methods of Literary Analysis" units="4" url="/LIT#LTCO201">
 	<p>Contemporary theories of the significance of literary form. The seminar will concentrate on major interpretive approaches drawn from several areas of literary, cultural, and political analysis, including Marxist theory, feminism, psychoanalytic theory, postcolonial studies, LGBT studies, diaspora studies, and others. The particular focus and approach may vary. May be taken for credit up to three times as topics vary. Restricted to major code LT77 or consent of instructor and department. Nongraduate students may enroll with consent of instructor.</p>
@@ -100,8 +100,8 @@
 	<p>Research for the dissertation. Offered for repeated registration. Open only to PhD students who have advanced to candidacy.</p>
 
 </CourseCard>
-<h2>Literature/Cultural Studies</h2>
-<h3>Lower Division</h3>
+<h2 id="literaturecultural-studies">Literature/Cultural Studies</h2>
+<h3 id="lower-division">Lower Division</h3>
 <CourseCard id="LTCS50" shortName="LTCS 50" longName="Introduction to Cultural Studies" units="4" url="/LIT#LTCS50">
 	<p>An introduction to cultural studies with a focus on the following areas: literary and historical studies, popular culture, women’s studies, ethnic studies, science studies, and gay/lesbian studies. Particular emphasis on the question of “cultural practices” and their social and political conditions and effects.</p>
 
@@ -115,7 +115,7 @@
 
 	<p>Prerequisites: none.</p>
 </CourseCard>
-<h3>Upper Division</h3>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTCS100" shortName="LTCS 100" longName="Theories and Methods in Cultural Studies" units="4" url="/LIT#LTCS100">
 	<p>Reading in some of the major theoretical texts that have framed work in cultural studies, with particular emphasis on those drawn from critical theory, studies in colonialism, cultural anthropology, feminism, semiotics, gay/lesbian studies, historicism, and psychoanalytic theory.</p>
@@ -219,7 +219,7 @@
 
 	<p>Prerequisites: permission of the department.</p>
 </CourseCard>
-<h3>Graduate</h3>
+<h3 id="graduate">Graduate</h3>
 <p class="note">Prerequisites: graduate standing or consent of instructor.</p>
 <CourseCard id="LTCS222" shortName="LTCS 222" longName="Topics in Theory and History of Film" units="4" url="/LIT#LTCS222">
 	<p>This course will consider various theoretical approaches to film texts (historical-materialist, feminist, psychoanalytic, semiotic) as well as the history of film, the political economy of film production and distribution, exhibition practices, and spectatorship in national and transnational contexts. May be taken up to three times for credit when topics vary. Restricted to major code LT77 or consent of instructor and department.</p>
@@ -253,8 +253,8 @@
 	<p>Research toward the dissertation. Open only to PhD students who have advanced to candidacy. Repeatable for credit.</p>
 
 </CourseCard>
-<h2>East Asian Literatures</h2>
-<h3>Upper Division</h3>
+<h2 id="east-asian-literatures">East Asian Literatures</h2>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites:  upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTEA100A" shortName="LTEA 100A" longName="Classical Chinese Poetry in Translation" units="4" url="/LIT#LTEA100A">
 	<p>A survey of different genres of traditional Chinese poetry from various periods. May be taken for credit up to three times as topics vary.</p>
@@ -340,8 +340,8 @@
 	<p>Tutorial; individual guided reading in areas of literature not normally covered in courses. May be taken for credit up to three times. (P/NP grades only.)</p>
 
 </CourseCard>
-<h2>Literatures In English</h2>
-<h3>Lower Division</h3>
+<h2 id="literatures-in-english">Literatures In English</h2>
+<h3 id="lower-division">Lower Division</h3>
 <CourseCard id="LTEN21" shortName="LTEN 21" longName="Introduction to the Literature of the British Isles: Pre-1660" units="4" url="/LIT#LTEN21">
 	<p>An introduction to the literatures written in English in Britain before 1660, with a focus on the interaction of text and history.</p>
 
@@ -388,7 +388,7 @@
 
 	<p>Prerequisites: none.</p>
 </CourseCard>
-<h3>Upper Division</h3>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTEN107" shortName="LTEN 107" longName="Chaucer" units="4" url="/LIT#LTEN107">
 	<p>A study of Chaucer’s poetic development, beginning with The Book of the Duchess and The Parliament of Fowls, including Troilus and Criseyde, and concluding with substantial selections from The Canterbury Tales.</p>
@@ -594,7 +594,7 @@
 
 	<p>Prerequisites: department approval.</p>
 </CourseCard>
-<h3>Graduate</h3>
+<h3 id="graduate">Graduate</h3>
 <p class="note">Prerequisites: graduate standing or consent of instructor.</p>
 <CourseCard id="LTEN222" shortName="LTEN 222" longName="Elizabethan Studies" units="4" url="/LIT#LTEN222">
 	<p>Selected topics in the study of literary, dramatic, and other Elizabethan cultural texts. Emphasis will be upon articulations among a range of discourses, practices, and institutions. May be taken up to two times for credit when topics vary. Restricted to major code LT77 or consent of instructor and department.</p>
@@ -656,13 +656,13 @@
 	<p>Research for the dissertation. Offered for repeated registration. Open only to PhD students who have advanced to candidacy.</p>
 
 </CourseCard>
-<h2>European And Eurasian Literatures</h2>
-<h3>Lower Division</h3>
+<h2 id="european-and-eurasian-literatures">European And Eurasian Literatures</h2>
+<h3 id="lower-division">Lower Division</h3>
 <CourseCard id="LTEU87" shortName="LTEU 87" longName="First-year Student Seminar" units="1" url="/LIT#LTEU87">
 	<p>The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students.</p>
 
 </CourseCard>
-<h3>Upper Division</h3>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites:  upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTEU100" shortName="LTEU 100" longName="Introduction to Italian Literature" units="4" url="/LIT#LTEU100">
 	<p>Introduction to representative Italian authors from Dante through the twenty-first century. May be taken up to three times for credit as topics vary.</p>
@@ -728,8 +728,8 @@
 	<p>A study of literary works by a single Russian author. All readings will be in English. <CourseLink id={4049} href="/LIT#LTEU158">LTEU 158</CourseLink> and <CourseLink id={4136} href="/LIT#LTRU123">LTRU 123</CourseLink> may be taken for credit for a combined total of three times as topics vary.</p>
 
 </CourseCard>
-<h2>Literatures In French</h2>
-<h3>Lower Division</h3>
+<h2 id="literatures-in-french">Literatures In French</h2>
+<h3 id="lower-division">Lower Division</h3>
 <p class="note">(See “Department of Linguistics” for other course offerings in first-year French.)</p>
 <CourseCard id="LTFR2A" shortName="LTFR 2A" longName="Intermediate French I" units="5" url="/LIT#LTFR2A">
 	<p>First course in a three-quarter sequence designed to prepare students for upper-division French courses. The course is taught entirely in French and emphasizes the development of reading ability, listening comprehension, and conversational and writing skills. Basic techniques of literary analysis.</p>
@@ -746,7 +746,7 @@
 
 	<p>Prerequisites: <CourseLink id={4051} href="/LIT#LTFR2B">LTFR 2B</CourseLink> or its equivalent, score of 5 on French language or score of 4 on French literature AP exams or consent of instructor.</p>
 </CourseCard>
-<h3>Upper Division</h3>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. All upper-division courses are taught in French. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTFR104" shortName="LTFR 104" longName="Advanced French Reading and Writing" units="4" url="/LIT#LTFR104">
 	<p>This course will help students transition from lower-division French language courses to upper-division literature courses through close work with original texts to develop comprehension, writing, and analytical skills.</p>
@@ -818,7 +818,7 @@
 
 	<p>Prerequisites: department approval.</p>
 </CourseCard>
-<h3>Graduate</h3>
+<h3 id="graduate">Graduate</h3>
 <p class="note">Prerequisites: graduate standing or consent of instructor.</p>
 <CourseCard id="LTFR297" shortName="LTFR 297" longName="Directed Studies: Reading Course" units="1–12" url="/LIT#LTFR297">
 	<p>This course may be designed according to an individual student’s needs when seminar offerings do not cover subjects, genres, or authors of interest. No paper required. The 297 courses do not count toward the seminar requirement. Repeatable for credit.</p>
@@ -832,8 +832,8 @@
 	<p>Research for the dissertation. Offered for repeated registration. Open only to PhD students who have advanced to candidacy.</p>
 
 </CourseCard>
-<h2>Literatures In German</h2>
-<h3>Lower Division</h3>
+<h2 id="literatures-in-german">Literatures In German</h2>
+<h3 id="lower-division">Lower Division</h3>
 <p class="note">(See “Department of Linguistics” for other course offerings in first-year German.)</p>
 <CourseCard id="LTGM2A" shortName="LTGM 2A" longName="Intermediate German I" units="5" url="/LIT#LTGM2A">
 	<p><CourseLink id={4070} href="/LIT#LTGM2A">LTGM 2A</CourseLink> follows the basic language sequence of the Department of Linguistics and emphasizes the development of reading ability, listening comprehension, and conversational and writing skills. The course includes grammar review and class discussion of reading and audiovisual materials. Specifically, the course prepares students for LIGM 2B and 2C.</p>
@@ -850,7 +850,7 @@
 
 	<p>Prerequisites: <CourseLink id={4071} href="/LIT#LTGM2B">LTGM 2B</CourseLink> or equivalent or score of 5 on AP German language exam or consent of instructor.</p>
 </CourseCard>
-<h3>Upper Division</h3>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTGM100" shortName="LTGM 100" longName="German Studies I: Aesthetic Cultures" units="4" url="/LIT#LTGM100">
 	<p>This course offers an overview of German aesthetic culture in its various forms (literature, film, art, music, and architecture) and methods of analysis. Materials will explore the diversity of aesthetic production from the eighteenth century to the present.</p>
@@ -886,7 +886,7 @@
 
 	<p>Prerequisites: department approval.</p>
 </CourseCard>
-<h3>Graduate</h3>
+<h3 id="graduate">Graduate</h3>
 <p class="note">Prerequisites: graduate standing or consent of instructor.</p>
 <CourseCard id="LTGM297" shortName="LTGM 297" longName="Directed Studies: Reading Course" units="1–12" url="/LIT#LTGM297">
 	<p>This course may be designed according to an individual student’s needs when seminar offerings do not cover subjects, genres, or authors of interest. No paper required. The 297 courses do not count toward the seminar requirement. Repeatable for credit.</p>
@@ -896,9 +896,9 @@
 	<p>Similar to a 297, but a paper is required. Papers are usually on subjects not covered by seminar offerings. Up to two 298s may be applied toward the twelve-seminar requirement of the doctoral program. Repeatable for credit.</p>
 
 </CourseCard>
-<h2>Greek Literature</h2>
+<h2 id="greek-literature">Greek Literature</h2>
 <p class="note">(See also listings under “Department of Classical Studies.”)</p>
-<h3>Lower Division</h3>
+<h3 id="lower-division">Lower Division</h3>
 <CourseCard id="LTGK1" shortName="LTGK 1" longName="Beginning Greek" units="4" url="/LIT#LTGK1">
 	<p>Study of ancient Greek, including grammar and reading.</p>
 
@@ -913,7 +913,7 @@
 
 	<p>Prerequisites: <CourseLink id={4083} href="/LIT#LTGK1">LTGK 1</CourseLink> and 2 or equivalent.</p>
 </CourseCard>
-<h3>Upper Division</h3>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTGK101" shortName="LTGK 101" longName="Greek Composition" units="4" url="/LIT#LTGK101">
 	<p>Greek prose composition.   Corequisites:  student must be concurrently enrolled in upper-division Literature/Greek course numbered 102 or above.</p>
@@ -949,8 +949,8 @@
 
 	<p>Prerequisites: department approval.</p>
 </CourseCard>
-<h2>Literatures In Italian</h2>
-<h3>Lower Division</h3>
+<h2 id="literatures-in-italian">Literatures In Italian</h2>
+<h3 id="lower-division">Lower Division</h3>
 <p class="note">(See “Department of Linguistics” for other course offerings in first-year Italian.)</p>
 <CourseCard id="LTIT2A" shortName="LTIT 2A" longName="Intermediate Italian I" units="5" url="/LIT#LTIT2A">
 	<p>A second-year course in Italian language and literature. Conversation, composition, grammar review, and an introduction to literary and nonliterary texts.</p>
@@ -976,7 +976,7 @@
 
 	<p>Prerequisites: <CourseLink id={4093} href="/LIT#LTIT2A">LTIT 2A</CourseLink> and 2B, or consent of instructor.</p>
 </CourseCard>
-<h3>Upper Division</h3>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTIT100" shortName="LTIT 100" longName="Introduction to Literatures in Italian" units="4" url="/LIT#LTIT100">
 	<p>Reading and discussion of selections from representative authors. Review of grammar as needed. May be taken for credit up to three times as topics vary.</p>
@@ -1016,8 +1016,8 @@
 
 	<p>Prerequisites: department approval.</p>
 </CourseCard>
-<h2>Korean Literature</h2>
-<h3>Lower Division</h3>
+<h2 id="korean-literature">Korean Literature</h2>
+<h3 id="lower-division">Lower Division</h3>
 <CourseCard id="LTKO1A" shortName="LTKO 1A" longName="Beginning Korean: First Year I" units="5" url="/LIT#LTKO1A">
 	<p>Students develop beginning-level skills in the Korean language, beginning with an introduction to the writing and sound system. The remainder of the course will focus on basic sentence structures and expressions.</p>
 
@@ -1047,7 +1047,7 @@
 
 	<p>Prerequisites: <CourseLink id={4110} href="/LIT#LTKO2B">LTKO 2B</CourseLink> or placement test and consent of instructor.</p>
 </CourseCard>
-<h3>Upper Division</h3>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTKO130" shortName="LTKO 130" longName="Advanced Korean: Third Year" units="4" url="/LIT#LTKO130">
 	<p>Students in this course will learn advanced level skills in listening, speaking, reading, and writing Korean, and expand their understanding of Korean culture. Upon completion of this course, students are expected to have acquired an expanded vocabulary and knowledge of various expressions and sentence structures. Students are also expected to have a good command of Korean in formal situations and to understand Korean news media. May be taken for credit up to three times as topics vary.</p>
@@ -1064,9 +1064,9 @@
 
 	<p>Prerequisites: <CourseLink id={4112} href="/LIT#LTKO130">LTKO 130</CourseLink> or equivalent proficiency with consent of instructor.</p>
 </CourseCard>
-<h2>Latin Literature</h2>
+<h2 id="latin-literature">Latin Literature</h2>
 <p class="note">(See also listings under “Department of Classical Studies.”)</p>
-<h3>Lower Division</h3>
+<h3 id="lower-division">Lower Division</h3>
 <CourseCard id="LTLA1" shortName="LTLA 1" longName="Beginning Latin" units="4" url="/LIT#LTLA1">
 	<p>Study of Latin, including grammar and reading.</p>
 
@@ -1081,7 +1081,7 @@
 
 	<p>Prerequisites: <CourseLink id={4116} href="/LIT#LTLA2">LTLA 2</CourseLink> or equivalent.</p>
 </CourseCard>
-<h3>Upper Division</h3>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTLA100" shortName="LTLA 100" longName="Introduction to Latin Literature" units="4" url="/LIT#LTLA100">
 	<p>Reading and discussion of selections from representative authors of one or more periods. Review of grammar as needed. May be taken for credit up to two times as topics vary.</p>
@@ -1118,8 +1118,8 @@
 
 	<p>Prerequisites: department approval.</p>
 </CourseCard>
-<h2>Russian Literature</h2>
-<h3>Lower Division</h3>
+<h2 id="russian-literature">Russian Literature</h2>
+<h3 id="lower-division">Lower Division</h3>
 <CourseCard id="LTRU1A" shortName="LTRU 1A" longName="First-Year Russian" units="5" url="/LIT#LTRU1A">
 	<p>First-year Russian, with attention to reading, writing, and speaking.</p>
 
@@ -1144,7 +1144,7 @@
 
 	<p>Prerequisites:  <CourseLink id={4128} href="/LIT#LTRU2A">LTRU 2A</CourseLink> or its equivalent or consent of instructor.</p>
 </CourseCard>
-<h3>Upper Division</h3>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.
 Note: Many Russian literature courses are cross-listed as courses in European and Eurasian Literatures (LTEU). Lectures and discussions are conducted in English, and students may choose whether to do the reading and writing assignments in translation, in which case they should enroll for the course under its LTEU rubric, or in Russian, in which case they should enroll under the LTRU rubric.</p>
 <CourseCard id="LTRU104A" shortName="LTRU 104A" longName="Advanced Practicum in Russian: Linguistic Skills Development" units="4" url="/LIT#LTRU104A">
@@ -1193,8 +1193,8 @@ Note: Many Russian literature courses are cross-listed as courses in European an
 
 	<p>Prerequisites: upper-division standing and permission of department.</p>
 </CourseCard>
-<h2>Literatures In Spanish</h2>
-<h3>Lower Division</h3>
+<h2 id="literatures-in-spanish">Literatures In Spanish</h2>
+<h3 id="lower-division">Lower Division</h3>
 <p class="note">(See “Department of Linguistics” for other course offerings in first-year Spanish.)
 Students entering the Spanish language/literature program must have completed one year of college-level Spanish (Linguistics/Spanish 1C/1CX) or its equivalent at another institution or have the consent of the instructor. Ordinarily, students take <CourseLink id={4140} href="/LIT#LTSP2A">LTSP 2A</CourseLink>, 2B, and 2C. Native speakers are encouraged to take <CourseLink id={4143} href="/LIT#LTSP2D">LTSP 2D</CourseLink>, 2E.</p>
 <CourseCard id="LTSP2A" shortName="LTSP 2A" longName="Intermediate Spanish I: Foundations" units="5" url="/LIT#LTSP2A">
@@ -1226,7 +1226,7 @@ Students entering the Spanish language/literature program must have completed on
 	<p>The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students.</p>
 
 </CourseCard>
-<h3>Upper Division</h3>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTSP100A" shortName="LTSP 100A" longName="Advanced Spanish Reading and Writing for the Humanities and the Social Sciences" units="4" url="/LIT#LTSP100A">
 	<p>Advanced development of writing and reading skills in Spanish through the analysis of cultural production from Latin America and Spain. Introduction to literary and cultural analysis in preparation for upper-division Spanish literature courses and/or to the development of near-native writing and reading proficiency in Spanish. In addition, students will learn how to formulate formal and academic arguments in Spanish for more advanced research in Spanish. May be taken for credit up to three times as topics vary.</p>
@@ -1348,7 +1348,7 @@ Students entering the Spanish language/literature program must have completed on
 
 	<p>Prerequisites: upper-division standing and department approval.</p>
 </CourseCard>
-<h3>Graduate</h3>
+<h3 id="graduate">Graduate</h3>
 <p class="note">Prerequisites: graduate standing or consent of instructor.</p>
 <CourseCard id="LTSP258" shortName="LTSP 258" longName="Spanish American Prose" units="4" url="/LIT#LTSP258">
 	<p>Consideration of one or more major figures, texts, trends, or problems in Spanish American prose. May be taken up to three times for credit when topics vary. Restricted to major code LT77 or consent of instructor and department.</p>
@@ -1370,10 +1370,10 @@ Students entering the Spanish language/literature program must have completed on
 	<p>Research for the dissertation. Offered for repeated registration. Open only to PhD students who have advanced to candidacy.</p>
 
 </CourseCard>
-<h2>Literature/Theory</h2>
+<h2 id="literaturetheory">Literature/Theory</h2>
 <p class="note">Courses in theory may apply to various literature majors. Please consult your adviser.
 Additional theory courses are offered in the various department sections. See quarterly course descriptions on the Department of Literature website.</p>
-<h3>Upper Division</h3>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTTH110" shortName="LTTH 110" longName="History of Criticism" units="4" url="/LIT#LTTH110">
 	<p>A critical and interpretive review of some of the major documents in criticism from the classical period to the present time.</p>
@@ -1395,7 +1395,7 @@ Additional theory courses are offered in the various department sections. See qu
 	<p>Individual reading in an area not covered in courses currently offered by the department. May be taken for credit up to three times as topics vary. (P/NP only.)</p>
 
 </CourseCard>
-<h3>Graduate</h3>
+<h3 id="graduate">Graduate</h3>
 <p class="note">Prerequisites: graduate standing or consent of instructor.</p>
 <CourseCard id="LTTH210A" shortName="LTTH 210A" longName="Proseminar on Literary Scholarship" units="4" url="/LIT#LTTH210A">
 	<p>This proseminar, regularly offered in the fall quarter, consists of seven or eight guest lectures by the literature faculty and introduces their research and methodologies. This proseminar is organized by a literature faculty member or the director of doctoral studies. The course is required in the first year of the Department of Literature doctoral program. Restricted to major code LT77 or consent of instructor and department.</p>
@@ -1424,9 +1424,9 @@ Additional theory courses are offered in the various department sections. See qu
 	<p>Similar to a 297, but a paper is required. Papers are usually on subjects not covered by seminar offerings. Up to two 298s may be applied toward the twelve-seminar requirement of the doctoral program. Repeatable for credit.</p>
 
 </CourseCard>
-<h2>Literatures Of The World</h2>
+<h2 id="literatures-of-the-world">Literatures Of The World</h2>
 <p class="note">In both lower- and upper-division world literature courses, texts may be read in English translation when necessary, and lectures and discussions are conducted in English.</p>
-<h3>Lower Division</h3>
+<h3 id="lower-division">Lower Division</h3>
 <CourseCard id="LTWL19ABC" shortName="LTWL 19A-B-C" longName="Introduction to the Ancient Greeks and Romans" units="4-4-4" url="/LIT#LTWL19ABC">
 	<p>An introductory study of ancient Greece and Rome, their literature, myth, philosophy, history, and art.</p>
 
@@ -1435,7 +1435,7 @@ Additional theory courses are offered in the various department sections. See qu
 	<p>The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students.</p>
 
 </CourseCard>
-<h3>Upper Division</h3>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTWL100" shortName="LTWL 100" longName="Mythology" units="4" url="/LIT#LTWL100">
 	<p>A study of various bodies of myth: their content, form, and meaning. May be taken for credit up to two times as topics vary.</p>
@@ -1619,13 +1619,13 @@ Additional theory courses are offered in the various department sections. See qu
 
 	<p>Prerequisites: upper-division standing and department approval.</p>
 </CourseCard>
-<h3>Graduate</h3>
+<h3 id="graduate">Graduate</h3>
 <CourseCard id="LTWL500" shortName="LTWL 500" longName="Apprentice Teaching in Literature" units="2 or 4" url="/LIT#LTWL500">
 	<p>Consideration of pedagogical methods appropriate to undergraduate teaching in literature courses under the supervision of instructor of course. Doctoral students in literature are required to participate in undergraduate teaching for a minimum of twelve units (two to four units per quarter) prior to completion of the PhD degree.</p>
 
 </CourseCard>
-<h2>Literature/Writing</h2>
-<h3>Lower Division</h3>
+<h2 id="literaturewriting">Literature/Writing</h2>
+<h3 id="lower-division">Lower Division</h3>
 <CourseCard id="LTWR8A" shortName="LTWR 8A" longName="Writing Fiction" units="4" url="/LIT#LTWR8A">
 	<p>Study of fiction in both theory and practice. Narrative technique studied in terms of subjectivity and atmosphere, description, dialogue, and the editing process will be introduced through readings from the history of the novel and short story. Students are required to attend at least three New Writing Series readings during the quarter.</p>
 
@@ -1641,11 +1641,11 @@ Additional theory courses are offered in the various department sections. See qu
 
 	<p>Prerequisites: <CourseLink id={1269} href="/CAT#2">CAT 2</CourseLink> and 3 or <CourseLink id={1335} href="/DOC#2">DOC 2</CourseLink> and 3 or <CourseLink id={3580} href="/HUM#1">HUM 1</CourseLink> and 2 or <CourseLink id={4770} href="/MCWP#40">MCWP 40</CourseLink> and 50 or <CourseLink id={4269} href="/MMW#12">MMW 12</CourseLink> and 13 or WARR 11A-B or <CourseLink id={6925} href="/WARR#WCWP10A">WCWP 10A</CourseLink>-B or <CourseLink id={6338} href="/SYN#1">SYN 1</CourseLink> and 2. Completion of college writing requirement.</p>
 </CourseCard>
-<h3>Upper Division</h3>
+<h3 id="upper-division">Upper Division</h3>
 <p class="note">Department approval is required for any students who are not declared literature/writing majors or minors.
 Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.
 (See “Department of Theatre and Dance” for course offerings in dramatic writing.)</p>
-<h4>Prose Fiction, Poetry, Media Workshops</h4>
+<h4 id="prose-fiction-poetry-media-workshops">Prose Fiction, Poetry, Media Workshops</h4>
 <CourseCard id="LTWR100" shortName="LTWR 100" longName="Short Fiction Workshop" units="4" url="/LIT#LTWR100">
 	<p>A workshop for students with some experience and special interest in writing fiction. This workshop is designed to encourage regular writing in the short forms of prose fiction and to permit students to experiment with various forms. There will be discussion of student work, together with analysis and discussion of representative examples of short fiction from the present and previous ages. May be taken for credit up to three times. Restricted to major/minor code <MajorLink name="Literature/ Writing">LT34</MajorLink> during first pass of registration. All other students may register during second pass of registration with the approval of the department.</p>
 
@@ -1710,7 +1710,7 @@ Prerequisites: upper-division standing or consent of instructor. Additional prer
 
 	<p>Prerequisites: <CourseLink id={4233} href="/LIT#LTWR8A">LTWR 8A</CourseLink> or 8B.</p>
 </CourseCard>
-<h4>Nonfiction Prose Workshops</h4>
+<h4 id="nonfiction-prose-workshops">Nonfiction Prose Workshops</h4>
 <CourseCard id="LTWR120" shortName="LTWR 120" longName="Personal Narrative Workshop" units="4" url="/LIT#LTWR120">
 	<p>A workshop designed to encourage regular writing of all forms of personal experience narrative, including journals, autobiography, firsthand biography, and firsthand chronicle. Instructor and students will discuss student work as well as published personal narratives. May be taken for credit up to three times. Restricted to major/minor code <MajorLink name="Literature/ Writing">LT34</MajorLink> during first pass of registration. All other students may register during second pass of registration with the approval of the department.</p>
 
@@ -1740,7 +1740,7 @@ Prerequisites: upper-division standing or consent of instructor. Additional prer
 
 	<p>Prerequisites: <CourseLink id={4236} href="/LIT#LTWR100">LTWR 100</CourseLink>, <CourseLink id={4238} href="/LIT#LTWR102">LTWR 102</CourseLink>, or <CourseLink id={4249} href="/LIT#LTWR120">LTWR 120</CourseLink>.</p>
 </CourseCard>
-<h4>Writing Process, Written Discourse, and Writing Pedagogy</h4>
+<h4 id="writing-process-written-discourse-and-writing-pedagogy">Writing Process, Written Discourse, and Writing Pedagogy</h4>
 <p class="note">These courses are not writing workshop courses like those listed above. Rather, they examine various aspects of writing as a field of study and writing pedagogy. Writing majors who plan to teach writing may be particularly interested in these courses.</p>
 <CourseCard id="LTWR140" shortName="LTWR 140" longName="History of Writing" units="4" url="/LIT#LTWR140">
 	<p>A review of the history of the development of alphabets and writing systems. Survey of the rise of literacy since the fifteenth century and analysis of continuing literacy problems in developed and developing countries. Restricted to major/minor code <MajorLink name="Literature/ Writing">LT34</MajorLink> during first pass of registration. All other students may register during second pass of registration with the approval of the department.</p>
@@ -1758,7 +1758,7 @@ Prerequisites: upper-division standing or consent of instructor. Additional prer
 	<p>Hybrid workshop offering writing students a working knowledge of literary theory while exposing literature students to practical techniques from poetry, fiction, and nonfiction to refresh their writing of theoretical nonfiction texts. Discussion of student work and published work. Restricted to major/minor code <MajorLink name="Literature/ Writing">LT34</MajorLink> during first pass of registration. All other students may register during second pass of registration with the approval of the department.</p>
 
 </CourseCard>
-<h4>Directed Study and Special Study</h4>
+<h4 id="directed-study-and-special-study">Directed Study and Special Study</h4>
 <CourseCard id="LTWR194" shortName="LTWR 194" longName="Capstone Course for Writing Majors" units="4" url="/LIT#LTWR194">
 	<p>An advanced seminar open to all writing majors in their senior year. Required for those interested in the Honors Program. It offers an integrative experience by considering key facets of the discipline and profession, including relationships between aesthetics/culture and politics, genre writing, craft/technique, literary theories/theories of writing, and distribution/publication. Restricted to major code <MajorLink name="Literature/ Writing">LT34</MajorLink> or consent of the instructor and department.</p>
 
@@ -1783,7 +1783,7 @@ Prerequisites: upper-division standing or consent of instructor. Additional prer
 
 	<p>Prerequisites: upper-division standing and department approval.</p>
 </CourseCard>
-<h3>Graduate</h3>
+<h3 id="graduate">Graduate</h3>
 <p class="note">Prerequisites: graduate standing or consent of instructor.</p>
 <CourseCard id="LTWR215" shortName="LTWR 215" longName="Cross-Genre Workshop" units="4" url="/LIT#LTWR215">
 	<p>In the generative workshop, writers create intergenre works and practice unconventional workshopping techniques that function less as editorial roundtables and more as discussions of the relationships between aesthetics and culture. Restricted to major code LT84 or consent of instructor and department. May be taken for credit up to five times.</p>

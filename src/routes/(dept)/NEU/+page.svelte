@@ -1,10 +1,10 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Undergraduate</h2>
+<h2 id="undergraduate">Undergraduate</h2>
 <CourseCard id="199" shortName="NEU 199" longName="Independent Research" units="2 or 4" url="/NEU#199">
 	<p>Laboratory research under the supervision of individual members of the faculty of the neurosciences department in one or a combination of neurosciences disciplines, e.g., neuroanatomy, neurophysiology, neurochemistry, neuropharmacology. (P/NP grades only.) (F,W,S)</p>
 
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="200ABC" shortName="NEU 200A-B-C" longName="Basic Neuroscience" units="4-4-4" url="/NEU#200ABC">
 	<p>These courses are designed for graduate students in the neurosciences and other departments that are part of the interdisciplinary program (i.e., biology, cognitive science, psychology). These courses have been designed to cover as much basic neuroscience as possible in three quarters of study. It will combine two three-hour meetings each week with a 1.5 hour lecture and a 1.5 hour discussion of papers. These will be required courses for all first-year neurosciences graduate students. Biology will cross-list courses under biology headings, making it a requirement of first-year biology graduate students.</p>
 

@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="CSS 1" longName="Introductory Programming for Computational Social Science" units="4" url="/CSS#1">
 	<p>This course develops computational thinking practices and skills critical for defining, describing, and analyzing social science problems using a computational approach. Students will learn to program in Python in the context of computational social science problems.</p>
 
@@ -9,7 +9,7 @@
 
 	<p>Prerequisites: <CourseLink id={1210} href="/CSS#1">CSS 1</CourseLink> and choose one of the following courses: <CourseLink id={902} href="/COGS#14B">COGS 14B</CourseLink>, <CourseLink id={4541} href="/MATH#11">MATH 11</CourseLink>, <CourseLink id={4275} href="/MGT#3">MGT 3</CourseLink>, <CourseLink id={5233} href="/POLI#30or30D">POLI 30</CourseLink>, <CourseLink id={5233} href="/POLI#30or30D">POLI 30D</CourseLink>, <CourseLink id={5529} href="/PSYC#60">PSYC 60</CourseLink>.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100" shortName="CSS 100" longName="Advanced Programming for Computational Social Science" units="4" url="/CSS#100">
 	<p>This course develops advanced computational problem-solving skills including common algorithms, data structures, and advanced tool and library options. The class provides further development in Python.</p>
 

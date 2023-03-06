@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="ANTH 1" longName="Introduction to Culture" units="4" url="/ANTH#1">
 	<p>An introduction to the anthropological approach to understanding human behavior, with an examination of data from a selection of societies and cultures.</p>
 
@@ -48,7 +48,7 @@
 	<p>The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges. Topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students.</p>
 
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="101" shortName="ANTH 101" longName="Foundations of Social Complexity" units="4" url="/ANTH#101">
 	<p>Course examines archaeological evidence for three key “tipping points” in the human career: (1) the origins of modern human social behaviors, (2) the beginnings of agriculture and village life, and (3) the emergence of cities and states.</p>
 
@@ -168,7 +168,7 @@
 
 	<p>Prerequisites: consent of instructor and upper-division standing with minimum GPA of 2.5 and completed and approved Special Studies form. Department approval required. (Formerly known as ANPR 199.)</p>
 </CourseCard>
-<h2>Anthropology: Archaeology</h2>
+<h2 id="anthropology-archaeology">Anthropology: Archaeology</h2>
 <CourseCard id="ANAR100" shortName="ANAR 100" longName="Special Topics in Anthropological Archaeology" units="4" url="/ANTH#ANAR100">
 	<p>Course will vary in title and content. When offered, the current description and title is found in the current Schedule of Classes and the Department of Anthropology website. May be taken for credit four times.</p>
 
@@ -397,7 +397,7 @@
 
 	<p>Prerequisites: upper-division standing and consent of instructor.</p>
 </CourseCard>
-<h2>Anthropology: Biological Anthropology</h2>
+<h2 id="anthropology-biological-anthropology">Anthropology: Biological Anthropology</h2>
 <CourseCard id="ANBI100" shortName="ANBI 100" longName="Special Topics in Biological Anthropology" units="4" url="/ANTH#ANBI100">
 	<p>Course usually taught by visiting faculty in biological anthropology. Course will vary in title and content. When offered, the current description and title is found in the current Schedule of Classes and the Department of Anthropology website. May be taken for credit four times as topics vary.</p>
 
@@ -548,7 +548,7 @@
 
 	<p>Prerequisites: upper-division standing.</p>
 </CourseCard>
-<h2>Anthropology: Sociocultural Anthropology</h2>
+<h2 id="anthropology-sociocultural-anthropology">Anthropology: Sociocultural Anthropology</h2>
 <CourseCard id="ANSC100" shortName="ANSC 100" longName="Special Topics in Sociocultural Anthropology" units="4" url="/ANTH#ANSC100">
 	<p>Course usually taught by visiting faculty in sociocultural anthropology. Course will vary in title and content. When offered, the current description and title is found in the current Schedule of Classes and the anthropology department website. (Can be taken a total of four times as topics vary.)</p>
 
@@ -993,7 +993,7 @@
 
 	<p>Prerequisites: upper-division standing.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="200" shortName="ANTH 200" longName="Special Topics in Anthropology Graduate Studies" units="4" url="/ANTH#200">
 	<p>Course will vary in title and content. When offered, the current description and title is found in the current Schedule of Classes and the Anthropology department website. (Can be taken a total of four times as topics vary.)</p>
 

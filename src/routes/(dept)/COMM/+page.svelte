@@ -1,6 +1,6 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
-<h3>Core Requirement</h3>
+<h2 id="lower-division">Lower Division</h2>
+<h3 id="core-requirement">Core Requirement</h3>
 <CourseCard id="10" shortName="COMM 10" longName="Introduction to Communication" units="4" url="/COMM#10">
 	<p>Introduction to the history, theory, and practice of communication, including language and literacy, representation and semiotics, mediated technologies and institutional formations, and social interaction. Integrates the study of communication with a range of media production (for example, writing, electronic media, film, performance). <CourseLink id={1018} href="/COMM#10">COMM 10</CourseLink> may be taken concurrently with the COMM A-B-C courses and intermediate electives. Course is offered fall, winter, and summer quarters.</p>
 
@@ -17,13 +17,13 @@
 	<p>This course focuses on the role of journalism in a global system, and the ways mass media both contribute to and inhibit the development of a viable public sphere and effective political process. With a focus on American as well as international news media, we will examine theories and functions of journalism as well as current issues facing today’s news producers.</p>
 
 </CourseCard>
-<h3>Other</h3>
+<h3 id="other">Other</h3>
 <CourseCard id="87" shortName="COMM 87" longName="First-year Student Seminar" units="1" url="/COMM#87">
 	<p>The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students.</p>
 
 </CourseCard>
-<h2>Upper Division</h2>
-<h3>Core Requirements</h3>
+<h2 id="upper-division">Upper Division</h2>
+<h3 id="core-requirements">Core Requirements</h3>
 <CourseCard id="100A" shortName="COMM 100A" longName="Communication, the Person, and Everyday Life" units="4" url="/COMM#100A">
 	<p>This course is a critical introduction to processes of interaction within lived and built environments. It includes historical survey of theories and methods including actor network-theory, conversation analysis, ethnography, ethnomethodology, cultural linguistics, performance, and social cognition. Course work may integrate scholarly study with production (e.g., in-context observation and research or audio/video production).</p>
 
@@ -44,13 +44,13 @@
 
 	<p>Prerequisites: junior or senior standing and <CourseLink id={1018} href="/COMM#10">COMM 10</CourseLink> and at least one from <CourseLink id={1023} href="/COMM#100A">COMM 100A</CourseLink>, 100B, 100C.</p>
 </CourseCard>
-<h3>Intermediate Level Courses</h3>
+<h3 id="intermediate-level-courses">Intermediate Level Courses</h3>
 <CourseCard id="101" shortName="COMM 101" longName="Introduction to Audiovisual Media Practices" units="4" url="/COMM#101">
 	<p>This upper-division course is required as the gateway to all future communication media production courses. Students will learn about contemporary media practices such as film, video, digital/online, and social media production, and how these practices are formed by technical and social constraints. In the studio portion of this course, students will work hands-on with video and new media equipment to apply what they have learned.</p>
 
 	<p>Prerequisites: <CourseLink id={1018} href="/COMM#10">COMM 10</CourseLink>.</p>
 </CourseCard>
-<h4>COMM 101. Media Production Lab (MPL)</h4>
+<h4 id="comm-101-media-production-lab-mpl">COMM 101. Media Production Lab (MPL)</h4>
 <CourseCard id="101A" shortName="COMM 101A" longName="Media Activism" units="" url="/COMM#101A">
 	<p>In this course, we ask what techniques, strategies, and platforms we might engage to present these stories to a broader audience in an impactful and ethical way. While we engage with a specific web-based platform each quarter, the class maintains an emphasis on documentary storytelling and audiovisual production. The aim of this class is to demystify the idea of a “media activist” by guiding students through the development of their own media activism.</p>
 
@@ -86,7 +86,7 @@
 
 	<p>Prerequisites: <CourseLink id={1027} href="/COMM#101">COMM 101</CourseLink> or COGN 22 or <CourseLink id={6696} href="/VIS#70N">VIS 70N</CourseLink> prerequisites can be taken concurrently by permission.</p>
 </CourseCard>
-<h4>COMM 102. Methods of Media Production Practicum (MMPP)</h4>
+<h4 id="comm-102-methods-of-media-production-practicum-mmpp">COMM 102. Methods of Media Production Practicum (MMPP)</h4>
 <CourseCard id="102B" shortName="COMM 102B" longName="MMPP: Audio Story and Podcasting Practicum" units="6" url="/COMM#102B">
 	<p>Production-oriented course involving diverse audio media forms. Critically analyze journalistic podcasts, features, documentaries, diaries, place-casts, and news shorts to evaluate what makes for compelling and effective audio as a contemporary storytelling form. Students will gain technical and production skills to facilitate their own creativity in the audio sphere.</p>
 
@@ -115,7 +115,7 @@
 
 	<p>Prerequisites: <CourseLink id={1018} href="/COMM#10">COMM 10</CourseLink> and <CourseLink id={1027} href="/COMM#101">COMM 101</CourseLink> or COGN 22 or <CourseLink id={6696} href="/VIS#70N">VIS 70N</CourseLink>.</p>
 </CourseCard>
-<h4>COMM 103. Communication and Media (CM)</h4>
+<h4 id="comm-103-communication-and-media-cm">COMM 103. Communication and Media (CM)</h4>
 <CourseCard id="103D" shortName="COMM 103D" longName="CM: Documentary History and Theory" units="4" url="/COMM#103D">
 	<p>History of nonfiction film and video. Through film and written texts, we survey the nonfiction film genre, considering technological innovations, ethical issues, and formal movements related to these representations of the “real.”</p>
 
@@ -131,7 +131,7 @@
 
 	<p>Prerequisites: <CourseLink id={1018} href="/COMM#10">COMM 10</CourseLink>.</p>
 </CourseCard>
-<h4>COMM 104. Comparative Media Systems (CMS)</h4>
+<h4 id="comm-104-comparative-media-systems-cms">COMM 104. Comparative Media Systems (CMS)</h4>
 <CourseCard id="104D" shortName="COMM 104D" longName="CMS: Asia" units="4" url="/COMM#104D">
 	<p>The development of media systems in Asia, focusing on India and China. Debates over nationalism, regionalism, globalization, new technologies, identity politics, censorship, privatization, and media piracy. Alignments and differences with North American and European media systems will also be considered.</p>
 
@@ -156,7 +156,7 @@
 	<p>This course focuses on analyzing media systems in Europe from a comparative perspective and sensitizes students to important differences with respect to journalistic and political cultures. Students will explore political, social, and economic factors shaping particular media systems and assess their implications for different types of political reporting.</p>
 
 </CourseCard>
-<h4>COMM 105. Communication Technologies (CT)</h4>
+<h4 id="comm-105-communication-technologies-ct">COMM 105. Communication Technologies (CT)</h4>
 <CourseCard id="105G" shortName="COMM 105G" longName="CT: Computer Games Studies" units="4" url="/COMM#105G">
 	<p>Course considers computer games both as media and as sites of communication. Games are studied through hands-on play and texts from a variety of disciplinary perspectives. Course encompasses commercial, academic, and independent games.</p>
 
@@ -172,7 +172,7 @@
 
 	<p>Prerequisites: <CourseLink id={1018} href="/COMM#10">COMM 10</CourseLink>.</p>
 </CourseCard>
-<h4>COMM 106. Cultural Industries (CI)</h4>
+<h4 id="comm-106-cultural-industries-ci">COMM 106. Cultural Industries (CI)</h4>
 <CourseCard id="106A" shortName="COMM 106A" longName="CI: Introduction" units="4" url="/COMM#106A">
 	<p>Course examines the organization of some of the many industries (e.g., film, music, gaming, and publishing) that make up the cultural landscape with an eye toward discerning the conditions that shape the production of cultural goods and services: how is production organized within cultural industries; how are products distributed; and what is the impact of both the organization and distribution of goods on the conditions of work and labor?</p>
 
@@ -223,7 +223,7 @@
 
 	<p>Prerequisites: <CourseLink id={1018} href="/COMM#10">COMM 10</CourseLink>.</p>
 </CourseCard>
-<h4>COMM 108. Politics of Bodies (POB)</h4>
+<h4 id="comm-108-politics-of-bodies-pob">COMM 108. Politics of Bodies (POB)</h4>
 <CourseCard id="108A" shortName="COMM 108A" longName="POB: Introduction" units="4" url="/COMM#108A">
 	<p>How do political contests and debates come to be organized on and around bodies? In what sense is the natural body a sign system and how does its organization represent and reproduce cultural values, moral assumptions, social relations, and economic rationales? This course examines these and other questions through political, historical, and media analysis.</p>
 
@@ -239,7 +239,7 @@
 
 	<p>Prerequisites: <CourseLink id={1018} href="/COMM#10">COMM 10</CourseLink>.</p>
 </CourseCard>
-<h4>COMM 109. Mass Communication (MC)</h4>
+<h4 id="comm-109-mass-communication-mc">COMM 109. Mass Communication (MC)</h4>
 <CourseCard id="109D" shortName="COMM 109D" longName="MC: Advertising and Society" units="4" url="/COMM#109D">
 	<p>Advertising in historical and cross-cultural perspectives. Ideology and organization of the advertising industry; meaning of material goods; gifts in capitalist, socialist, and nonindustrial societies; natures of needs, desires, and whether advertising creates needs, desires; and approaches to decoding the advertising messages.</p>
 
@@ -260,7 +260,7 @@
 
 	<p>Prerequisites: <CourseLink id={1018} href="/COMM#10">COMM 10</CourseLink>.</p>
 </CourseCard>
-<h4>COMM 110. Language, Literacy, and Communication (LLC)</h4>
+<h4 id="comm-110-language-literacy-and-communication-llc">COMM 110. Language, Literacy, and Communication (LLC)</h4>
 <CourseCard id="110G" shortName="COMM 110G" longName="LLC: Communication in Organizations" units="4" url="/COMM#110G">
 	<p>Organizations are analyzed as historically evolving discursive systems of activity mediated by talk, text, and artifacts. The class covers sense making, coordinating, symbolizing, talking, negotiating, reading and writing, storytelling, joking, and visualizing in organizations. Exemplary case studies employing several complementary frameworks are used to analyze these communicative processes.</p>
 
@@ -281,7 +281,7 @@
 
 	<p>Prerequisites: <CourseLink id={1018} href="/COMM#10">COMM 10</CourseLink>.</p>
 </CourseCard>
-<h4>COMM 111. Communication and Cultural Production (CCP)</h4>
+<h4 id="comm-111-communication-and-cultural-production-ccp">COMM 111. Communication and Cultural Production (CCP)</h4>
 <CourseCard id="111A" shortName="COMM 111A" longName="CCP: Communication and Cultural Production: Introduction" units="4" url="/COMM#111A">
 	<p>This course examines the products of culture industries (e.g., music, television, fashion, food, landscape, architectural design) to analyze, specifically, how culture is consumed and by whom. How are spectators hailed and audiences fostered and shaped? And what is the role of audiences in fostering and shaping cultural forms and products?</p>
 
@@ -317,7 +317,7 @@
 
 	<p>Prerequisites: <CourseLink id={1018} href="/COMM#10">COMM 10</CourseLink>.</p>
 </CourseCard>
-<h4>COMM 112. Interaction and Mediation (IM)</h4>
+<h4 id="comm-112-interaction-and-mediation-im">COMM 112. Interaction and Mediation (IM)</h4>
 <CourseCard id="112C" shortName="COMM 112C" longName="IM: The Idea of Childhood" units="4" url="/COMM#112C">
 	<p>Our understanding of childhood as a stage of innocence is a modern idea. The idea of childhood has not been constant; different cultures, communities, and classes have shaped the integration of children according to their own standards. We examine the different ways that attitudes toward children have changed, how these attitudes have been connected to an understanding of the human being, and how the desires of society and parents are manifested in what they think the child should be.</p>
 
@@ -333,7 +333,7 @@
 
 	<p>Prerequisites: <CourseLink id={1018} href="/COMM#10">COMM 10</CourseLink>.</p>
 </CourseCard>
-<h4>COMM 114. Communication and Social Institutions (CSI)</h4>
+<h4 id="comm-114-communication-and-social-institutions-csi">COMM 114. Communication and Social Institutions (CSI)</h4>
 <CourseCard id="114C" shortName="COMM 114C" longName="CSI: On Constitutions" units="4" url="/COMM#114C">
 	<p>Consider “constitutions” as meaning-making, world-building mechanisms and practices. Explore how constitutions work: as interpretive instruments designed to frame, organize, guide human thought, action, and systems (according to certain rules or principles often represented as divine in origin and universal in effect) and; as ongoing, dynamic interpretative processes that nevertheless congeal in objects, bodies, and social arrangements and are thus considered binding or unalterable.</p>
 
@@ -398,8 +398,8 @@
 
 	<p>Prerequisites: <CourseLink id={1018} href="/COMM#10">COMM 10</CourseLink>.</p>
 </CourseCard>
-<h3>Advanced Level Courses</h3>
-<h4>COMM 120. Advanced Media Production (AMP)</h4>
+<h3 id="advanced-level-courses">Advanced Level Courses</h3>
+<h4 id="comm-120-advanced-media-production-amp">COMM 120. Advanced Media Production (AMP)</h4>
 <CourseCard id="120I" shortName="COMM 120I" longName="AMP: Social Issues in Media Production" units="4" url="/COMM#120I">
 	<p>Analyze forms of social issue media production, photography, audio/radio, arts, crafts, web, print zines, political documentary. Students work with several forms of media making: video, audio, web design, and a project in their chosen format.</p>
 
@@ -650,7 +650,7 @@
 
 	<p>Prerequisites: <CourseLink id={1018} href="/COMM#10">COMM 10</CourseLink> and one from <CourseLink id={1023} href="/COMM#100A">COMM 100A</CourseLink>, 100B, 100C.</p>
 </CourseCard>
-<h4>Other</h4>
+<h4 id="other">Other</h4>
 <CourseCard id="194" shortName="COMM 194" longName="Research Seminar in Washington, D.C." units="4" url="/COMM#194">
 	<p>(Same as <CourseLink id={5426} href="/POLI#194">POLI 194</CourseLink>, <CourseLink id={6669} href="/USP#194">USP 194</CourseLink>, <CourseLink id={3401} href="/HIST#HITO193">HITO 193</CourseLink>, <CourseLink id={6279} href="/SOC#SOCI194">SOCI 194</CourseLink>, and COGS 194) Course attached to six-unit internship taken by students participating in the UCDC program. Involves weekly seminar meetings with faculty and teaching assistants and a substantial research paper.</p>
 
@@ -676,7 +676,7 @@
 
 	<p>Prerequisites: consent of instructor. (P/NP grades only.)</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="COGR200A" shortName="COGR 200A" longName="Introduction to the Study of Communication as Social Force" units="4" url="/COMM#COGR200A">
 	<p>This course focuses on descriptive and analytical approaches to the political economy of communication and social organization of media institutions. Texts will emphasize the complex structure of communication industries (historically and cross-nationally), and will examine causal and theoretical relationships between social structures, media institutions, public opinion, consumption, and voting. Restricted to major code CM75.</p>
 

@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="02" shortName="MAE 02" longName="Introduction to Aerospace Engineering" units="4" url="/MAE#02">
 	<p>An introduction to topics in aeronautical and astronautical engineering including aerodynamics, propulsion, flight mechanics, structures, materials, orbital mechanics, design, mission planning, and environments. General topics include historical background, career opportunities, engineering ethics, and professionalism.</p>
 
@@ -80,7 +80,7 @@
 
 	<p>Prerequisites: student must be of first-year standing and a Regent’s Scholar; approved Special Studies form.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="101A" shortName="MAE 101A" longName="Introductory Fluid Mechanics" units="4" url="/MAE#101A">
 	<p>Fluid statics; fluid kinematics; integral and differential forms of the conservation laws for mass, momentum, and energy; Bernoulli equation; potential flows; dimensional analysis and similitude.</p>
 
@@ -355,7 +355,7 @@
 
 	<p>Prerequisites: consent of instructor.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="200" shortName="MAE 200" longName="Controls" units="4" url="/MAE#200">
 	<p>This course covers topics in probability and stochastic processes, linear control and estimation including optimal linear control, nonlinear stabilization, and optimal control and estimation for nonlinear systems.</p>
 
@@ -819,7 +819,7 @@
 
 	<p>Prerequisites: consent of instructor and the MAE department.</p>
 </CourseCard>
-<h2>Master of Advanced Studies—Medical Device Engineering</h2>
+<h2 id="master-of-advanced-studiesmedical-device-engineering">Master of Advanced Studies—Medical Device Engineering</h2>
 <CourseCard id="MDE209" shortName="MDE 209" longName="Mechanics and Transport Phenomena for Biomedical Device Design" units="4" url="/MAE#MDE209">
 	<p>Introduction to the basic definitions of continuum mechanics and their mathematical formulation at the graduate level with applications to problems in medicine and biology.</p>
 

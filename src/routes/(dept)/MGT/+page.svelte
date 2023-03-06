@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower-Division Undergraduate Courses</h2>
+<h2 id="lowerdivision-undergraduate-courses">Lower-Division Undergraduate Courses</h2>
 <CourseCard id="3" shortName="MGT 3" longName="Quantitative Methods in Business" units="4" url="/MGT#3">
 	<p>Introduction to techniques to develop/analyze data for informed tactical and strategic management decisions: statistical inference, probability, regression analysis, and optimization. Using these analytic approaches, theory-based formulas, and spreadsheets, students explore managerial applications across all areas of business activity.</p>
 
@@ -40,7 +40,7 @@
 	<p>Effective management of operations is vital to every type of organization. Competitive advantages accrue to firms that can excel in execution and achieve sustained and profitable growth. This course covers the systematic design, execution, and improvement of business processes, projects, and partner relationships. Builds up strategic framework of operations and process management, followed by process analysis including primary operations metrics. Introduces continuous improvement and lean operations.</p>
 
 </CourseCard>
-<h2>Upper-Division Undergraduate Courses</h2>
+<h2 id="upperdivision-undergraduate-courses">Upper-Division Undergraduate Courses</h2>
 <CourseCard id="100" shortName="MGT 100" longName="Customer Analytics" units="4" url="/MGT#100">
 	<p>Marketers use empirical models to determine, support, and evaluate a wide range of business decisions. This course covers models and estimation techniques commonly used for understanding segmentation, targeting, and positioning; product diffusion; advertising response, among other topics.</p>
 
@@ -346,7 +346,7 @@
 
 	<p>Prerequisites: consent of instructor and department approval; approved Special Studies form.</p>
 </CourseCard>
-<h2>MBA Approved Course List</h2>
+<h2 id="mba-approved-course-list">MBA Approved Course List</h2>
 <CourseCard id="402" shortName="MGT 402" longName="Management Communications" units="1" url="/MGT#402">
 	<p>Course focuses on various management communications platforms. Students will learn strategies to establish competence, build trust, motivate and inspire, and achieve commitment to action. Participants will develop, present, and receive intensive peer feedback for both written communications and presentations. Letter grades only.</p>
 
@@ -677,7 +677,7 @@
 
 	<p>Prerequisites: MGT 281 or <CourseLink id={4397} href="/MGT#491">MGT 491</CourseLink>; restricted to master of finance students, MBA students, or consent of instructor.</p>
 </CourseCard>
-<h2>Master of Finance Approved Course List</h2>
+<h2 id="master-of-finance-approved-course-list">Master of Finance Approved Course List</h2>
 <CourseCard id="MGTF401" shortName="MGTF 401" longName="Financial Accounting" units="4" url="/MGT#MGTF401">
 	<p>Overview of financial accounting reporting, with a primary focus on the analysis of economic events and their effect on the major financial statements (balance sheet, income statement, and statement of cash flows). Learn the nature and purpose of accounting methods. Letter grades only. Students may not receive credit for both <CourseLink id={4412} href="/MGT#MGTF401">MGTF 401</CourseLink> and <CourseLink id={4348} href="/MGT#404">MGT 404</CourseLink>.</p>
 
@@ -818,7 +818,7 @@
 
 	<p>Prerequisites: restricted to master of finance program or by department stamp.</p>
 </CourseCard>
-<h2>MS in Business Analytics Approved Course List</h2>
+<h2 id="ms-in-business-analytics-approved-course-list">MS in Business Analytics Approved Course List</h2>
 <CourseCard id="MGTA401" shortName="MGTA 401" longName="Professional Seminar" units="1" url="/MGT#MGTA401">
 	<p>Discussion series where domain experts and business leaders present up-to-date research, discuss legal, privacy, and ethical issues, and provide professional skills development. S/U grades only. May be taken for credit two times.</p>
 
@@ -919,7 +919,7 @@
 
 	<p>Prerequisites: restricted to MS in business analytics program or by department approval.</p>
 </CourseCard>
-<h2>Master of Professional Accountancy Approved Course List</h2>
+<h2 id="master-of-professional-accountancy-approved-course-list">Master of Professional Accountancy Approved Course List</h2>
 <CourseCard id="MGTP401" shortName="MGTP 401" longName="Professional Seminar" units="1" url="/MGT#MGTP401">
 	<p>Professional Seminar presents current industry research, professional skills development, and industry experts and business leaders as speakers. S/U grades only. May be taken for credit two times.</p>
 
@@ -1008,7 +1008,7 @@
 
 	<p>Prerequisites: restricted to MPAc students (major code RS91) or by department approval.</p>
 </CourseCard>
-<h2>PhD Approved Course List</h2>
+<h2 id="phd-approved-course-list">PhD Approved Course List</h2>
 <CourseCard id="208A" shortName="MGT 208A" longName="Introduction to Management Research A" units="4" url="/MGT#208A">
 	<p>This is the first course in a three-course sequence that introduces students to the various methodologies and research paradigms employed in management research. This course covers fundamentals of empirical research methods, including research design, reliability and validity of measurements, theory building and hypothesis testing, and some history of science.</p>
 

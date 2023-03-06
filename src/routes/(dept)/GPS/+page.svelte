@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Core Courses</h2>
+<h2 id="core-courses">Core Courses</h2>
 <p class="note">The courses listed below are the core courses for all of the GPS master’s degree programs (MIA, MPP, MCEPA, MAS-IA). This should not be understood to imply all master’s students must complete each course on this list. Students are advised to refer to the “Program” section (link at the top of the page) or the GPS website, http://gps.ucsd.edu, to see which courses are required for their degree program. Please speak with a student affairs or faculty adviser to be certain of the degree requirements.</p>
 <CourseCard id="GPCO400" shortName="GPCO 400" longName="Policy-Making Processes" units="4" url="/GPS#GPCO400">
 	<p>This course is designed to teach students how to “read” a country’s political and economic system. The course will examine how the particular evolution of institutional frameworks in the different countries of the Pacific region influences the way that political choices are made. Renumbered from IRCO 400. Students may not receive credit for <CourseLink id={2898} href="/GPS#GPCO400">GPCO 400</CourseLink> and IRCO 400.</p>
@@ -110,10 +110,10 @@
 
 	<p>Prerequisites: <CourseLink id={2917} href="/GPS#GPCO481">GPCO 481</CourseLink> and <CourseLink id={2918} href="/GPS#GPCO482">GPCO 482</CourseLink> or consent of instructor.</p>
 </CourseCard>
-<h2>General Courses</h2>
+<h2 id="general-courses">General Courses</h2>
 <p class="note">The courses are listed below by their disciplinary area, as noted by the course prefix. This should not be understood to imply that the course will or will not be allowed for a student’s specialization. Please speak with a student affairs or faculty adviser to be certain of your degree requirements. GPGN courses (for example, special topics or independent study courses) are at the end of the 400 listing.
 Not all courses are offered each year.</p>
-<h3>GPEC: Economics</h3>
+<h3 id="gpec-economics">GPEC: Economics</h3>
 <CourseCard id="GPEC406" shortName="GPEC 406" longName="Finance and Development" units="4" url="/GPS#GPEC406">
 	<p>This course analyzes the roles of money and financial institutions in the economy. The first part of the course focuses on microeconomics and the financial system. The topics include money, financial markets, financial intermediaries, banking regulations, and bank runs. The second part of the course focuses on the microeconomics aspects of financial institutions. The topics include financial development, financial liberalization, and their effects on the economy, especially economic growth and development. Renumbered from IRGN 406. Students may not receive credit for <CourseLink id={2920} href="/GPS#GPEC406">GPEC 406</CourseLink> and IRGN 406.</p>
 
@@ -256,7 +256,7 @@ Not all courses are offered each year.</p>
 
 	<p>Prerequisites: <CourseLink id={2899} href="/GPS#GPCO401">GPCO 401</CourseLink> and <CourseLink id={2909} href="/GPS#GPCO454">GPCO 454</CourseLink>.</p>
 </CourseCard>
-<h3>GPIM: International Management</h3>
+<h3 id="gpim-international-management">GPIM: International Management</h3>
 <CourseCard id="GPIM410" shortName="GPIM 410" longName="Innovation and Entrepreneurship in Japan" units="4" url="/GPS#GPIM410">
 	<p>This research-oriented class introduces: (a) frameworks from organization theory and strategy on innovation, corporate renewal, and system change; (b) the specific situation of Japan, including Japan’s national system of innovation, research consortia and industrial policy, business models, HR practices, VC, and entrepreneurship. Ongoing changes toward open innovation and new management of technology in Japan are the subject of student research projects. May not receive credit for <CourseLink id={2953} href="/GPS#GPIM410">GPIM 410</CourseLink> and IRGN 490. Japan Lab.</p>
 
@@ -368,7 +368,7 @@ Not all courses are offered each year.</p>
 	<p>The objective of this course is to develop an understanding of accounting procedures and learn how to judge corporate financial statements. Through case studies, students will learn to interpret the numbers and make inferences about the financial health of a company. The course includes a comparison of best practices and an introduction to International Financial Reporting Standards. Renumbered from IRGN 474. Students may not receive credit for <CourseLink id={2979} href="/GPS#GPIM474">GPIM 474</CourseLink> and IRGN 474.</p>
 
 </CourseCard>
-<h3>GPPA: Policy Analytics</h3>
+<h3 id="gppa-policy-analytics">GPPA: Policy Analytics</h3>
 <CourseCard id="GPPA400" shortName="GPPA 400" longName="American Politics and Policy" units="4" url="/GPS#GPPA400">
 	<p>This course studies the structure of American government and the political dimensions of policy problems. Who or what influences policy decisions? The course provides students with an analytical and applied understanding of American politics and policy through the use of theory, empirical tests, and case studies.</p>
 
@@ -461,7 +461,7 @@ Not all courses are offered each year.</p>
 	<p>The course will introduce students to the world food economy and its drivers. The first part of the course will consider the forces governing food prices and supply. The second part uses quantitative assessment of policy changes. The third part frames future constraints to food security. Renumbered from IRGN 483. Students may not receive credit for <CourseLink id={3001} href="/GPS#GPPA483">GPPA 483</CourseLink> and IRGN 483. Recommended preparation: <CourseLink id={2909} href="/GPS#GPCO454">GPCO 454</CourseLink>, knowledge of regression analysis, and STATA.</p>
 
 </CourseCard>
-<h3>GPPS: Political Science</h3>
+<h3 id="gpps-political-science">GPPS: Political Science</h3>
 <CourseCard id="GPPS400" shortName="GPPS 400" longName="International Relations of Asia-Pacific" units="4" url="/GPS#GPPS400">
 	<p>International relations and developing international political economies of nations bordering the Pacific. Topics include the “Pacific Basin” concept; the United States and “hegemonic-stability” theory; legacies of the Korean War and Sino-Soviet dispute; immigration patterns and their consequences; and Japan’s foreign policy. Renumbered from IRGN 400. Students may not receive credit for <CourseLink id={3002} href="/GPS#GPPS400">GPPS 400</CourseLink> and IRGN 400.</p>
 
@@ -680,7 +680,7 @@ Not all courses are offered each year.</p>
 	<p>This course will examine characteristics and distinctive aspects of contemporary Korean society and politics. Emphasis will be placed on continuity and change in social values, political culture and leadership, economic growth and its impact, and democratization and its future prospects. Renumbered from IRGN 484. Students may not receive credit for <CourseLink id={3055} href="/GPS#GPPS484">GPPS 484</CourseLink> and IRGN 484.</p>
 
 </CourseCard>
-<h3>GPGN: General Courses</h3>
+<h3 id="gpgn-general-courses">GPGN: General Courses</h3>
 <CourseCard id="GPGN490" shortName="GPGN 490" longName="Special Topics in Pacific International Affairs" units="4" url="/GPS#GPGN490">
 	<p>A seminar course at an advanced level on a special topic in Pacific international affairs. May be repeated for credit.</p>
 
@@ -718,7 +718,7 @@ Not all courses are offered each year.</p>
 	<p>Independent research under the guidance of a faculty member of GPS. May be repeated for credit.</p>
 
 </CourseCard>
-<h3>GPLA: Language Courses</h3>
+<h3 id="gpla-language-courses">GPLA: Language Courses</h3>
 <CourseCard id="GPLA400ABC" shortName="GPLA 400A-B-C" longName="Low Intermediate Chinese Language for Professional Proficiency" units="4-4-4" url="/GPS#GPLA400ABC">
 	<p>This course is designed to enable students at a low-intermediate level of proficiency to maintain and improve their Chinese language skills through a combination of classes, language laboratories, exercises, and other language experiences. Renumbered from IRLA 400A-B-C. Students may not get credit for any IRLA 400 course and the GPLA course of the same number and quarter designation.</p>
 
@@ -751,7 +751,7 @@ Not all courses are offered each year.</p>
 	<p>This course is designed to enable students with low to intermediate knowledge and skills of Bahasa Indonesia to further develop communicative skills through a combination of classes, exercises, and other language experiences. Renumbered from IRLA 461A-B-C. Students may not get credit for any IRLA 461 course and the GPLA course of the same number and quarter designation.</p>
 
 </CourseCard>
-<h2>PhD Level Courses</h2>
+<h2 id="phd-level-courses">PhD Level Courses</h2>
 <CourseCard id="GPEC243" shortName="GPEC 243" longName="GIS and Spatial Data Analysis" units="4" url="/GPS#GPEC243">
 	<p>This course provides an introduction to GIS and spatial data analysis for applied social science research. Students will work in ArcGIS to manipulate different types of georeferenced data, visualize data, import/export data from Excel and STATA, and conduct spatial analysis. Course looks to motivate geography as an important lens through which to study society. Recommended preparation: Basic knowledge of statistics and regression (ordinary least squares) is assumed, as is familiarity with STATA. Students may not receive credit for <CourseLink id={3073} href="/GPS#GPEC243">GPEC 243</CourseLink> and IRGN 443. May be coscheduled with <CourseLink id={2935} href="/GPS#GPEC443">GPEC 443</CourseLink>.</p>
 

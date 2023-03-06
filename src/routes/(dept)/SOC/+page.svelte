@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="SOCI1" shortName="SOCI 1" longName="Introduction to Sociology" units="4" url="/SOC#SOCI1">
 	<p>An introduction to the organizing themes and ideas, empirical concerns, and analytical approaches of the discipline of sociology. The course focuses on both classical and contemporary views of modern society, on the nature of community, and on inequality, with special attention to class, race, and gender. Materials include both theoretical statements and case studies. Will not receive credit for <CourseLink id={6143} href="/SOC#SOCI1">SOCI 1</CourseLink> and SOCL 1A.</p>
 
@@ -54,7 +54,7 @@
 
 	<p>Prerequisites: lower-division standing; completion of thirty units of UC San Diego undergraduate study; minimum UC San Diego GPA of 3.0; completion and approval of Special Studies form. Consent of instructor and department approval required.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="SOCI100" shortName="SOCI 100" longName="Classical Sociological Theory" units="4" url="/SOC#SOCI100">
 	<p>Major figures and schools in sociology from the early nineteenth century onwards, including Marx, Tocqueville, Durkheim, and Weber. The objective of the course is to provide students with a background in classical social theory, and to show its relevance to contemporary sociology.</p>
 
@@ -699,7 +699,7 @@
 
 	<p>Prerequisites: upper-division standing and department approval required.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="SOCG200" shortName="SOCG 200" longName="Introductory Methods/Epistemology" units="4" url="/SOC#SOCG200">
 	<p>This course introduces various methods for observing and analyzing the social world, principles for choosing among them, and general issues of research design. Coverage emphasizes common qualitative and quantitative methods in sociology in preparation for further methods courses.</p>
 

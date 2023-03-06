@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="ANTH268" shortName="ANTH 268, COGR 225A, HIGR 238, PHIL 209A, SOCG 255A" longName="Introduction to Science Studies" units="4" url="/SCIS#ANTH268">
 	<p>Study and discussion of classic work in history of science, sociology of science, and philosophy of science, and of work that attempts to develop a unified science studies approach. Required for all students in the Science Studies Program.</p>
 

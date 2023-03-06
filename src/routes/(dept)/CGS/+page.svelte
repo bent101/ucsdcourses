@@ -1,6 +1,6 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
-<h3>Foundation Requirements</h3>
+<h2 id="lower-division">Lower Division</h2>
+<h3 id="foundation-requirements">Foundation Requirements</h3>
 <CourseCard id="2A" shortName="CGS 2A" longName="Introduction to Critical Gender Studies: Key Terms and Concepts" units="4" url="/CGS#2A">
 	<p>This course will be a general introduction to the key terms, issues, and concepts in the fields of gender and sexuality studies.</p>
 
@@ -9,13 +9,13 @@
 	<p>An introduction to the social relations of power that are shaped by and that shape gender and sexuality. It will build more on the basic concepts and skills introduced in <CourseLink id={1225} href="/CGS#2A">CGS 2A</CourseLink>.</p>
 
 </CourseCard>
-<h3>Other</h3>
+<h3 id="other">Other</h3>
 <CourseCard id="87" shortName="CGS 87" longName="Critical Gender Studies First-year Seminar" units="1" url="/CGS#87">
 	<p>The First-year Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year seminars can be offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students.</p>
 
 </CourseCard>
-<h2>Upper Division</h2>
-<h3>Foundation Requirements</h3>
+<h2 id="upper-division">Upper Division</h2>
+<h3 id="foundation-requirements">Foundation Requirements</h3>
 <CourseCard id="100A" shortName="CGS 100A" longName="Conceptualizing Gender: Theoretical Approaches" units="4" url="/CGS#100A">
 	<p>This course explores the significance of gender as a category of analysis by examining diverse theoretical frameworks from the field of critical gender studies. Particular attention is given to gender in relation to race, class, sexuality, nation, (dis)ability, and religion. Students will not receive credit for both CGS 100 and 100A.</p>
 
@@ -26,7 +26,7 @@
 
 	<p>Prerequisites: <CourseLink id={1225} href="/CGS#2A">CGS 2A</CourseLink>-B or at least one CGS upper-division course.</p>
 </CourseCard>
-<h3>Intermediate Level Courses</h3>
+<h3 id="intermediate-level-courses">Intermediate Level Courses</h3>
 <CourseCard id="101" shortName="CGS 101" longName="Gender and Globalization" units="4" url="/CGS#101">
 	<p>This course explores effects of globalization on transnational relations of gender and sexuality. Topics include the division of labor, politics of production and consumption, constructions of gender and sexuality within global grassroots movements, and the migration of people, capital, and culture.</p>
 
@@ -88,7 +88,7 @@
 	<p>(Cross-listed with <CourseLink id={203} href="/ANTH#ANSC180">ANSC 180</CourseLink>.) Drawing insight from anticolonial and queer of color critique, this course critically examines the demands capitalism makes on us to perform gender, and how that relates to processes of exploitation and racialization. We will explore alternatives and develop strategies for navigating jobs in this system. Students may receive credit for one of the following: <CourseLink id={1243} href="/CGS#120">CGS 120</CourseLink>, CGS 180, and <CourseLink id={203} href="/ANTH#ANSC180">ANSC 180</CourseLink>.</p>
 
 </CourseCard>
-<h3>Advanced Level Courses</h3>
+<h3 id="advanced-level-courses">Advanced Level Courses</h3>
 <CourseCard id="121" shortName="CGS 121" longName="Selected Topics in Critical Gender Studies" units="4" url="/CGS#121">
 	<p>An interdisciplinary course focusing on one of a variety of topics in gender studies, such as gender and science, the body, reproductive technologies, and public policy. May be taken for credit three times when topics vary.</p>
 
@@ -184,7 +184,7 @@
 
 	<p>Prerequisites: consent of instructor and director of Critical Gender Studies Program and department stamp required.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="200" shortName="CGS 200" longName="Advanced Studies in Critical Gender Studies" units="4" url="/CGS#200">
 	<p>This course, the first in the graduate specialization in Critical Gender Studies, is designed to give students a broad but advanced survey of historical and current research in studies of gender and sexuality in the arts, humanities, and social sciences.</p>
 

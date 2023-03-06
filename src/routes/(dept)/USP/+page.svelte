@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="USP 1" longName="History of US Urban Communities" units="4" url="/USP#1">
 	<p>This course charts the development of urban communities across the United States both temporally and geographically. It examines the patterns of cleavage, conflict, convergence of interest, and consensus that have structured urban life. Social, cultural, and economic forces will be analyzed for the roles they have played in shaping the diverse communities of America’s cities.</p>
 
@@ -40,7 +40,7 @@
 	<p>In this course, students will attend weekly seminars presented by leading researchers and practitioners in the field of real estate and development. Students will learn about best practices and innovative case studies from the field. Recommended for students interested in the real estate and development minor or major.</p>
 
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100" shortName="USP 100" longName="Introduction to Urban Planning" units="4" url="/USP#100">
 	<p>This course is designed to provide an introduction to the fundamentals of urban planning. It surveys important topics in urban planning, including economic development, urban design, transportation, environmental planning, housing, and the history of urban planning.</p>
 
@@ -531,7 +531,7 @@
 
 	<p>Prerequisites: upper-division standing and consent of instructor.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="224" shortName="USP 224" longName="Land Use Planning" units="4" url="/USP#224">
 	<p>Introduction to land use planning in the United States: zoning and subdivision, regulation, growth management, farmland preservation, environmental protection, and comprehensive planning. May be coscheduled with <CourseLink id={6592} href="/USP#124">USP 124</CourseLink>.</p>
 

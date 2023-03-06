@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="5" shortName="ECE 5" longName="Introduction to Electrical and Computer Engineering" units="4" url="/ECE#5">
 	<p>An introduction to electrical and computer engineering. Topics include circuit theory, assembly, and testing, embedded systems programming and debugging, transducer mechanisms and interfacing transducers, signals and systems theory, digital signal processing, and modular design techniques.</p>
 
@@ -55,7 +55,7 @@
 	<p>This seminar class will provide a broad review of current research topics in both electrical engineering and computer engineering. Typical subject areas are signal processing, VLSI design, electronic materials and devices, radio astronomy, communications, and optical computing.</p>
 
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100" shortName="ECE 100" longName="Linear Electronic Systems" units="4" url="/ECE#100">
 	<p>Linear active circuit and system design. Topics include frequency response; use of Laplace transforms; design and stability of filters using operational amplifiers. Integrated lab and lecture involves analysis, design, simulation, and testing of circuits and systems. Program or materials fees may apply.</p>
 
@@ -433,7 +433,7 @@
 
 	<p>Prerequisites: consent of instructor.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="200" shortName="ECE 200" longName="Research Conference" units="2" url="/ECE#200">
 	<p>Group discussion of research activities and progress of group members. (Consent of instructor is strongly recommended.) (S/U grades only.)</p>
 

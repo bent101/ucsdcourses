@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1A" shortName="MUS 1A" longName="Fundamentals of Music A" units="4" url="/MUS#1A">
 	<p>This course, first in a three-quarter sequence, is primarily intended for students without previous musical experience. It introduces music notation and basic music theory topics such as intervals, scales, keys, and chords, as well as basic rhythm skills.</p>
 
@@ -157,7 +157,7 @@ Section K. Chamber Singers
 Section L. Wind Ensemble
 Section W. World Music Ensembles</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="101A" shortName="MUS 101A" longName="Music Theory and Practice I" units="4" url="/MUS#101A">
 	<p>Study of modal counterpart in the style of the sixteenth century. Two-voice species counterpoint studies. Analysis of music of the period. Musicianship studies: sight-singing, dictation, and keyboard skills.</p>
 
@@ -448,7 +448,7 @@ Section W. World Music Ensembles</p>
 
 	<p>Prerequisites: consent of instructor and department chair approval. Department stamp required. Pass/Not Pass grade only. May be taken for credit two times.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <p class="note">All courses numbered 200 and above are intended for students admitted to the graduate program in music.</p>
 <CourseCard id="200" shortName="MUS 200" longName="Contemporary Chamber Opera Performance" units="4" url="/MUS#200">
 	<p>Students will collaborate with faculty and guest artists in the preparation and performance of a fully staged contemporary chamber opera. The opera will be presented in multiple public performances.</p>

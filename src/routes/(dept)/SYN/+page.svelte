@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="SYN 1" longName="Perspectives on a Changing Planet" units="4" url="/SYN#1">
 	<p>Synthesis 1 introduces students to the methods, challenges, and rewards of working across disciplines and models of interdisciplinary thinking by using a variety of disciplinary perspectives to enhance students’ understanding of our changing planet. Students are asked to engage in interdisciplinary thinking through the course assignments.</p>
 
@@ -10,7 +10,7 @@
 
 	<p>Prerequisites: Seventh College students only, <CourseLink id={6338} href="/SYN#1">SYN 1</CourseLink>, must be taken for a letter grade to count toward Seventh College general-education requirements.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100" shortName="SYN 100" longName="Solutions for a Changing Planet" units="4" url="/SYN#100">
 	<p>Synthesis 100 is a project-based course that builds on skills developed in Synthesis 1 and Synthesis 2 by taking a collaborative, interdisciplinary approach to solving complex problems. <CourseLink id={6340} href="/SYN#100">SYN 100</CourseLink> is the third course in the Synthesis Program’s three-course sequence.</p>
 

@@ -44,7 +44,7 @@
 
 	<p>Prerequisites: admission to Eleanor Roosevelt College Individual Studies major.</p>
 </CourseCard>
-<h3>Eleanor Roosevelt Seminar</h3>
+<h3 id="eleanor-roosevelt-seminar">Eleanor Roosevelt Seminar</h3>
 <p class="note">Provost, Eleanor Roosevelt College ERC Administration Building</p>
 <CourseCard id="90" shortName="ERC 90" longName="Undergraduate Seminar" units="1" url="/ERC#90">
 	<p>A seminar intended for exposing undergraduate students, especially first-year students and sophomores, to exciting research programs conducted by the faculty.</p>

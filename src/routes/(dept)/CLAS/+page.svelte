@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Undergraduate</h2>
+<h2 id="undergraduate">Undergraduate</h2>
 <CourseCard id="87" shortName="CLAS 87" longName="First-year Seminar" units="1" url="/CLAS#87">
 	<p>The First-year Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year seminars can be offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter.</p>
 
@@ -39,7 +39,7 @@
 	<p>Independent study on a topic not generally included in the regular curriculum. Student must make arrangements with individual faculty members. May be repeated for credit as topics vary.</p>
 
 </CourseCard>
-<h2>UC Tri-Campus Graduate Program in Classics Courses</h2>
+<h2 id="uc-tricampus-graduate-program-in-classics-courses">UC Tri-Campus Graduate Program in Classics Courses</h2>
 <CourseCard id="200A" shortName="CLASSIC 200A" longName="Contemporary Literary Theory and the Classics" units="4" url="/CLAS#200A">
 	<p>An introduction to contemporary literary theory, focusing on important critical approaches to the literary texts. May be repeated for credit as topics vary.</p>
 

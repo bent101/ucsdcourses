@@ -1,11 +1,11 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="97" shortName="INTL 97" longName="Internship" units="1" url="/INTL#97">
 	<p>Independent research connected to an internship with an organization relevant to the career interests of a student of international studies. Topic of the required research to be determined by the supervising faculty member. P/NP grades only. May be taken for credit eight times.</p>
 
 	<p>Prerequisites: department approval required.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="101" shortName="INTL 101" longName="Culture and Society in International Perspective" units="4" url="/INTL#101">
 	<p>Analysis of the cultural and social development of the modern era from the perspective of interaction among societies. Particular attention is paid to the definition, representation, and negotiation of social and cultural boundaries over time.</p>
 

@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="CHEM 1" longName="The Scope of Chemistry and Biochemistry" units="1" url="/CHEM#1">
 	<p>This seminar connects first-year students with the chemistry community (peers, staff, faculty, and other researchers) as they explore learning resources, study strategies, professional development, and current areas of active research. With an emphasis on academic and career planning, the series will feature guest lectures by UC San Diego faculty and staff, as well as industrial scientists and representatives from professional organizations such as the American Chemical Society (ACS). P/NP grades only.</p>
 
@@ -132,7 +132,7 @@
 
 	<p>Prerequisites: student must be of first-year standing and a Regent’s Scholar; approved Special Studies form.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100A" shortName="CHEM 100A" longName="Analytical Chemistry Laboratory" units="4" url="/CHEM#100A">
 	<p>Laboratory course emphasizing classical quantitative chemical analysis techniques, including separation and gravimetric methods, as well as an introduction to instrumental analysis. Program or materials fees may apply.</p>
 
@@ -442,7 +442,7 @@
 
 	<p>Prerequisites: upper-division standing, 2.5 minimum GPA, consent of instructor and department and the completion of the online <CourseLink id={709} href="/CHEM#199">CHEM 199</CourseLink> application.)</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="200B" shortName="CHEM 200B" longName="Fundamentals of Instrumental Analysis" units="4" url="/CHEM#200B">
 	<p>Fundamental theoretical principles, capabilities, applications, and limitations of modern analytical instrumentation used for qualitative and quantitative analysis. Students will learn how to define the nature of an analytical problem and how to select an appropriate analytical method. Letter grades only. Recommended preparation: background equivalent to <CourseLink id={648} href="/CHEM#100A">CHEM 100A</CourseLink> and introductory optics and electricity from physics. (W)</p>
 

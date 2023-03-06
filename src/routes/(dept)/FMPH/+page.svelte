@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="40" shortName="FMPH 40" longName="Introduction to Public Health" units="4" url="/FMPH#40">
 	<p>This course provides an introduction to the infrastructure of public health; the analytical tools employed by public health practitioners; bio-psychosocial perspectives of public health problems; health promotion/disease prevention; quality assessment in public health; and legal and ethical concerns. Must be taken for a letter grade to be applied to the public health major. Renumbered from FPMU 40. Students may not receive credit for FPMU 40 and <CourseLink id={5708} href="/FMPH#40">FMPH 40</CourseLink>.</p>
 
@@ -10,7 +10,7 @@
 
 	<p>Prerequisites: restricted enrollment to first-year, sophomore, junior, and senior standing.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="101" shortName="FMPH 101" longName="Epidemiology" units="4" url="/FMPH#101">
 	<p>This course covers the basic principles of epidemiology, with applications to investigations of noninfectious (“chronic”) and infectious diseases. Explores various study designs appropriate for disease surveillance and studies of etiology and prevention. Must be taken for a letter grade to be applied to the public health major. Renumbered from FPMU 101. Students may not receive credit for <CourseLink id={5710} href="/FMPH#101">FMPH 101</CourseLink> and either FPMU 101 or FPMU 101A.</p>
 
@@ -96,7 +96,7 @@
 
 	<p>Prerequisites: upper-division standing, completion of ninety units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 2.5, consent of instructor, and a completed and approved Special Studies form.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="221" shortName="FMPH 221" longName="Biostatistical Methods I" units="4" url="/FMPH#221">
 	<p>Introductory graduate course on the analysis of biomedical data using the R statistical software. Topics include t-tests, ANOVAs, linear regression, model diagnostics, model building and selection, interaction, confounding, multiple comparisons, and robust tests based on ranks and resampling.</p>
 

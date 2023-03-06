@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="5or5D" shortName="POLI 5 or 5D" longName="Data Analytics for the Social Sciences" units="4" url="/POLI#5or5D">
 	<p>Introduction to probability and analysis for understanding data in the social world. Students engage in hands-on learning with applied social science problems. Basics of probability, visual display of data, data collection and management, hypothesis testing, and computation. Students may receive credit for only one of the following courses: <CourseLink id={1342} href="/ECON#5">ECON 5</CourseLink>, <CourseLink id={5226} href="/POLI#5or5D">POLI 5</CourseLink>, or <CourseLink id={5226} href="/POLI#5or5D">POLI 5D</CourseLink>.</p>
 
@@ -51,9 +51,9 @@
 
 	<p>Prerequisites: student must be of first-year class standing, and a Regents Scholar; approved Special Studies form.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <p class="note">Minimum requirement for all upper-division courses is at least one quarter of lower-division political science, or upper-division standing.</p>
-<h3>American Politics</h3>
+<h3 id="american-politics">American Politics</h3>
 <CourseCard id="100A" shortName="POLI 100A" longName="The Presidency" units="4" url="/POLI#100A">
 	<p>The role of the presidency in American politics. Topics will include nomination and election politics, relations with Congress, party leadership, presidential control of the bureaucracy, international political role, and presidential psychology.</p>
 
@@ -291,7 +291,7 @@
 
 	<p>Prerequisites: upper-division standing.</p>
 </CourseCard>
-<h3>Political Theory</h3>
+<h3 id="political-theory">Political Theory</h3>
 <CourseCard id="110A" shortName="POLI 110A" longName="Citizens and Saints: Political Thought from Plato to Augustine" units="4" url="/POLI#110A">
 	<p>This course focuses on the development of politics and political thought in ancient Greece, its evolution through Rome and the rise of Christianity. Readings from Plato, Aristotle, Augustine, Machiavelli, and others.</p>
 
@@ -424,7 +424,7 @@
 	<p>An undergraduate course designed to cover various aspects of political theory. May be repeated for credit two times, provided each course is a separate topic, for a maximum of twelve units.</p>
 
 </CourseCard>
-<h3>Comparative Politics</h3>
+<h3 id="comparative-politics">Comparative Politics</h3>
 <CourseCard id="120A" shortName="POLI 120A" longName="Political Development of Western Europe" units="4" url="/POLI#120A">
 	<p>An examination of various paths of European political development through consideration of the conflicts that shaped these political systems: the commercialization of agriculture; religion and the role of the church; the army and the state bureaucracy; and industrialization. Stress will be on alternative paradigms and on theorists.</p>
 
@@ -677,7 +677,7 @@
 	<p>An undergraduate course designed to cover various aspects of comparative politics. May be repeated for credit three times, provided each course is a separate topic, for a maximum of twelve units.</p>
 
 </CourseCard>
-<h3>International Relations</h3>
+<h3 id="international-relations">International Relations</h3>
 <CourseCard id="140A" shortName="POLI 140A" longName="International Law" units="4" url="/POLI#140A">
 	<p>International law is central to the efforts to create a world order to limit armed conflict, regulate world economy, and set minimum standards for human rights. This course introduces international law and explains theories advanced by academic analysts and practitioners to explain its role.</p>
 
@@ -815,7 +815,7 @@
 	<p>An undergraduate course designed to cover various aspects of international relations. May be repeated for credit two times, provided each course is a separate topic, for a maximum of twelve units.</p>
 
 </CourseCard>
-<h3>Policy Analysis</h3>
+<h3 id="policy-analysis">Policy Analysis</h3>
 <CourseCard id="160AA" shortName="POLI 160AA" longName="Introduction to Policy Analysis" units="4" url="/POLI#160AA">
 	<p>(Same as <CourseLink id={6576} href="/USP#101">USP 101</CourseLink>) This course will explore the process by which the preferences of individuals are converted into public policy. Also included will be an examination of the complexity of policy problems, methods for designing better policies, and a review of tools used by analysts and policy makers.</p>
 
@@ -891,7 +891,7 @@
 
 	<p>Prerequisites: upper-division standing.</p>
 </CourseCard>
-<h3>Special Studies</h3>
+<h3 id="special-studies">Special Studies</h3>
 <CourseCard id="191AB" shortName="POLI 191A–B" longName="Senior Honors Seminar: Frontiers of Political Science" units="4-4" url="/POLI#191AB">
 	<p>This course is open only to seniors interested in qualifying for departmental honors. Admission to the course will be determined by the department. Each student will write an honors essay under the supervision of a member of the faculty.</p>
 
@@ -946,9 +946,9 @@
 
 	<p>Prerequisites: consent of instructor.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <p class="note">All graduate courses are categorized as either seminars or independent study.</p>
-<h3>Seminars</h3>
+<h3 id="seminars">Seminars</h3>
 <CourseCard id="200A" shortName="POLI 200A" longName="Foundations of Political Science" units="4" url="/POLI#200A">
 	<p>An introduction to the theoretical concepts in the discipline of political science that are commonly used across various subfields. Each week will introduce the core concept(s) and discuss applications from several, if not all subfields in the department.</p>
 
@@ -1340,7 +1340,7 @@
 
 	<p>Prerequisites: 204A and 204B and 204C, graduate standing or consent of instructor.</p>
 </CourseCard>
-<h3>Independent Study</h3>
+<h3 id="independent-study">Independent Study</h3>
 <CourseCard id="298" shortName="POLI 298" longName="Directed Reading" units="1–12" url="/POLI#298">
 	<p>Guided and supervised reading in the literature of the several fields of political science.</p>
 

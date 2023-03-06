@@ -1,10 +1,10 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Japanese Studies</h2>
+<h2 id="japanese-studies">Japanese Studies</h2>
 <CourseCard id="190" shortName="JAPN 190" longName="Selected Topics in Contemporary Japanese Studies" units="" url="/JAPN#190">
 	<p></p>
 
 </CourseCard>
-<h2>Language</h2>
+<h2 id="language">Language</h2>
 <p class="note">Students who have prior preparation of Japanese language are placed in language courses based on the results of a placement test and an oral interview with an instructor. Students who have lived in Japan and/or speak Japanese at home are required to take a placement exam administered prior to the beginning of the fall quarter. Contact the Japanese Studies office for more information.</p>
 <CourseCard id="10A" shortName="JAPN 10A" longName="First-Year Japanese" units="5" url="/JAPN#10A">
 	<p>This course is an introduction to the Japanese language. Students will learn basic skills of listening, speaking, reading, and writing over seventy-five characters. Students will also acquire fundamental knowledge of Japanese grammar and learn about Japanese people and culture.</p>

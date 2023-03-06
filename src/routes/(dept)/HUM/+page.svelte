@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="HUM 1" longName="The Foundations of Western Civilization: Israel and Greece" units="6" url="/HUM#1">
 	<p>Texts from the Hebrew Bible and from Greek epic, history, drama, and philosophy in their cultural context. Revelle students must take course for letter grade.</p>
 

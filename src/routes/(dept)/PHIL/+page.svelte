@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="PHIL 1" longName="Introduction to Philosophy" units="4" url="/PHIL#1">
 	<p>A general introduction to some of the fundamental questions, texts, and methods of philosophy. Multiple topics will be covered, and may include the existence of God, the nature of mind and body, free will, ethics and political philosophy, knowledge and skepticism.</p>
 
@@ -78,7 +78,7 @@
 	<p>An investigation of a selected philosophical topic through readings, discussions, and written assignments. May be taken for credit twice, when topics vary.</p>
 
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100" shortName="PHIL 100" longName="Plato" units="4" url="/PHIL#100">
 	<p>A study of Socrates and/or Plato through major dialogues of Plato. Possible topics include the virtues and happiness; weakness of the will; political authority and democracy; the theory of Forms and sensible flux; immortality; relativism, skepticism, and knowledge. May be repeated for credit with change of content and approval of instructor.</p>
 
@@ -418,7 +418,7 @@
 
 	<p>Prerequisites: consent of instructor.</p>
 </CourseCard>
-<h2>Graduate Courses</h2>
+<h2 id="graduate-courses">Graduate Courses</h2>
 <CourseCard id="200" shortName="PHIL 200" longName="Proseminar" units="4" url="/PHIL#200">
 	<p>Introduction to philosophical methods of analysis through study of classic historical or contemporary texts. Writing intensive. Enrollment limited to philosophy entering graduate students.</p>
 

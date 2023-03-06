@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="20" shortName="GSS 20" longName="Introduction to Global South Studies" units="4" url="/GSS#20">
 	<p>This introductory course examines historical and theoretical debates on the Global South. Especially important are socioeconomic, political, as well as cultural processes, as they are key factors to understanding the Global South across the globe.</p>
 
@@ -28,7 +28,7 @@
 	<p>An introduction to the history, culture, and politics of Southeast Asia through multidisciplinary approaches and readings.</p>
 
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="TWS132" shortName="GSS 132" longName="Literature and Global South Societies" units="4" url="/GSS#TWS132">
 	<p>This course will investigate novelistic and dramatic treatments of European society in the era of nineteenth-century imperialism, Global South societies under the impact of colonialism, and the position of national minorities inside the United States to the present day. Attention will center on the interplay between the aesthetic merits and social-historical-philosophical content of the works read.</p>
 
@@ -51,15 +51,15 @@
 
 	<p>Prerequisites: upper-division standing and consent of instructor. (F,W,S)</p>
 </CourseCard>
-<h3>Global South studies offerings in affiliated departments (preapproved to count toward the Global South studies major or minor):</h3>
-<h3>Anthropology</h3>
+<h3 id="global-south-studies-offerings-in-affiliated-departments-preapproved-to-count-toward-the-global-south-studies-major-or-minor">Global South studies offerings in affiliated departments (preapproved to count toward the Global South studies major or minor):</h3>
+<h3 id="anthropology">Anthropology</h3>
 <p class="note"><CourseLink id={172} href="/ANTH#ANSC136">ANSC 136</CourseLink>. Traditional Chinese Society
 <CourseLink id={173} href="/ANTH#ANSC137">ANSC 137</CourseLink>. Chinese Popular Religion
 <CourseLink id={178} href="/ANTH#ANSC142">ANSC 142</CourseLink>. Anthropology of Latin America
 <CourseLink id={195} href="/ANTH#ANSC165">ANSC 165</CourseLink>. Contemporary South Asia</p>
-<h3>Ethnic Studies</h3>
+<h3 id="ethnic-studies">Ethnic Studies</h3>
 <p class="note"><CourseLink id={2759} href="/ETHN#142">ETHN 142</CourseLink>. Medicine, Race, and the Global Politics of Inequality</p>
-<h3>History</h3>
+<h3 id="history">History</h3>
 <p class="note"><CourseLink id={3127} href="/HIST#HIAF111">HIAF 111</CourseLink>. Modern Africa since 1880
 <CourseLink id={3128} href="/HIST#HIAF112">HIAF 112</CourseLink>. West Africa since 1880
 <CourseLink id={3129} href="/HIST#HIAF113">HIAF 113</CourseLink>. Small Wars and the Global Order: Africa and Asia
@@ -85,7 +85,7 @@ HILA 120. History of Argentina
 <CourseLink id={3295} href="/HIST#HILA161261">HILA 161</CourseLink>. History of Women in Latin America
 <CourseLink id={3296} href="/HIST#HILA162262">HILA 162</CourseLink>. Special Topics in Latin American History
 <CourseLink id={3309} href="/HIST#HINE114">HINE 114</CourseLink>. History of the Islamic Middle East</p>
-<h3>Literature</h3>
+<h3 id="literature">Literature</h3>
 <p class="note">English
 <CourseLink id={4012} href="/LIT#LTEN188">LTEN 188</CourseLink>. Contemporary Caribbean Literature
 <CourseLink id={4013} href="/LIT#LTEN189">LTEN 189</CourseLink>. Twentieth Century Postcolonial Literatures
@@ -110,7 +110,7 @@ LTAF 110. African Oral Literature
 <CourseLink id={3937} href="/LIT#LTEA100B">LTEA 100B</CourseLink>. Modern Chinese Poetry in Translation
 <CourseLink id={3941} href="/LIT#LTEA110C">LTEA 110C</CourseLink>. Contemporary Chinese Fiction in Translation
 <CourseLink id={3916} href="/LIT#LTCS133">LTCS 133</CourseLink>. Globalization and Culture</p>
-<h3>Political Science</h3>
+<h3 id="political-science">Political Science</h3>
 <p class="note">POLI 130H. Vietnam: The Politics of Intervention
 POLI 134A. Comparative Politics of Latin America
 <CourseLink id={5367} href="/POLI#134B">POLI 134B</CourseLink>. Politics in Mexico
@@ -119,7 +119,7 @@ POLI 134N. Politics in Central America
 <CourseLink id={5395} href="/POLI#144AB">POLI 144AB</CourseLink>. Selected Topics in International Political Economy
 <CourseLink id={5401} href="/POLI#146A">POLI 146A</CourseLink>. The U.S. and Latin America: Political and Economic Relations
 <CourseLink id={5404} href="/POLI#150A">POLI 150A</CourseLink>. Politics of Immigration</p>
-<h3>Sociology</h3>
+<h3 id="sociology">Sociology</h3>
 <p class="note"><CourseLink id={6206} href="/SOC#SOCI139">SOCI 139</CourseLink>. Social Inequality: Class, Race, and Gender
 <CourseLink id={6231} href="/SOC#SOCI158">SOCI 158</CourseLink>. Islam in the Modern World
 <CourseLink id={6255} href="/SOC#SOCI179">SOCI 179</CourseLink>. Social Change

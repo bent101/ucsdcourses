@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="CONT 1" longName="CI: The University in Society" units="4" url="/CONT#1">
 	<p>Overview of the history and role of higher education in American society, including a focus on the relationship between society and institutions of higher learning. The course utilizes an interdisciplinary, multicultural perspective reflecting the diversity of the university. Summer Session only.</p>
 
@@ -8,7 +8,7 @@
 	<p>This course will examine disability in the case of individuals with an intellectual or physical disability. Faced with ableism, intentional or unintentional, people with disabilities often experience difficulties in society. Using ableism provides an effective way of addressing ableist discrimination. The course will develop students’ awareness of the challenges of disability in current society. Winter quarter only.</p>
 
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="150A" shortName="CONT 150A" longName="College Academic Mentor Program" units="4" url="/CONT#150A">
 	<p>The College Academic Mentor Program introduces students to the aspects of college advising at a local high school. Students will work with a diverse student population, focusing on low-income, first-generation students that are historically underrepresented at schools of higher education. Students will engage in both a training workshop and a field placement program. (P/NP grades only.)</p>
 

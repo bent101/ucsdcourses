@@ -1,8 +1,8 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Chinese Language Acquisition Courses</h2>
+<h2 id="chinese-language-acquisition-courses">Chinese Language Acquisition Courses</h2>
 <p class="note">The Chinese language program offers Mandarin Chinese language acquisition courses in yearlong sequences that begin in the fall quarter. Students interested in enrolling in Chinese courses must first do a placement interview to determine the most appropriate course and then will be authorized to enroll in that course. Contact the program at chinesestudies@ucsd.edu for more information.
 Chinese language courses are divided into three tracks based on student’s familiarity with the language. N track is for students with no Chinese language background; M track is for students with some speaking but not writing proficiency in Mandarin; and D track is for students with some proficiency in a Chinese language other than Mandarin. M and D tracks converge during the second year of Chinese language acquisition courses.</p>
-<h3>First Year Chinese Courses (Lower Division)</h3>
+<h3 id="first-year-chinese-courses-lower-division">First Year Chinese Courses (Lower Division)</h3>
 <CourseCard id="10AN" shortName="CHIN 10AN" longName="First Year Chinese—Nonnative speakers I" units="5" url="/CHIN#10AN">
 	<p>Introductory course of basic Chinese for students with no background in Chinese. First quarter of a one-year curriculum for entry-level Chinese in communicative skills. Covers pronunciation, fundamentals of Chinese grammar, and vocabulary. Topics include greetings, family affairs, numbers, and daily exchanges. Students may not receive duplicate credit for CHIN 11 and <CourseLink id={782} href="/CHIN#10AN">CHIN 10AN</CourseLink>.</p>
 
@@ -48,7 +48,7 @@ Chinese language courses are divided into three tracks based on student’s fami
 
 	<p>Prerequisites: CHIN 12, <CourseLink id={787} href="/CHIN#10BD">CHIN 10BD</CourseLink>, or department stamp.</p>
 </CourseCard>
-<h3>Second Year Chinese Courses (Lower Division)</h3>
+<h3 id="second-year-chinese-courses-lower-division">Second Year Chinese Courses (Lower Division)</h3>
 <CourseCard id="20AN" shortName="CHIN 20AN" longName="Second Year Chinese—Nonnative speakers I" units="4" url="/CHIN#20AN">
 	<p>Second year of basic Chinese for students with no background. First course of second year of a one-year curriculum for Chinese in intermediate communicative skills. Covers sentence structure, idiomatic expression, development of listening, speaking, reading, and written competence in Chinese. Topics include sports, travel, and special events. Students may not receive duplicate credit for both CHIN 21 and <CourseLink id={791} href="/CHIN#20AN">CHIN 20AN</CourseLink>.</p>
 
@@ -94,7 +94,7 @@ Chinese language courses are divided into three tracks based on student’s fami
 
 	<p>Prerequisites: CHIN 22, <CourseLink id={796} href="/CHIN#20BD">CHIN 20BD</CourseLink>, score of 5 on AP Chinese Language and Culture Exam, or department stamp.</p>
 </CourseCard>
-<h3>Third Year Chinese Courses (Upper Division)</h3>
+<h3 id="third-year-chinese-courses-upper-division">Third Year Chinese Courses (Upper Division)</h3>
 <CourseCard id="100AN" shortName="CHIN 100AN" longName="Third Year Chinese—Nonnative speakers I" units="4" url="/CHIN#100AN">
 	<p>Intermediate course of Chinese for students with no background. First course of third year of one-year curriculum that focuses on listening, reading, and speaking. Emphasizing the development of advanced oral, written competence, and aural skills in Mandarin. Topics include education, literature, history of Chinese language and society. Students may not receive duplicate credit for both CHIN 111 and <CourseLink id={800} href="/CHIN#100AN">CHIN 100AN</CourseLink>.</p>
 
@@ -126,7 +126,7 @@ Chinese language courses are divided into three tracks based on student’s fami
 	<p>Prerequisites: CHIN 112, <CourseLink id={803} href="/CHIN#100BM">CHIN 100BM</CourseLink>, or department stamp.
 Students wishing to take more than one Chinese language class in the same quarter must obtain approval from the director of the Chinese language program prior to enrolling in a second CHIN course.</p>
 </CourseCard>
-<h3>Upper-Division Chinese Courses</h3>
+<h3 id="upperdivision-chinese-courses">Upper-Division Chinese Courses</h3>
 <CourseCard id="160260" shortName="CHIN 160/260" longName="Late Imperial and Twentieth-Century Chinese Historical Texts" units="4" url="/CHIN#160260">
 	<p>This course introduces the primary sources used by historians of late Imperial and twentieth-century Chinese history. Reading material includes diaries, newspaper articles, Qing documents, gazetteers, essays, speeches, popular fiction, journal articles, scholarly prose, and field surveys. May be repeated for credit. (P/NP grades only.)</p>
 

@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="BILD1" shortName="BILD 1" longName="The Cell" units="4" url="/BIOL#BILD1">
 	<p>An introduction to cellular structure and function, to biological molecules, bioenergetics, to the genetics of both prokaryotic and eukaryotic organisms, and to the elements of molecular biology. Recommended preparation: prior completion of high school- or college-level chemistry course.</p>
 
@@ -156,8 +156,8 @@
 
 	<p>Prerequisites: department approval required.</p>
 </CourseCard>
-<h2>Upper Division</h2>
-<h3>Biochemistry</h3>
+<h2 id="upper-division">Upper Division</h2>
+<h3 id="biochemistry">Biochemistry</h3>
 <CourseCard id="BIBC100" shortName="BIBC 100" longName="Structural Biochemistry" units="4" url="/BIOL#BIBC100">
 	<p>The structure and function of biomolecules. Includes protein conformation, dynamics, and function; enzymatic catalysis, enzyme kinetics, and allosteric regulation; lipids and membranes; sugars and polysaccharides; and nucleic acids.</p>
 
@@ -193,7 +193,7 @@
 
 	<p>Prerequisites: <CourseLink id={377} href="/BIOL#BIBC100">BIBC 100</CourseLink> or <CourseLink id={378} href="/BIOL#BIBC102">BIBC 102</CourseLink> or <CourseLink id={657} href="/CHEM#114A">CHEM 114A</CourseLink> or <CourseLink id={658} href="/CHEM#114B">CHEM 114B</CourseLink>.</p>
 </CourseCard>
-<h3>Genetics, Cellular and Developmental Biology of Plants and Animals</h3>
+<h3 id="genetics-cellular-and-developmental-biology-of-plants-and-animals">Genetics, Cellular and Developmental Biology of Plants and Animals</h3>
 <CourseCard id="BICD100" shortName="BICD 100" longName="Genetics" units="4" url="/BIOL#BICD100">
 	<p>An introduction to the principles of heredity emphasizing diploid organisms. Topics include Mendelian inheritance and deviations from classical Mendelian ratios, pedigree analysis, gene interactions, gene mutation, linkage and gene mapping, reverse genetics, population genetics, and quantitative genetics.</p>
 
@@ -269,7 +269,7 @@
 
 	<p>Prerequisites: <CourseLink id={388} href="/BIOL#BICD110">BICD 110</CourseLink>.</p>
 </CourseCard>
-<h3>Ecology, Behavior, and Evolution</h3>
+<h3 id="ecology-behavior-and-evolution">Ecology, Behavior, and Evolution</h3>
 <CourseCard id="BIEB100" shortName="BIEB 100" longName="Biostatistics" units="4" url="/BIOL#BIEB100">
 	<p>An interactive introduction to estimation, hypothesis testing, and statistical reasoning. Emphasis on the conceptual and logical basis of statistical ideas. Focus on randomization rather than parametric techniques. Topics include describing data, sampling, bootstrapping, and significance. Mandatory one-hour weekly section. Students may not receive credit for both <CourseLink id={399} href="/BIOL#BIEB100">BIEB 100</CourseLink> and <CourseLink id={5969} href="/SIO#187">SIO 187</CourseLink>.</p>
 
@@ -395,7 +395,7 @@
 
 	<p>Prerequisites: <CourseLink id={400} href="/BIOL#BIEB102">BIEB 102</CourseLink>.</p>
 </CourseCard>
-<h3>Molecular Biology, Microbiology</h3>
+<h3 id="molecular-biology-microbiology">Molecular Biology, Microbiology</h3>
 <CourseCard id="BIMM100" shortName="BIMM 100" longName="Molecular Biology" units="4" url="/BIOL#BIMM100">
 	<p>Molecular mechanisms and applications of the central dogma. Genome structure and function. Transcription and translation. Regulation of gene expression. Use of DNA technology in basic and applied biology. Note: Students will not receive credit for both <CourseLink id={424} href="/BIOL#BIMM100">BIMM 100</CourseLink> and <CourseLink id={659} href="/CHEM#114C">CHEM 114C</CourseLink>.</p>
 
@@ -526,7 +526,7 @@
 
 	<p>Prerequisites: <CourseLink id={424} href="/BIOL#BIMM100">BIMM 100</CourseLink>.</p>
 </CourseCard>
-<h3>Physiology and Neuroscience</h3>
+<h3 id="physiology-and-neuroscience">Physiology and Neuroscience</h3>
 <CourseCard id="BIPN100" shortName="BIPN 100" longName="Human Physiology I" units="4" url="/BIOL#BIPN100">
 	<p>Course introduces the concepts of physiological regulation, controlled and integrated by the nervous and endocrine systems. Course then examines the muscular, cardiovascular, and renal systems in detail and considers their control through the interaction of nervous activity and hormones. Note: Students may not receive credit for both <CourseLink id={450} href="/BIOL#BIPN100">BIPN 100</CourseLink> and <CourseLink id={1725} href="/BENG#140A">BENG 140A</CourseLink>.</p>
 
@@ -642,7 +642,7 @@
 
 	<p>Prerequisites: <CourseLink id={457} href="/BIOL#BIPN140">BIPN 140</CourseLink>.</p>
 </CourseCard>
-<h3>Special Courses</h3>
+<h3 id="special-courses">Special Courses</h3>
 <CourseCard id="BISP170" shortName="BISP 170" longName="Bioscholars Seminar: From Bench to Bedside and Beyond" units="2" url="/BIOL#BISP170">
 	<p>Course will examine different aspects of a current topic in biology and will include several speakers. Each speaker will introduce the scientific foundation of the chosen theme (“bench”), describe practical applications of their subject (“bedside”), and consider social and ethical implications of the topic (“beyond”). The theme of the course will vary from year to year, and speakers will come from a variety of disciplines relevant to the theme. May be taken for credit three times.</p>
 
@@ -698,7 +698,7 @@
 
 	<p>Prerequisites: department approval required. Students must complete at least ninety units of credit and have a minimum GPA of 2.5.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="BGGN200" shortName="BGGN 200" longName="Graduate School Fundamentals: Introduction to Graduate Studies in the School of Biological Sciences" units="2" url="/BIOL#BGGN200">
 	<p>Course will cover fundamental issues in academia, including campus resources, research design, ethical issues in research, scientific publishing and review, grant preparation, etc. Required of all first-year doctoral students in the School of Biological Sciences. S/U grades only.</p>
 

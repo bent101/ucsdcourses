@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <p class="note">The PHYS 1 sequence is calculus based and is primarily intended for biology.
 The PHYS 2 sequence is calculus based and is intended for physical science majors and engineering majors and those biological science majors with strong mathematical aptitude as it uses advanced calculus.
 The PHYS 4 sequence is calculus based and provides a solid foundation for the core upper-division physics program. The PHYS 4 sequence is required for all physics majors, capped applicants, and students pursuing enrollment in core upper-division physics (i.e., courses in the PHYS 100, 105, 110, 120, 130, and 140 series).
@@ -158,7 +158,7 @@ The PHYS 4 sequence is calculus based and provides a solid foundation for the co
 
 	<p>Prerequisites: lower-division standing. Completion of thirty units at UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, and a completed and approved Special Studies form. Department stamp required.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100A" shortName="PHYS 100A" longName="Electromagnetism I" units="4" url="/PHYS#100A">
 	<p>Coulomb’s law, electric fields, electrostatics; conductors and dielectrics; steady currents, elements of circuit theory.</p>
 
@@ -373,8 +373,8 @@ The PHYS 4 sequence is calculus based and provides a solid foundation for the co
 
 	<p>Prerequisites: admission to the Honors Program in Physics.</p>
 </CourseCard>
-<h2>Graduate</h2>
-<h3>Astronomy</h3>
+<h2 id="graduate">Graduate</h2>
+<h3 id="astronomy">Astronomy</h3>
 <CourseCard id="PHYA200" shortName="PHYA 200" longName="Survey of Astronomy" units="4" url="/PHYS#PHYA200">
 	<p>Introduction to astronomical concepts and phenomenology at the graduate level. Astrophysical measurement, major structures in the universe, properties of stars and galaxies, star formation and stellar processes, HR diagram, the Milky Way, galaxy formation and evolution, stellar and galactic clusters, cosmological distance scales, dark matter and energy, and cosmology. Includes order of magnitude problem-solving covering all fields of astrophysics.</p>
 
@@ -443,7 +443,7 @@ The PHYS 4 sequence is calculus based and provides a solid foundation for the co
 	<p>Directed research on dissertation topic in astronomy. May be taken for credit up to twenty-four times. (S/U grade only.)</p>
 
 </CourseCard>
-<h3>Physics</h3>
+<h3 id="physics">Physics</h3>
 <CourseCard id="200A" shortName="PHYS 200A" longName="Theoretical Mechanics I" units="4" url="/PHYS#200A">
 	<p>Review of Lagrangian mechanics: calculus of variations, Noether’s theorem, constraints, central forces, coupled oscillations. Continuum mechanics: strings and membranes, Sturm-Liouville theory, dispersion. Hamiltonian mechanics: equations of motion, Poisson brackets, canonical transformations, Hamilton-Jacobi theory, action-angle variables, adiabatic invariants.</p>
 

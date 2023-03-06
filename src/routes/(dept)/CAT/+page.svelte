@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="CAT 1" longName="Culture, Art, and Technology 1" units="4" url="/CAT#1">
 	<p>A global historical overview of principles and patterns of human development, with emphasis on technology and the arts. Traces causes and consequences of cultural variation. Explores interactions of regional environments (geographic, climatic, biological) with social and cultural forces.</p>
 
@@ -34,7 +34,7 @@
 
 	<p>Prerequisites: lower-division standing; cumulative GPA of 3.0.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="124" shortName="CAT 124" longName="Sixth College Practicum" units="4" url="/CAT#124">
 	<p>Students initiate, plan, and carry out community-based and/or research-based projects that connect classroom-based experiences and knowledge to the outlying community, and that explicitly explore the interplay of culture, art, and technology.</p>
 

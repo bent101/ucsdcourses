@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="ETHN 1" longName="Introduction to Ethnic Studies: Land and Labor" units="4" url="/ETHN#1">
 	<p>This course examines key historical events and debates in the field that center around land and labor, including disputes about territory and natural resources, slavery and other forms of unfree labor, labor migration and recruitment, and US and transnational borders. Students may not receive credit for both <CourseLink id={2693} href="/ETHN#1R">ETHN 1R</CourseLink> and <CourseLink id={2692} href="/ETHN#1">ETHN 1</CourseLink>.</p>
 
@@ -47,7 +47,7 @@
 
 	<p>Prerequisites: lower-division standing, completion of at least thirty units of undergraduate study at UC San Diego, minimum 3.0 GPA at UC San Diego, consent of instructor, and completed and approved Special Studies form.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <p class="note">Prerequisites: upper-division standing or consent of instructor.</p>
 <CourseCard id="100A" shortName="ETHN 100A" longName="Ethnic Studies: Theoretical Approaches" units="4" url="/ETHN#100A">
 	<p>An advanced survey of key issues, themes, and debates in the field of critical ethnic studies focusing on the connection between race and social structures. Students will use diverse theoretical frameworks to identify and interpret contemporary and historical social problems.</p>
@@ -453,7 +453,7 @@
 	<p>(Cross-listed with <CourseLink id={6600} href="/USP#132">USP 132</CourseLink>.) This course details the history of African American migration to urban areas after World War I and World War II and explores the role of religion in their lives as well as the impact that their religious experiences had upon the cities in which they lived.</p>
 
 </CourseCard>
-<h3>Colloquia</h3>
+<h3 id="colloquia">Colloquia</h3>
 <CourseCard id="180" shortName="ETHN 180" longName="Topics in Mexican American History" units="4" url="/ETHN#180">
 	<p>(Cross-listed with <CourseLink id={3472} href="/HIST#HIUS167267ETHN180">HIUS 167</CourseLink>.) This colloquium studies the racial representation of Mexican Americans in the United States from the nineteenth century to the present, examining critically the theories and methods of the humanities and social sciences.</p>
 
@@ -470,7 +470,7 @@
 	<p>A reading and discussion course that explores special topics in ethnic studies. Themes will vary from quarter to quarter; therefore, course may be repeated three times as long as topics vary.</p>
 
 </CourseCard>
-<h3>Seminars and Independent Studies</h3>
+<h3 id="seminars-and-independent-studies">Seminars and Independent Studies</h3>
 <CourseCard id="190" shortName="ETHN 190" longName="Research Methods: Studying Racial and Ethnic Communities" units="4" url="/ETHN#190">
 	<p>(Cross-listed with <CourseLink id={6597} href="/USP#129">USP 129</CourseLink>.) The course offers students the basic research methods with which to study ethnic and racial communities. The various topics to be explored include human and physical geography, transportation, employment, economic structure, cultural values, housing, health, education, and intergroup relations.</p>
 
@@ -492,7 +492,7 @@
 	<p>Individual research on a topic that leads to the writing of a major paper. (May be repeated for credit.)</p>
 
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="200A" shortName="ETHN 200A" longName="Departures: A Genealogy of Critical Racial and Ethnic Studies" units="4" url="/ETHN#200A">
 	<p>Introduction to critical racial and ethnic studies and how this perspective departs from traditional constructions of race and culture; examination of relevant studies to identify themes, concepts, and formulations that indicate the critical departures that characterize the field.</p>
 

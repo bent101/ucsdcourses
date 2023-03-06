@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="VIS 1" longName="Introduction to Art Making: Two-Dimensional Practices" units="4" url="/VIS#1">
 	<p>An introduction to the concepts and techniques of two-dimensional art making with an emphasis on drawing. Lectures and studio classes will introduce skills and concepts of contemporary drawing practice in relation to a variety of genres such as illustration, comics, advertising, animation, and other forms of visualization. This course is offered only one time each year.</p>
 
@@ -117,7 +117,7 @@ Note: Prerequisite for <CourseLink id={6738} href="/VIS#112">VIS 112</CourseLink
 	<p>The First-year Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year Seminars can be offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students with preference given to entering first-year students.</p>
 
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100" shortName="VIS 100" longName="Introduction to Public Culture" units="4" url="/VIS#100">
 	<p>This course examines contemporary theories and concepts of public culture and social practice, including new spheres of public culture design research and practice that intervene across urban socioeconomic and political domains, environmental, spatial and community-based dynamics, architecture, information design, and visualization.</p>
 
@@ -983,8 +983,8 @@ Note: Prerequisite for <CourseLink id={6738} href="/VIS#112">VIS 112</CourseLink
 
 	<p>Prerequisites: consent of instructor. Note: Open only to upper-division students. Requires instructor’s, department chair’s, and provost’s approval. Pass/Not Pass grades only.</p>
 </CourseCard>
-<h2>Graduate</h2>
-<h3>Core Seminars</h3>
+<h2 id="graduate">Graduate</h2>
+<h3 id="core-seminars">Core Seminars</h3>
 <CourseCard id="200" shortName="VIS 200" longName="Methods and Theories" units="4" url="/VIS#200">
 	<p>An interdisciplinary survey of key twentieth- and twenty-first-century methodological approaches to the history, theory, and criticism of the visual arts. Course engages with methodologies found in the fields of philosophy, linguistics, science and technology studies, sociology, and anthropology, among others. Students develop individualized approaches to specific objects of study, which may range from art, media, performance, design, and material culture to theory. (Required, PhD)</p>
 
@@ -1026,7 +1026,7 @@ Note: Prerequisite for <CourseLink id={6738} href="/VIS#112">VIS 112</CourseLink
 	<p>This course includes research and discussion of the required thesis for MFA candidates in visual arts. Advancement to candidacy required. A draft of the MFA thesis paper is required to complete this course. (Required, MFA).</p>
 
 </CourseCard>
-<h3>Art Practice/Theory</h3>
+<h3 id="art-practicetheory">Art Practice/Theory</h3>
 <CourseCard id="211" shortName="VIS 211" longName="Fact and Fiction" units="4" url="/VIS#211">
 	<p>This seminar addresses the space between narrative work generated from a factual base and that generated from a fictional one. Special attention will be given to discussing work that confounds the assumed gap between the two.</p>
 
@@ -1063,17 +1063,17 @@ Note: Prerequisite for <CourseLink id={6738} href="/VIS#112">VIS 112</CourseLink
 	<p>Examines a topic of special interest to permanent and visiting faculty that is not addressed in the regular curriculum. As in other Art Practice/Theory seminars, students will both produce work and read and write critically about the topic. Topics will vary.</p>
 
 </CourseCard>
-<h3>History/Theory/Criticism</h3>
+<h3 id="historytheorycriticism">History/Theory/Criticism</h3>
 <CourseCard id="220" shortName="VIS 220" longName="Professional Practice Seminar" units="4" url="/VIS#220">
 	<p>This course is designed to facilitate the completion of our PhD program and the successful transition into an academic career. The seminar is divided into four areas of concentration. The first area focuses on facilitating the student’s timely completion of the PhD program. The second section of the course will concentrate on publishing. The third section of the seminar will focus on the process of applying for jobs and fellowships, and the fourth section will address teaching.</p>
 
 </CourseCard>
-<h3>Categories/Constructs</h3>
+<h3 id="categoriesconstructs">Categories/Constructs</h3>
 <CourseCard id="234N" shortName="VIS 234N" longName="Frames of View" units="4" url="/VIS#234N">
 	<p>Critical and historical analysis of the institutions, social networks, and communicative media through which art is presented to its audiences. May also address theories of vision and visuality, spectatorship, public space, originality and reproduction, and public space.</p>
 
 </CourseCard>
-<h3>Theories/New Visions</h3>
+<h3 id="theoriesnew-visions">Theories/New Visions</h3>
 <CourseCard id="242" shortName="VIS 242" longName="Theories of Media and New Media" units="4" url="/VIS#242">
 	<p>Critical study of the ways in which media (film, video, photography) and new media have been theorized. May be taught from a historical or comparative perspective or focus on a single topic or theorist.</p>
 
@@ -1086,7 +1086,7 @@ Note: Prerequisite for <CourseLink id={6738} href="/VIS#112">VIS 112</CourseLink
 	<p>Investigations of one or more artist-theorists or movements, contemporary or historical, that put in issue the interface between theory and practice. May also focus on a topic such as perspective, color, or narrative, or genre such as film or new media.</p>
 
 </CourseCard>
-<h3>Times/Terrains</h3>
+<h3 id="timesterrains">Times/Terrains</h3>
 <CourseCard id="251" shortName="VIS 251" longName="Seminar in Medieval Art" units="4" url="/VIS#251">
 	<p>European art from late antiquity through the fourteenth century and the historical processes by which “medieval” art has been constructed as a category. Topics may include devotional vision and the sacred image; medieval comic genres; neo-medievalism, fifteenth century to today. May be taken for credit three times.</p>
 
@@ -1142,7 +1142,7 @@ Note: Prerequisite for <CourseLink id={6738} href="/VIS#112">VIS 112</CourseLink
 
 	<p>Prerequisites: graduate standing or consent of instructor.</p>
 </CourseCard>
-<h3>Other</h3>
+<h3 id="other">Other</h3>
 <CourseCard id="280" shortName="VIS 280" longName="Workshop in Critical Writing" units="4" url="/VIS#280">
 	<p>Practice in writing about art (both one’s own and others) accompanied by analysis of selected contemporary critical writings.</p>
 

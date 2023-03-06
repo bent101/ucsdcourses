@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="SIO 1" longName="The Planets" units="4" url="/SIO#1">
 	<p>Space exploration has revealed an astonishing diversity among the planets and moons in our solar system. The planets and their histories will be compared to gain insight and a new perspective on planet Earth.</p>
 
@@ -98,7 +98,7 @@
 
 	<p>Prerequisites: lower-division standing, completion of thirty units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, and a completed and approved Special Studies form, UC San Diego Application for Enrollment Special Studies Courses 97, 98, 99.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100" shortName="SIO 100" longName="Geological Field Methods" units="4" url="/SIO#100">
 	<p>Mapping and interpretation of geologic units. Fieldwork is done locally, and the data are analyzed in the laboratory. There will be one mandatory weekend field trip to Anza Borrego State Park. Program and/or materials fees may apply.</p>
 
@@ -538,14 +538,14 @@
 	<p>Independent reading or research on a problem. By special arrangement with a faculty member. (P/NP grades only.)</p>
 
 </CourseCard>
-<h2>Graduate Courses</h2>
-<h3>BS/MS Course</h3>
+<h2 id="graduate-courses">Graduate Courses</h2>
+<h3 id="bsms-course">BS/MS Course</h3>
 <CourseCard id="SIOG228" shortName="SIOG 228" longName="Research Seminar" units="2" url="/SIO#SIOG228">
 	<p>A three-quarter required sequence for BS/MS earth sciences students to prepare students for thesis writing.</p>
 
 	<p>Prerequisites: current earth sciences BS/MS student. Department approval required. Must be taken for letter grade only.</p>
 </CourseCard>
-<h3>Graduate</h3>
+<h3 id="graduate">Graduate</h3>
 <p class="note">The SIO Department offers graduate courses across three broad curricular areas:
 Climate-Ocean-Atmosphere Program (COAP)
 Geosciences of Earth, Oceans, and Planets (GEO)

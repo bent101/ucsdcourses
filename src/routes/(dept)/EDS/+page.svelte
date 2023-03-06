@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="20S" shortName="EDS 20S" longName="Introduction to Principles of Learning" units="4" url="/EDS#20S">
 	<p>Students will study discipline-specific principles of effective learning, including critical thinking, problem solving, collaboration, and group communication. Laboratory and hypothesis testing, library research and writing skills, and self-assessment. Students will explore concepts and procedures in mathematics, science, and economics.</p>
 
@@ -62,7 +62,7 @@
 
 	<p>Prerequisites: Enrollment priority will be given to first-year students.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="102" shortName="EDS 102" longName="Introduction to Qualitative Methods in Education Research" units="4" url="/EDS#102">
 	<p>Introductory course addressing topics in qualitative research method and analytic approaches, including methods such as case studies, video analysis, interviews, observations, and ethnography. Concepts explore the practice and philosophical underpinnings of specified qualitative research approach and examples of qualitative studies. If taken for EDS major, must be taken for a letter grade.</p>
 
@@ -460,7 +460,7 @@
 
 	<p>Prerequisites: students must be ED78 majors: MEd/Elementary-Multiple Subject Credential candidates who have advanced to student teaching or internship. (MS-2).</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="201" shortName="EDS 201" longName="Introduction to Resources for Teaching and Learning" units="4" url="/EDS#201">
 	<p>This course introduces students to educational resources, both in print and online. Students compile and evaluate research studies, curricular materials, and instructional approaches in preparation for future projects in developing and evaluating various approaches to teaching and learning.</p>
 

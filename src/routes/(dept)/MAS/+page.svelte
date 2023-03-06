@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Master of Advanced Studies in Architecture-based Enterprise Systems Engineering (MAS-AESE)</h2>
+<h2 id="master-of-advanced-studies-in-architecturebased-enterprise-systems-engineering-masaese">Master of Advanced Studies in Architecture-based Enterprise Systems Engineering (MAS-AESE)</h2>
 <CourseCard id="AESE241" shortName="AESE 241" longName="Decision and Risk Analysis" units="4" url="/MAS#AESE241">
 	<p>Focuses on analytic techniques supporting rational business decision-making, providing systematic approaches to complex decision situations. Addresses analysis of conflicting objectives and use of tools such as value trees, decision trees, influence diagrams, and value hierarchies, Bayesian networks, and data mining. This course will meet from 8:00 a.m. to 5:00 p.m. every alternating Friday and Saturday.</p>
 
@@ -45,7 +45,7 @@
 
 	<p>Prerequisites: enrollment in MAS-AESE; three instances of <CourseLink id={2197} href="/MAS#AESE279A">AESE 279A</CourseLink> successfully completed prior to this class; department approval required.</p>
 </CourseCard>
-<h2>Master of Advanced Study in Data Science and Engineering (MAS-DSE)</h2>
+<h2 id="master-of-advanced-study-in-data-science-and-engineering-masdse">Master of Advanced Study in Data Science and Engineering (MAS-DSE)</h2>
 <CourseCard id="DSE200" shortName="DSE 200" longName="Python for Data Analysis" units="4" url="/MAS#DSE200">
 	<p>The goal of this course is to bring students with diverse backgrounds and experience to a common level of competency in programming in the context of complex and noisy data. Solid competency in Python programming provides its owner with autonomy and independence in their work. Introduction to object-oriented programming using Python. Regular expressions. NumPy and numerical processing. IPython and plotting. Data analysis using PANDAS. Web page scraping using Scrapy. The Twitter API. NLTK.</p>
 
@@ -86,7 +86,7 @@
 	<p>A team design project in the final two quarters of the program culminates in a final report and an oral presentation of the capstone project. In addition, there might be a demonstration of the working prototype. The project will start by identifying a domain of interest and the available data sources that will be used to study the domain. From this starting point there will be two parallel and interdependent lines of work: data extraction, Transformation and Loading (ETL), and statistical analysis and model building. The ultimate goal will be to present a processing pipeline which transforms the raw data into more usable forms and models which separates between the predictable and the unpredictable aspects of the underlying system. Examples of previous capstone projects can be found here.</p>
 
 </CourseCard>
-<h2>Master of Advanced Study in Wireless Embedded Systems (MAS-WES)</h2>
+<h2 id="master-of-advanced-study-in-wireless-embedded-systems-maswes">Master of Advanced Study in Wireless Embedded Systems (MAS-WES)</h2>
 <CourseCard id="WES237A" shortName="WES 237A" longName="Introduction to Embedded Systems Design" units="4" url="/MAS#WES237A">
 	<p>Embedded system technologies including processors, DSP, memory, and software. System interfacing basics, communication strategies, sensors, and actuators. Mobile and wireless technology in embedded systems. Design case studies in wireless, multimedia, and/or networking domains.</p>
 

@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="DSGN 1" longName="Design of Everyday Things" units="4" url="/DSGN#1">
 	<p>A project-based course examining how principles from cognitive science apply to the design of things simple (doors) and complex (new technology). Learn about affordances, constraints, mappings, and conceptual models. Learn observational and design skills. Become a human-centered design thinker.</p>
 
@@ -13,7 +13,7 @@
 
 	<p>Prerequisites: lower-division standing, completion of thirty units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, and a completed and approved Special Studies form.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100" shortName="DSGN 100" longName="Prototyping" units="4" url="/DSGN#100">
 	<p>Explores cognitive principles of thinking through making. Introduces methods and tools for prototyping user experiences. Students make various prototypes and participate in weekly critique sessions. Topics: experience design, rapid prototyping, sketching, bodystorming, cardboard modeling, UI hacking, and design theory.</p>
 
@@ -49,7 +49,7 @@
 
 	<p>Prerequisites: upper-division standing, 2.5 GPA, consent of instructor, and department approval.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="201" shortName="DSGN 201" longName="Human-Centered Design and Complex Sociotechnical Systems" units="4" url="/DSGN#201">
 	<p>This course will teach fundamentals of design from an explicitly multi-epistemic and multidisciplinary lens. Foundations on both power and privilege and ethical responses within design will be emphasized. A range of design strategies, from a classic professional-led approach to co-design and community-driven variations of design will be reviewed.</p>
 

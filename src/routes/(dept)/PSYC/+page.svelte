@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="PSYC 1" longName="Psychology" units="4" url="/PSYC#1">
 	<p>This course provides an overview of the basic concepts in psychology. Topics may include human information processing, learning and memory, motivation, development, language acquisition, social psychology, and personality.</p>
 
@@ -64,7 +64,7 @@
 
 	<p>Prerequisites: lower-division standing, completion of at least thirty units of undergraduate study at UC San Diego with a minimum UC San Diego GPA of 3.0; completed and approved Special Studies form.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="100" shortName="PSYC 100" longName="Clinical Psychology" units="4" url="/PSYC#100">
 	<p>This course provides a comprehensive overview of the causes, characteristics, and treatment of psychological disorders. Particular emphasis is given to the interaction between biological, psychological, and sociocultural processes contributing to abnormal behavior. Students may not receive credit for both PSYC 163 and <CourseLink id={5538} href="/PSYC#100">PSYC 100</CourseLink>.</p>
 
@@ -545,7 +545,7 @@
 
 	<p>Prerequisites: upper-division standing and department approval.</p>
 </CourseCard>
-<h2>Graduate</h2>
+<h2 id="graduate">Graduate</h2>
 <CourseCard id="201A" shortName="PSYC 201A" longName="Statistical Computing and Inference from Data I" units="6" url="/PSYC#201A">
 	<p>The first of a series of intensive courses in statistical computing to draw inferences from data. This course covers research design, causal inference, data wrangling, visualization, probability, statistical inference, and the general linear model.</p>
 

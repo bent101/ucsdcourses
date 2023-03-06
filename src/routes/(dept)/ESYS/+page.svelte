@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="10" shortName="ESYS 10" longName="Introduction to Environmental Systems" units="4" url="/ESYS#10">
 	<p>This course explores the interdisciplinary character of environmental issues through an examination of a particular topic (climate change, for example) from numerous disciplinary perspectives (e.g., biology, chemistry, physics, political science, and economics).</p>
 
@@ -12,7 +12,7 @@
 	<p>Provides an introduction to environmental systems. Faculty members from departments in the natural sciences, geosciences, and social sciences will offer perspectives in these areas.</p>
 
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="101" shortName="ESYS 101" longName="Environmental Biology" units="4" url="/ESYS#101">
 	<p>This course surveys biochemical and physiological processes governing the relationship between organisms and their environments, such as those involved in element cycling and cellular homeostasis. The course introduces biological perspectives on human activities ranging from antibiotic use to genetic engineering.</p>
 

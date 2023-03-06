@@ -1,5 +1,5 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h2>Lower Division</h2>
+<h2 id="lower-division">Lower Division</h2>
 <CourseCard id="1" shortName="HDS 1" longName="Introduction to Human Developmental Sciences" units="4" url="/HDS#1">
 	<p>This course introduces students to the central issues in the basic areas in human development. The course will explain relationships between biological, cognitive, social, and cultural aspects of development across the life span. Renumbered from HDP 1. Students may not receive credit for HDP 1 and <CourseLink id={3556} href="/HDS#1">HDS 1</CourseLink>.</p>
 
@@ -22,7 +22,7 @@
 
 	<p>Prerequisites: completion of thirty units and a minimum UC San Diego GPA of 3.0. Department authorization required.</p>
 </CourseCard>
-<h2>Upper Division</h2>
+<h2 id="upper-division">Upper Division</h2>
 <CourseCard id="110" shortName="HDS 110" longName="Brain and Behavioral Development" units="4" url="/HDS#110">
 	<p>The purpose of this course is to familiarize students with basic mechanisms of brain and behavioral development from embryology through aging. Multiple levels of analysis will be discussed, including the effects of hormones on behavior, developmental events at the level of cells, structures, and neural systems, and the neural basis of cognition, social, perceptual, and language development. Renumbered from HDP 110. Students may not receive credit for HDP 110 and <CourseLink id={3561} href="/HDS#110">HDS 110</CourseLink>.</p>
 
