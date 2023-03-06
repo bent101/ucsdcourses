@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Theatre and Dance</h1>
 <h2>TDAC—Theatre Acting</h2>
 <CourseCard id="TDAC1" shortName="TDAC 1" longName="Introduction to Acting" units="4" url="/THEA#TDAC1">
 	<p>A beginning course in the fundamentals of acting: establishing a working vocabulary and acquiring the basic skills of the acting process. Through exercises, compositions, and improvisations, the student actor explores the imagination as the actor’s primary resource, and the basic approach to text through action.</p>

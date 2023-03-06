@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Visual Arts</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="VIS 1" longName="Introduction to Art Making: Two-Dimensional Practices" units="4" url="/VIS#1">
 	<p>An introduction to the concepts and techniques of two-dimensional art making with an emphasis on drawing. Lectures and studio classes will introduce skills and concepts of contemporary drawing practice in relation to a variety of genres such as illustration, comics, advertising, animation, and other forms of visualization. This course is offered only one time each year.</p>

@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Dimensions of Culture</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="DOC 1" longName="Dimensions of Culture: Diversity" units="4" url="/DOC#1">
 	<p>This course focuses on sociocultural diversity in examining class, ethnicity, race, gender, and sexuality as significant markers of differences among persons. Emphasizing American society while cultivating students’ critical reading skills, it explores the cultural understandings of diversity and its economic, moral, and political consequences. Restrictions: Marshall College students only, must be taken for a letter grade.</p>

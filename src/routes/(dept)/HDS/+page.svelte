@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Human Developmental Sciences Program</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="HDS 1" longName="Introduction to Human Developmental Sciences" units="4" url="/HDS#1">
 	<p>This course introduces students to the central issues in the basic areas in human development. The course will explain relationships between biological, cognitive, social, and cultural aspects of development across the life span. Renumbered from HDP 1. Students may not receive credit for HDP 1 and <CourseLink id={3556} href="/HDS#1">HDS 1</CourseLink>.</p>

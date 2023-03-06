@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Latin American Studies</h1>
 <CourseCard id="10" shortName="LATI 10" longName="Reading North by South: Latin American Studies and the US Liberation Movements" units="4" url="/LATI#10">
 	<p>The purpose of this class is to study the multilayered relations between Latin American studies and the US liberation movements, particularly Third World movements, the Chicano movement, the black liberation movement, the indigenous movement, human rights activism, and trans-border activism. Students may not receive credit for LATI 100 and <CourseLink id={3629} href="/LATI#10">LATI 10</CourseLink>.</p>
 

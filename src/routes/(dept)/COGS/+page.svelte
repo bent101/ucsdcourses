@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Cognitive Science</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="COGS 1" longName="Introduction to Cognitive Science" units="4" url="/COGS#1">
 	<p>A team-taught course highlighting development of the field and the broad range of topics covered in the major. Example topics include addiction, analogy, animal cognition, human-computer interaction, language, neuroimaging, neural networks, reasoning, robots, and real-world applications.</p>

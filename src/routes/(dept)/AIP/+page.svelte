@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Academic Internship Program</h1>
 <CourseCard id="97" shortName="AIP 97" longName="Academic Internship" units="2, 4" url="/AIP#97">
 	<p>Individual placements for field learning. Must be integrated with an academic discipline. A written contract involving all parties will include learning objectives, a paper/project outline, and means of supervision and progress evaluation. May be taken for credit up to three times.</p>
 

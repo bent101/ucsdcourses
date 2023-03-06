@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Biomedical Sciences</h1>
 <CourseCard id="200A" shortName="BIOM 200A" longName="Molecules to Organisms: Concepts" units="6" url="/BIOM#200A">
 	<p>This course provides a systematic approach to current biomedical research, using analysis of selected topics to focus on the process of research discovery and its critical evaluation. The course progresses through five thematic modules that cover genes, building a cell, cellular responses, organogenesis, and the processes that allow survival in the world.</p>
 

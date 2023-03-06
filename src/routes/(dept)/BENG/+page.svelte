@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Bioengineering</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="BENG 1" longName="Introduction to Bioengineering" units="2" url="/BENG#1">
 	<p>An introduction to bioengineering that includes lectures and hands-on laboratory for design projects. The principles of problem definition, engineering inventiveness, team design, prototyping, and testing, as well as information access, engineering standards, communication, ethics, and social responsibility will be emphasized. P/NP grades only.</p>

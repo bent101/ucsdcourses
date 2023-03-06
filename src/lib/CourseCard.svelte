@@ -19,7 +19,7 @@
 	};
 </script>
 
-<section class="group mt-4 scroll-mt-20 overflow-clip rounded-lg bg-gray-700/80 shadow-lg transition-all duration-200" {id}>
+<section class="group my-4 scroll-mt-20 overflow-clip rounded-lg bg-gray-700/80 shadow-lg transition-all duration-200" {id}>
 	<div class="bg-sky-800 py-2 pl-4 pr-2">
 		<div class="flex gap-2">
 			<h5 class="mr-auto text-lg font-extrabold tracking-wide text-white">

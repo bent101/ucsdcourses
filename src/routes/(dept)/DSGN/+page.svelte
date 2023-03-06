@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Design</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="DSGN 1" longName="Design of Everyday Things" units="4" url="/DSGN#1">
 	<p>A project-based course examining how principles from cognitive science apply to the design of things simple (doors) and complex (new technology). Learn about affordances, constraints, mappings, and conceptual models. Learn observational and design skills. Become a human-centered design thinker.</p>

@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Economics</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="ECON 1" longName="Principles of Microeconomics" units="4" url="/ECON#1">
 	<p>Introduction to the study of the economic system. Course will introduce the standard economic models used to examine how individuals and firms make decisions in perfectly competitive markets, and how these decisions affect supply and demand in output markets.</p>

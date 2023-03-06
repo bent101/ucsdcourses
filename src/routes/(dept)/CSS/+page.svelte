@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Computational Social Science</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="CSS 1" longName="Introductory Programming for Computational Social Science" units="4" url="/CSS#1">
 	<p>This course develops computational thinking practices and skills critical for defining, describing, and analyzing social science problems using a computational approach. Students will learn to program in Python in the context of computational social science problems.</p>

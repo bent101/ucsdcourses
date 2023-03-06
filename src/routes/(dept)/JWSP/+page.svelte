@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Jewish Studies</h1>
 <CourseCard id="1" shortName="JWSP 1" longName="Beginning Hebrew" units="5" url="/JWSP#1">
 	<p>Acquisition of basic vocabulary, fundamentals of Hebrew grammar, conversation, and reading.</p>
 

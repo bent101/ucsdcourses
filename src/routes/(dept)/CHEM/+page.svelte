@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Chemistry and Biochemistry</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="CHEM 1" longName="The Scope of Chemistry and Biochemistry" units="1" url="/CHEM#1">
 	<p>This seminar connects first-year students with the chemistry community (peers, staff, faculty, and other researchers) as they explore learning resources, study strategies, professional development, and current areas of active research. With an emphasis on academic and career planning, the series will feature guest lectures by UC San Diego faculty and staff, as well as industrial scientists and representatives from professional organizations such as the American Chemical Society (ACS). P/NP grades only.</p>

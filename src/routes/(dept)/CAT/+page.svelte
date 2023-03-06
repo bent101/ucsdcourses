@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Culture, Art, and Technology</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="CAT 1" longName="Culture, Art, and Technology 1" units="4" url="/CAT#1">
 	<p>A global historical overview of principles and patterns of human development, with emphasis on technology and the arts. Traces causes and consequences of cultural variation. Explores interactions of regional environments (geographic, climatic, biological) with social and cultural forces.</p>

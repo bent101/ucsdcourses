@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Urban Studies and Planning</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="USP 1" longName="History of US Urban Communities" units="4" url="/USP#1">
 	<p>This course charts the development of urban communities across the United States both temporally and geographically. It examines the patterns of cleavage, conflict, convergence of interest, and consensus that have structured urban life. Social, cultural, and economic forces will be analyzed for the roles they have played in shaping the diverse communities of America’s cities.</p>

@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Electrical and Computer Engineering (ECE)</h1>
 <h2>Lower Division</h2>
 <CourseCard id="5" shortName="ECE 5" longName="Introduction to Electrical and Computer Engineering" units="4" url="/ECE#5">
 	<p>An introduction to electrical and computer engineering. Topics include circuit theory, assembly, and testing, embedded systems programming and debugging, transducer mechanisms and interfacing transducers, signals and systems theory, digital signal processing, and modular design techniques.</p>

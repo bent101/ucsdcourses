@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Anthropology</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="ANTH 1" longName="Introduction to Culture" units="4" url="/ANTH#1">
 	<p>An introduction to the anthropological approach to understanding human behavior, with an examination of data from a selection of societies and cultures.</p>

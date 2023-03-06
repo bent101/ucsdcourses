@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Structural Engineering</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="SE 1" longName="Introduction to Structures and Design" units="4" url="/SE#1">
 	<p>Introduction to fundamentals of structures and how structures work. Overview of structural behavior and structural design process through hands-on projects. Lessons learned from structural failures. Professional ethics. Role and responsibility of structural engineers. Introduction to four structural engineering focus sequences. Program or materials fees may apply. Enrollment restricted to <MajorLink name="Structural Engineering">SE27</MajorLink> majors only.</p>

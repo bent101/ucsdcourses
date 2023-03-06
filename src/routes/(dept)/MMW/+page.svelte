@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>The Making of the Modern World</h1>
 <CourseCard id="11" shortName="MMW 11" longName="Prehistory and Ancient Foundations" units="4" url="/MMW#11">
 	<p><CourseLink id={4268} href="/MMW#11">MMW 11</CourseLink> explores human origins, the development of social organization, the strategies early peoples and societies used to negotiate their physical and social environments, and the rise of the ancient world’s classical traditions (to ca. 100 BCE). Open to Eleanor Roosevelt College students only. Students may not receive credit for both MMW 1 and <CourseLink id={4268} href="/MMW#11">MMW 11</CourseLink>. Must be taken for a letter grade to meet the requirement. (F)</p>
 

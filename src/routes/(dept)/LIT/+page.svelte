@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Literature</h1>
 <h2>African Literature</h2>
 <h3>Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>

@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>International Studies</h1>
 <h2>Lower Division</h2>
 <CourseCard id="97" shortName="INTL 97" longName="Internship" units="1" url="/INTL#97">
 	<p>Independent research connected to an internship with an organization relevant to the career interests of a student of international studies. Topic of the required research to be determined by the supervising faculty member. P/NP grades only. May be taken for credit eight times.</p>

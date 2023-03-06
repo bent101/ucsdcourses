@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Philosophy</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="PHIL 1" longName="Introduction to Philosophy" units="4" url="/PHIL#1">
 	<p>A general introduction to some of the fundamental questions, texts, and methods of philosophy. Multiple topics will be covered, and may include the existence of God, the nature of mind and body, free will, ethics and political philosophy, knowledge and skepticism.</p>

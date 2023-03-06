@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Sociology</h1>
 <h2>Lower Division</h2>
 <CourseCard id="SOCI1" shortName="SOCI 1" longName="Introduction to Sociology" units="4" url="/SOC#SOCI1">
 	<p>An introduction to the organizing themes and ideas, empirical concerns, and analytical approaches of the discipline of sociology. The course focuses on both classical and contemporary views of modern society, on the nature of community, and on inequality, with special attention to class, race, and gender. Materials include both theoretical statements and case studies. Will not receive credit for <CourseLink id={6143} href="/SOC#SOCI1">SOCI 1</CourseLink> and SOCL 1A.</p>

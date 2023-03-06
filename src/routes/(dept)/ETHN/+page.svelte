@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Ethnic Studies</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="ETHN 1" longName="Introduction to Ethnic Studies: Land and Labor" units="4" url="/ETHN#1">
 	<p>This course examines key historical events and debates in the field that center around land and labor, including disputes about territory and natural resources, slavery and other forms of unfree labor, labor migration and recruitment, and US and transnational borders. Students may not receive credit for both <CourseLink id={2693} href="/ETHN#1R">ETHN 1R</CourseLink> and <CourseLink id={2692} href="/ETHN#1">ETHN 1</CourseLink>.</p>

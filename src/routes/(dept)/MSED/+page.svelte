@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Mathematics and Science Education</h1>
 <CourseCard id="290" shortName="MSED 290" longName="Issues in Science Education Research" units="4" url="/MSED#290">
 	<p>Survey of recent literature highlighting critical issues in science education research. Specific focus on research in biology education, chemistry education, and physics education. Theoretical perspectives and research methodology (both qualitative and quantitative) used to understand learning will be discussed.</p>
 

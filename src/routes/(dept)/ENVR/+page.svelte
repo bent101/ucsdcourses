@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Environmental Studies</h1>
 <CourseCard id="30" shortName="ENVR 30" longName="Environmental Issues: Natural Sciences" units="4" url="/ENVR#30">
 	<p>Examines global and regional environmental issues. The approach is to consider the scientific basis for policy options. Simple principles of chemistry and biology are introduced. The scope of problems includes: air and water pollution, climate modification, solid waste disposal, hazardous waste treatment, and environmental impact assessment.</p>
 

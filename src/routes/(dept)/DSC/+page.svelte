@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Data Science</h1>
 <h2>Lower Division</h2>
 <CourseCard id="10" shortName="DSC 10" longName="Principles of Data Science" units="4" url="/DSC#10">
 	<p>This introductory course develops computational thinking and tools necessary to answer questions that arise from large-scale datasets. This course emphasizes an end-to-end approach to data science, introducing programming techniques in Python that cover data processing, modeling, and analysis.</p>

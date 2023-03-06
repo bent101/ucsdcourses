@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Bioinformatics</h1>
 <CourseCard id="BNFO281" shortName="BNFO 281" longName="Seminar in Bioinformatics and Systems Biology" units="1" url="/BIOI#BNFO281">
 	<p>Weekly seminars by faculty and visiting bioinformaticists presenting their research. S/U grades only. May be taken for credit nine times.</p>
 

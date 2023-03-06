@@ -1,6 +1,9 @@
-<script>
+<script lang="ts">
 	import OnThisPage from "$lib/OnThisPage.svelte";
+	import DeptHeader from "./DeptHeader.svelte";
 </script>
+
+<DeptHeader />
 
 <div class="flex">
 	<div class="flex-1 px-4">
@@ -8,15 +11,12 @@
 			<slot />
 		</div>
 	</div>
-	<div class="mt-16 w-72">
+	<div class=" hidden lg:mt-16 lg:ml-4 lg:block lg:w-72">
 		<OnThisPage />
 	</div>
 </div>
 
 <style lang="postcss">
-	div :global(h1) {
-		@apply sticky top-0 z-10 m-auto bg-gray-900 p-4 text-center text-2xl font-extrabold uppercase leading-relaxed tracking-wider text-gray-500;
-	}
 	div :global(h2) {
 		@apply mt-8 text-3xl font-extrabold tracking-wide text-gray-400;
 	}

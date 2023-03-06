@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>NanoEngineering (NANO)</h1>
 <h2>Lower Division</h2>
 <CourseCard id="4" shortName="NANO 4" longName="Experience NanoEngineering" units="1" url="/NANO#4">
 	<p>Introduction to NanoEngineering lab-based skills. Hands-on training and experimentation with nanofabrication techniques, integration, and analytical tools. This class is for NANO majors who are incoming first-year students, to be taken their first year. P/NP grades only.</p>

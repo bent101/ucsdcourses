@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Physics</h1>
 <h2>Lower Division</h2>
 <p class="note">The PHYS 1 sequence is calculus based and is primarily intended for biology.
 The PHYS 2 sequence is calculus based and is intended for physical science majors and engineering majors and those biological science majors with strong mathematical aptitude as it uses advanced calculus.

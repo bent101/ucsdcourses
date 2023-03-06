@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Scripps Institution of Oceanography</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="SIO 1" longName="The Planets" units="4" url="/SIO#1">
 	<p>Space exploration has revealed an astonishing diversity among the planets and moons in our solar system. The planets and their histories will be compared to gain insight and a new perspective on planet Earth.</p>

@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Analytical Writing Program</h1>
 <h2>Lower Division</h2>
 <CourseCard id="3" shortName="AWP 3" longName="Analytical Writing" units="4" url="/AWP#3">
 	<p><CourseLink id={11} href="/AWP#3">AWP 3</CourseLink> provides writers the opportunity to develop their critical thinking and writing abilities. At the end of <CourseLink id={11} href="/AWP#3">AWP 3</CourseLink>, students will produce a portfolio of work that will determine their readiness to enter the college writing programs. Replaced AWP 1. Students may take <CourseLink id={11} href="/AWP#3">AWP 3</CourseLink>, AWP 1, and ELWR 1 for a combined total of three times to earn a passing grade of C or better to satisfy the UC Entry Level Writing Requirement.</p>

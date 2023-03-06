@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Music</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1A" shortName="MUS 1A" longName="Fundamentals of Music A" units="4" url="/MUS#1A">
 	<p>This course, first in a three-quarter sequence, is primarily intended for students without previous musical experience. It introduces music notation and basic music theory topics such as intervals, scales, keys, and chords, as well as basic rhythm skills.</p>

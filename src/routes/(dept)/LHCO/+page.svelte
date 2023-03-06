@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Health Care—Leadership of Healthcare Organizations</h1>
 <CourseCard id="202" shortName="LHCO 202" longName="Strategic Management and Organizational Change" units="4" url="/LHCO#202">
 	<p>This course examines principles and applications of strategic management and the change management concepts necessary to effectively apply these principles in healthcare organizations. The course provides a structured, stepwise approach to the strategic management process and includes methods for assessing key features of organizational environments and competitive situations, approaches for developing strategic plans, and processes for insuring the successful implementation of strategy.</p>
 

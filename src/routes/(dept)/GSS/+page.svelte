@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Global South Studies</h1>
 <h2>Lower Division</h2>
 <CourseCard id="20" shortName="GSS 20" longName="Introduction to Global South Studies" units="4" url="/GSS#20">
 	<p>This introductory course examines historical and theoretical debates on the Global South. Especially important are socioeconomic, political, as well as cultural processes, as they are key factors to understanding the Global South across the globe.</p>

@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Rady School of Management</h1>
 <h2>Lower-Division Undergraduate Courses</h2>
 <CourseCard id="3" shortName="MGT 3" longName="Quantitative Methods in Business" units="4" url="/MGT#3">
 	<p>Introduction to techniques to develop/analyze data for informed tactical and strategic management decisions: statistical inference, probability, regression analysis, and optimization. Using these analytic approaches, theory-based formulas, and spreadsheets, students explore managerial applications across all areas of business activity.</p>

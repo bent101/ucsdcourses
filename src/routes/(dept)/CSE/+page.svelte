@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Computer Science and Engineering (CSE)</h1>
 <h2>Lower Division</h2>
 <CourseCard id="3" shortName="CSE 3" longName="Fluency in Information Technology" units="4" url="/CSE#3">
 	<p>Introduces the concepts and skills necessary to effectively use information technology. Includes basic concepts and some practical skills with computer and networks.</p>

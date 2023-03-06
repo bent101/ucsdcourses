@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Mechanical and Aerospace Engineering (MAE)</h1>
 <h2>Lower Division</h2>
 <CourseCard id="02" shortName="MAE 02" longName="Introduction to Aerospace Engineering" units="4" url="/MAE#02">
 	<p>An introduction to topics in aeronautical and astronautical engineering including aerodynamics, propulsion, flight mechanics, structures, materials, orbital mechanics, design, mission planning, and environments. General topics include historical background, career opportunities, engineering ethics, and professionalism.</p>

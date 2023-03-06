@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Chinese Studies</h1>
 <h2>Chinese Language Acquisition Courses</h2>
 <p class="note">The Chinese language program offers Mandarin Chinese language acquisition courses in yearlong sequences that begin in the fall quarter. Students interested in enrolling in Chinese courses must first do a placement interview to determine the most appropriate course and then will be authorized to enroll in that course. Contact the program at chinesestudies@ucsd.edu for more information.
 Chinese language courses are divided into three tracks based on student’s familiarity with the language. N track is for students with no Chinese language background; M track is for students with some speaking but not writing proficiency in Mandarin; and D track is for students with some proficiency in a Chinese language other than Mandarin. M and D tracks converge during the second year of Chinese language acquisition courses.</p>

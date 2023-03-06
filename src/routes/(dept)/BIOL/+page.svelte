@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Biological Sciences, School of</h1>
 <h2>Lower Division</h2>
 <CourseCard id="BILD1" shortName="BILD 1" longName="The Cell" units="4" url="/BIOL#BILD1">
 	<p>An introduction to cellular structure and function, to biological molecules, bioenergetics, to the genetics of both prokaryotic and eukaryotic organisms, and to the elements of molecular biology. Recommended preparation: prior completion of high school- or college-level chemistry course.</p>

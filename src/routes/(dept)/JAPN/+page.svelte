@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Japanese Studies</h1>
 <h2>Japanese Studies</h2>
 <CourseCard id="190" shortName="JAPN 190" longName="Selected Topics in Contemporary Japanese Studies" units="" url="/JAPN#190">
 	<p></p>

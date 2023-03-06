@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Mathematics</h1>
 <h2>Lower Division</h2>
 <CourseCard id="2" shortName="MATH 2" longName="Introduction to College Mathematics" units="4" url="/MATH#2">
 	<p>A highly adaptive course designed to build on students’ strengths while increasing overall mathematical understanding and skill. This multimodality course will focus on several topics of study designed to develop conceptual understanding and mathematical relevance: linear relationships; exponents and polynomials; rational expressions and equations; models of quadratic and polynomial functions and radical equations; exponential and logarithmic functions; and geometry and trigonometry. Workload credit only—not for baccalaureate credit.</p>

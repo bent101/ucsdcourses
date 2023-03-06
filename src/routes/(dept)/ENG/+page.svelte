@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Engineering, Jacobs School of</h1>
 <CourseCard id="5" shortName="ENG 5" longName="Orientation to Engineering Profession" units="1" url="/ENG#5">
 	<p>This course focuses on academic and personal/career planning, including resume development and preparation for future opportunities including research, internships, and graduate school. Students will gain knowledge and skills in these areas through assignments and in-class activities. This course is available for first-year undergraduate students in the IDEA Scholars program.</p>
 

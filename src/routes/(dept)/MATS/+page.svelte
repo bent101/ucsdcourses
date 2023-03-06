@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Materials Science and Engineering Program</h1>
 <h2>Graduate</h2>
 <CourseCard id="200" shortName="MATS 200" longName="Graduate Seminar" units="0" url="/MATS#200">
 	<p>Each graduate student in the Materials Science and Engineering Program is expected to attend a weekly seminar in materials science or related areas. MS students must enroll for three quarters, PhD students for six quarters. (S/U grades only.)</p>

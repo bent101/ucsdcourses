@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Contemporary Issues</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="CONT 1" longName="CI: The University in Society" units="4" url="/CONT#1">
 	<p>Overview of the history and role of higher education in American society, including a focus on the relationship between society and institutions of higher learning. The course utilizes an interdisciplinary, multicultural perspective reflecting the diversity of the university. Summer Session only.</p>

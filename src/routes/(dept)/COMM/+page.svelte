@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Communication</h1>
 <h2>Lower Division</h2>
 <h3>Core Requirement</h3>
 <CourseCard id="10" shortName="COMM 10" longName="Introduction to Communication" units="4" url="/COMM#10">

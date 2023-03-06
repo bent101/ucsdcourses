@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>African American Studies Minor</h1>
 <h2>Lower Division</h2>
 <CourseCard id="10" shortName="AAS 10" longName="Introduction to African American Studies" units="4" url="/AASM#10">
 	<p>This course will cover the experiences of peoples of African descent in the U.S. and broader African Diaspora from the vantage points of cultural production, political practice, socioeconomic conditions, and the overall struggle for social justice along intersecting lines of race, gender, and class. Topics reviewed include slavery (and slave rebellion), Reconstruction, Jim Crow apartheid, the Great Migration and Harlem Renaissance, and the Civil Rights and Black Power Movements.</p>

@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Clinical Psychology</h1>
 <CourseCard id="227A" shortName="CLIN 227A" longName="Mind, Brain & Behavior" units="6" url="/CLIN#227A">
 	<p>This five-week course will cover neuroanatomy, neurophysiology, neuropharmacology, principles of neurological function, and human growth and development. S/U grades only.</p>
 

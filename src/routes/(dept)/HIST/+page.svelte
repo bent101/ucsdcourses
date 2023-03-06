@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>History</h1>
 <h2>Lower Division</h2>
 <CourseCard id="HILD2ABC" shortName="HILD 2A-B-C" longName="United States" units="4-4-4" url="/HIST#HILD2ABC">
 	<p>A yearlong lower-division course that will provide students with a background in United States history from colonial times to the present, concentrating on social, economic, and political developments. (Satisfies Muir College humanities requirement and American History and Institutions requirement.)</p>

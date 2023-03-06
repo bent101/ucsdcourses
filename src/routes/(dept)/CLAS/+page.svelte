@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Classical Studies</h1>
 <h2>Undergraduate</h2>
 <CourseCard id="87" shortName="CLAS 87" longName="First-year Seminar" units="1" url="/CLAS#87">
 	<p>The First-year Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year seminars can be offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter.</p>

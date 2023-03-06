@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Master of Advanced Studies (MAS) in Engineering</h1>
 <h2>Master of Advanced Studies in Architecture-based Enterprise Systems Engineering (MAS-AESE)</h2>
 <CourseCard id="AESE241" shortName="AESE 241" longName="Decision and Risk Analysis" units="4" url="/MAS#AESE241">
 	<p>Focuses on analytic techniques supporting rational business decision-making, providing systematic approaches to complex decision situations. Addresses analysis of conflicting objectives and use of tools such as value trees, decision trees, influence diagrams, and value hierarchies, Bayesian networks, and data mining. This course will meet from 8:00 a.m. to 5:00 p.m. every alternating Friday and Saturday.</p>

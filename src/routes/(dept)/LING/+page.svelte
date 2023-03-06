@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Linguistics</h1>
 <h2>Linguistics</h2>
 <h3>Lower Division</h3>
 <CourseCard id="LIGN3" shortName="LIGN 3" longName="Language as a Social and Cultural Phenomenon" units="4" url="/LING#LIGN3">

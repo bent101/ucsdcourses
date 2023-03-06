@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Religion, Study of</h1>
 <CourseCard id="1" shortName="RELI 1" longName="Introduction to Religion" units="4" url="/RELI#1">
 	<p>An introduction to key topics in the study of religion through the analysis of religious texts, artifacts, and/or practices. The intent is to develop basic strategies of interpretation for undertaking a critical, disciplined study of religion.</p>
 

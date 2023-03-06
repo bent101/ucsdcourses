@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Synthesis Program</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="SYN 1" longName="Perspectives on a Changing Planet" units="4" url="/SYN#1">
 	<p>Synthesis 1 introduces students to the methods, challenges, and rewards of working across disciplines and models of interdisciplinary thinking by using a variety of disciplinary perspectives to enhance students’ understanding of our changing planet. Students are asked to engage in interdisciplinary thinking through the course assignments.</p>

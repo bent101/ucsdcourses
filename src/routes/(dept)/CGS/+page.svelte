@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Critical Gender Studies</h1>
 <h2>Lower Division</h2>
 <h3>Foundation Requirements</h3>
 <CourseCard id="2A" shortName="CGS 2A" longName="Introduction to Critical Gender Studies: Key Terms and Concepts" units="4" url="/CGS#2A">

@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>School of Global Policy and Strategy (GPS)</h1>
 <h2>Core Courses</h2>
 <p class="note">The courses listed below are the core courses for all of the GPS master’s degree programs (MIA, MPP, MCEPA, MAS-IA). This should not be understood to imply all master’s students must complete each course on this list. Students are advised to refer to the “Program” section (link at the top of the page) or the GPS website, http://gps.ucsd.edu, to see which courses are required for their degree program. Please speak with a student affairs or faculty adviser to be certain of the degree requirements.</p>
 <CourseCard id="GPCO400" shortName="GPCO 400" longName="Policy-Making Processes" units="4" url="/GPS#GPCO400">

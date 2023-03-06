@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Clinical Research</h1>
 <CourseCard id="230" shortName="CLRE 230" longName="Digital Health" units="2" url="/CLRE#230">
 	<p>This course covers how to develop and implement a digital strategy to drive a health research organization’s online presence, specifically the processes for selecting, using, managing, and evaluating the effectiveness of web, social media, and mobile technologies.</p>
 

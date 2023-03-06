@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Audiology</h1>
 <CourseCard id="AUD236" shortName="AUD 236" longName="Preceptorship in Neuro-Otology" units="2" url="/AUDL#AUD236">
 	<p>Observations in UC San Diego Otology clinic. Learn about procedures for taking histories and performing clinical examinations, patient treatment, and patient education from otologists.</p>
 

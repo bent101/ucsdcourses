@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Climate Science and Policy</h1>
 <CourseCard id="SIOC290S" shortName="SIOC 290S" longName="Climate Math and Science" units="6" url="/CSP#SIOC290S">
 	<p>The course will introduce key physical and biogeochemical concepts needed to understand the Earth’s climate system. The overview will provide a foundation for examining the physical evidence of climate change. Mathematical methods will be presented to reinforce the scientific concepts. Students will complete group papers and presentations and lead discussions on assigned readings. <CourseLink id={848} href="/CSP#SIOC290S">SIOC 290S</CourseLink> is a required course in the curriculum of the master of advanced studies in climate science and policy. Letter grades only.</p>
 

@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Political Science</h1>
 <h2>Lower Division</h2>
 <CourseCard id="5or5D" shortName="POLI 5 or 5D" longName="Data Analytics for the Social Sciences" units="4" url="/POLI#5or5D">
 	<p>Introduction to probability and analysis for understanding data in the social world. Students engage in hands-on learning with applied social science problems. Basics of probability, visual display of data, data collection and management, hypothesis testing, and computation. Students may receive credit for only one of the following courses: <CourseLink id={1342} href="/ECON#5">ECON 5</CourseLink>, <CourseLink id={5226} href="/POLI#5or5D">POLI 5</CourseLink>, or <CourseLink id={5226} href="/POLI#5or5D">POLI 5D</CourseLink>.</p>

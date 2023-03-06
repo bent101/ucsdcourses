@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Mechanical and Aerospace Engineering (MAE)</h1>
 <CourseCard id="AESE278A" shortName="AESE 278A" longName="Complexity and Large-Scale Systems" units="4" url="/MAE-AESE#AESE278A">
 	<p>Comprehensive introduction to system and event complexity, software and systems engineering practices for complexity management, agile and plan-driven development, development and management processes and process models, data-, information- and knowledge-management, basics of distributed data and computation. This course will meet from 8:00 a.m. to 5:00 p.m. every alternating Friday and Saturday.</p>
 

@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Psychology</h1>
 <h2>Lower Division</h2>
 <CourseCard id="1" shortName="PSYC 1" longName="Psychology" units="4" url="/PSYC#1">
 	<p>This course provides an overview of the basic concepts in psychology. Topics may include human information processing, learning and memory, motivation, development, language acquisition, social psychology, and personality.</p>

@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Education Studies Program</h1>
 <h2>Lower Division</h2>
 <CourseCard id="20S" shortName="EDS 20S" longName="Introduction to Principles of Learning" units="4" url="/EDS#20S">
 	<p>Students will study discipline-specific principles of effective learning, including critical thinking, problem solving, collaboration, and group communication. Laboratory and hypothesis testing, library research and writing skills, and self-assessment. Students will explore concepts and procedures in mathematics, science, and economics.</p>

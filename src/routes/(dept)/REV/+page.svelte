@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Revelle College</h1>
 <CourseCard id="1" shortName="REV 1" longName="First Year Experience" units="2" url="/REV#1">
 	<p>This course facilitates academic success at a leading research university by helping students understand and embrace academic and cocurricular expectations, engage and map cocurricular opportunities, and strengthen critical thinking and organizational, interpersonal, and wellness skills. P/NP grades only.</p>
 

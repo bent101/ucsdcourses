@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Climate Change Studies</h1>
 <h2>Upper Division</h2>
 <CourseCard id="101" shortName="CCS 101" longName="Carbon Neutrality Initiative at University of California" units="2" url="/CCS#101">
 	<p>The University of California-wide goals of the Carbon Neutrality Initiative are introduced through a series of modules where students learn basic principles of carbon neutrality, participate in seminars with campus operations staff, and tour relevant campus infrastructure including the UC San Diego microgrid, Leadership in Energy and Environmental Design (LEED) certified buildings, and sustainable transportation efforts.</p>

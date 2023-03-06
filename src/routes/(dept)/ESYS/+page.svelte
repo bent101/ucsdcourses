@@ -1,5 +1,4 @@
 <script>import CourseCard from "$lib/CourseCard.svelte";import CourseLink from "$lib/CourseLink.svelte";import MajorLink from "$lib/MajorLink.svelte";</script>
-<h1>Environmental Systems</h1>
 <h2>Lower Division</h2>
 <CourseCard id="10" shortName="ESYS 10" longName="Introduction to Environmental Systems" units="4" url="/ESYS#10">
 	<p>This course explores the interdisciplinary character of environmental issues through an examination of a particular topic (climate change, for example) from numerous disciplinary perspectives (e.g., biology, chemistry, physics, political science, and economics).</p>
