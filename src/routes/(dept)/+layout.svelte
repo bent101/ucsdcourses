@@ -3,13 +3,15 @@
 	import DeptHeader from "./DeptHeader.svelte";
 </script>
 
-<DeptHeader />
+<div class="fixed z-10 w-full">
+	<DeptHeader />
+</div>
 
-<div class="m-auto flex max-w-7xl gap-4 px-4">
-	<div class="flex-1">
+<div class=" m-auto flex max-w-7xl gap-4 px-4">
+	<div class="flex-1 pt-20">
 		<slot />
 	</div>
-	<div class="hidden w-72 lg:block">
+	<div class="sticky top-0 hidden h-screen w-72 pb-12 pt-32 lg:block">
 		<OnThisPage />
 	</div>
 </div>
@@ -25,6 +27,6 @@
 		@apply mt-4 scroll-mt-20 text-lg font-extrabold uppercase tracking-wide text-gray-500;
 	}
 	div :global(.note) {
-		@apply mt-4 border-l-2 border-sky-700 bg-sky-900/30 p-4 text-sky-300;
+		@apply mt-4 border-l-2 border-sky-700 bg-sky-900/30 p-4 text-sky-200/80;
 	}
 </style>

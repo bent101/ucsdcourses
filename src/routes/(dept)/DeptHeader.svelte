@@ -22,7 +22,7 @@
 	<title>{$short} | UCSD Courses</title>
 </svelte:head>
 
-<button on:click={() => (showingDeptsSearch = true)} class="group sticky inset-x-0 top-0 z-10 block w-full bg-gray-900 p-6 text-center text-xl font-extrabold tracking-wide shadow-lg">
+<button on:click={() => (showingDeptsSearch = true)} class="group block w-full bg-gray-900 p-6 text-center text-xl font-extrabold tracking-wide shadow-lg">
 	<span class="font-bold tracking-wide text-white">{$short}</span>
 	<span class="ml-2 text-gray-400">{$long}</span>
 	<svg class="relative -top-0.5 ml-2 inline w-5 fill-none stroke-gray-600 stroke-[3] transition-all duration-200 group-hover:top-0.5 group-hover:stroke-white group-hover:stroke-[4]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 15">
@@ -31,7 +31,7 @@
 </button>
 
 {#if showingDeptsSearch}
-	<div on:click={() => (showingDeptsSearch = false)} in:fade={{ duration: 150 }} class="fixed inset-0 z-10 bg-gray-900/60 backdrop-blur-sm" />
+	<div in:fade={{ duration: 150 }} class="fixed inset-0 z-10 bg-gray-900/60 backdrop-blur-sm" />
 	<div in:scale={{ duration: 150 }} class="fixed inset-0 z-10 origin-top">
 		<SearchDepts on:exit={() => (showingDeptsSearch = false)} />
 	</div>
