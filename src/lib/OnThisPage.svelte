@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { afterNavigate } from "$app/navigation";
+	import { afterUpdate } from "svelte";
+	import { compute_slots } from "svelte/internal";
 
 	const styles = new Map([
 		["H2", "border border-gray-700 bg-[#283140] text-gray-400 font-extrabold tracking-wide"],
@@ -21,12 +23,24 @@
 	};
 
 	let groups: Group[] = [];
-	let a = 0;
+
+	let windowScrollY = 0;
+	let windowHeight = 0;
 	let ul: Element;
 
+	afterUpdate(() => {
+		const windowScroll = windowScrollY / (document.body.scrollHeight - windowHeight);
+		ul.scrollTo(0, windowScroll * (ul.scrollHeight - ul.clientHeight) - ul.clientHeight / 3);
+		// console.log({
+		// 	windowScrollY,
+		// 	windowHeight,
+		// 	documentScrollHeight: document.body.scrollHeight,
+		// 	ulHeight: ul.clientHeight,
+		// 	ulScrollHeight: ul.scrollHeight
+		// });
+	});
+
 	afterNavigate(() => {
-		ul.scrollTop = 0;
-		a = 1;
 		groups = [{ header: undefined, content: [], level: 0 }];
 		for (const node of document.querySelectorAll("h2,h3,h4,h5")) {
 			const link = {
@@ -40,10 +54,10 @@
 				groups.push({ header: link, content: [], level: +node.tagName[1] - 2 });
 			}
 		}
-
-		console.log(groups);
 	});
 </script>
+
+<svelte:window bind:scrollY={windowScrollY} bind:innerHeight={windowHeight} />
 
 <ul bind:this={ul} class="relative h-full overflow-y-scroll rounded-lg border border-gray-700 p-4 pb-0">
 	{#each groups as { header, content, level }}

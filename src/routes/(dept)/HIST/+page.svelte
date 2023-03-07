@@ -124,7 +124,7 @@
 
 </CourseCard>
 <h3 id="east-asia">East Asia</h3>
-<h4 id="lecture-courses">Lecture Courses</h4>
+<h4 id="lecture-courses-2">Lecture Courses</h4>
 <CourseCard id="HIEA111" shortName="HIEA 111" longName="Japan: Twelfth- to Mid-Nineteenth Centuries" units="4" url="/HIST#HIEA111">
 	<p>Covers important political issues—such as the medieval decentralization of state power, unification in the sixteenth and seventeenth centuries, the Tokugawa system of rule, and conflicts between rulers and ruled—while examining long-term changes in economy, society, and culture. +</p>
 
@@ -246,7 +246,7 @@
 	<p>This course covers key themes in the history of interactions between humans and the environment in China over the past 3,000 years, generating a fuller understanding of China’s present-day environmental problems by situating them in a broader historical context. +</p>
 
 </CourseCard>
-<h4 id="colloquia">Colloquia</h4>
+<h4 id="colloquia-2">Colloquia</h4>
 <p class="note">The following courses are available to both undergraduate and graduate students. Undergraduates must receive a department approval via Enrollment Authorization Request (EASY) on web registration or consent of the instructor to register for the course. Requirements for each course will differ for undergraduate, MA, and PhD students.</p>
 <CourseCard id="HIEA163263" shortName="HIEA 163/263" longName="Cinema and Society in Twentieth-Century China" units="4" url="/HIST#HIEA163263">
 	<p>This colloquium will explore the relationship between cinema and society in twentieth-century China. The emphasis will be on the social, political, and cultural impact of filmmaking. The specific period under examination (1930s, 1940s, post-1949) may vary each quarter. Graduate students will be expected to submit an additional paper.</p>
@@ -310,7 +310,7 @@
 <h3 id="europe">Europe</h3>
 <p class="note">See “History of Science”
 for more European courses (HISC 101ABC, <CourseLink id={3337} href="/HIST#HISC106">HISC 106</CourseLink>).</p>
-<h4 id="lecture-courses">Lecture Courses</h4>
+<h4 id="lecture-courses-2">Lecture Courses</h4>
 <CourseCard id="HIEU102" shortName="HIEU 102" longName="Roman History" units="4" url="/HIST#HIEU102">
 	<p>The course treats the history of Rome from the foundation of the city in the eighth century BC until the end of the Flavian dynasty in 96 AD. It focuses particularly on the political, social, and cultural elements that fueled Roman development and expansion. +</p>
 
@@ -571,7 +571,7 @@ for more European courses (HISC 101ABC, <CourseLink id={3337} href="/HIST#HISC10
 	<p>For centuries, the land of Israel was present in Jewish minds and hearts. Why and how did the return to Zion become a reality? Which were the vicissitudes of Jewish life in Palestine?</p>
 
 </CourseCard>
-<h4 id="colloquia">Colloquia</h4>
+<h4 id="colloquia-2">Colloquia</h4>
 <p class="note">The following courses are available to both undergraduate and graduate students. Undergraduates must receive a department approval via Enrollment Authorization Request (EASY) on web registration or permission from the instructor to register for the course. Requirements for each course will differ for undergraduate, master’s, and doctoral students.</p>
 <CourseCard id="HIEU160" shortName="HIEU 160" longName="Topics in Ancient Greek History" units="4" url="/HIST#HIEU160">
 	<p>Selected topics in ancient Greek history. May be taken for credit three times.</p>
@@ -665,7 +665,7 @@ for more European courses (HISC 101ABC, <CourseLink id={3337} href="/HIST#HISC10
 
 </CourseCard>
 <h3 id="global">Global</h3>
-<h4 id="lecture-courses">Lecture Courses</h4>
+<h4 id="lecture-courses-2">Lecture Courses</h4>
 <CourseCard id="HIGL101" shortName="HIGL 101" longName="Jews, Christians, and Muslims" units="4" url="/HIST#HIGL101">
 	<p>The course will explore the cultural, religious, and social relationships between the three major religious groups in the medieval Mediterranean: Muslims, Christians, and Jews from the sixth through sixteenth centuries AD. Renumbered from HITO 101. Students may not receive credit for <CourseLink id={3262} href="/HIST#HIGL101">HIGL 101</CourseLink> and HITO 101.</p>
 
@@ -687,7 +687,7 @@ for more European courses (HISC 101ABC, <CourseLink id={3337} href="/HIST#HISC10
 
 </CourseCard>
 <h3 id="latin-america">Latin America</h3>
-<h4 id="lecture-courses">Lecture Courses</h4>
+<h4 id="lecture-courses-2">Lecture Courses</h4>
 <CourseCard id="HILA100" shortName="HILA 100" longName="Conquest and Empire: The Americas" units="4" url="/HIST#HILA100">
 	<p>Lecture-discussion survey of Latin America from the pre-Columbian era to 1825. It addresses such issues as the nature of indigenous cultures, the implanting of colonial institutions, native resistance and adaptations, late colonial growth and the onset of independence. Students may not receive credit for both <CourseLink id={3267} href="/HIST#HILA100">HILA 100</CourseLink> and HILA 100D. +</p>
 
@@ -800,7 +800,7 @@ for more European courses (HISC 101ABC, <CourseLink id={3337} href="/HIST#HISC10
 	<p>Recordings of Amazonia’s past before Iberian adventurers searched for El Dorado are scarce. Environmental significance and the continued existence of large fluvial societies, read through the lenses of chroniclers, scientists, missionaries, and colonizers, allows a reconstruction of humankind’s relationship to nature.</p>
 
 </CourseCard>
-<h4 id="colloquia">Colloquia</h4>
+<h4 id="colloquia-2">Colloquia</h4>
 <p class="note">The following courses are available to both undergraduate and graduate students. Undergraduates must receive a department approval via Enrollment Authorization Request (EASY) on web registration or consent of the instructor to register for the course. Requirements for each course will differ for undergraduate, MA, and PhD students.</p>
 <CourseCard id="HILA161261" shortName="HILA 161/261" longName="History of Women in Latin America" units="4" url="/HIST#HILA161261">
 	<p>A broad historical overview of Latin American women’s history of focusing on the issues of gender, sexuality, and the family as they relate to women, as well as the historiographical issues in Latin American and Chicana women’s history.</p>
@@ -850,7 +850,7 @@ for more European courses (HISC 101ABC, <CourseLink id={3337} href="/HIST#HISC10
 	<p>Prerequisites: consent of instructor and department stamp.</p>
 </CourseCard>
 <h3 id="near-east">Near East</h3>
-<h4 id="lecture-courses">Lecture Courses</h4>
+<h4 id="lecture-courses-2">Lecture Courses</h4>
 <CourseCard id="HINE100" shortName="HINE 100" longName="The Hebrew Bible and History" units="4" url="/HIST#HINE100">
 	<p>The history and literature of ancient Israel c. 1300 to 300 BCE. Reading from the Bible, historical and archaeological surveys, and studies of authorship. +</p>
 
@@ -927,7 +927,7 @@ for more European courses (HISC 101ABC, <CourseLink id={3337} href="/HIST#HISC10
 	<p>A survey of the history of science in the Middle East from 600 to the present day. The course examines the relationship between science, learning, and religion in Islamic societies and its connections to other regions of the globe. +</p>
 
 </CourseCard>
-<h4 id="colloquia">Colloquia</h4>
+<h4 id="colloquia-2">Colloquia</h4>
 <p class="note">The following courses are available to both undergraduate and graduate students. Undergraduates must receive a department approval via Enrollment Authorization Request (EASY) on web registration or consent of the instructor to register for the course. Requirements for each course will differ for undergraduate, MA, and PhD students.</p>
 <CourseCard id="HINE160260" shortName="HINE 160/260" longName="Special Topics in the Bible and Ancient Near East" units="4" url="/HIST#HINE160260">
 	<p>The study of a single book, period, or issue on the Bible, in the context of the ancient Near Eastern world. Requirements will vary for undergraduate, master’s, and doctoral students. Graduate students may be required to submit a more substantial piece of work.</p>
@@ -972,7 +972,7 @@ for more European courses (HISC 101ABC, <CourseLink id={3337} href="/HIST#HISC10
 	<p>Prerequisites: consent of instructor.</p>
 </CourseCard>
 <h3 id="history-of-science">History Of Science</h3>
-<h4 id="lecture-courses">Lecture Courses</h4>
+<h4 id="lecture-courses-2">Lecture Courses</h4>
 <CourseCard id="HISC102" shortName="HISC 102" longName="Technology in World History" units="4" url="/HIST#HISC102">
 	<p>Technology as an agent of change. How have humans harnessed the power of nature? What factors have contributed to successes and failures? How has technology changed human life? How should we evaluate the quality of these changes?</p>
 
@@ -1069,7 +1069,7 @@ for more European courses (HISC 101ABC, <CourseLink id={3337} href="/HIST#HISC10
 	<p>This course explores the scientific, technological, economic, political, and legal developments that have shaped our understanding, attitudes, and policies regarding climate change.</p>
 
 </CourseCard>
-<h4 id="colloquia">Colloquia</h4>
+<h4 id="colloquia-2">Colloquia</h4>
 <p class="note">The following courses are available to both undergraduate and graduate students. Undergraduates must receive a department approval via Enrollment Authorization Request (EASY) on web registration or consent of the instructor to register for the course. Requirements for each course will differ for undergraduate, MA, and PhD students.</p>
 <CourseCard id="HISC163263" shortName="HISC 163/263" longName="History, Science, and Politics of Climate Change" units="4" url="/HIST#HISC163263">
 	<p>The complex historical development of human understanding of global climate change, including key scientific work, and the cultural dimensions of proof and persuasion. Special emphasis on the differential political acceptance of the scientific evidence in the United States and the world. Graduate students are required to submit an additional paper.</p>
@@ -1218,7 +1218,7 @@ for more European courses (HISC 101ABC, <CourseLink id={3337} href="/HIST#HISC10
 	<p>A course on Hong Kong’s political, economic, and cultural transformation alongside its incorporation into the global capitalist economy, with a focus on transnational migrants laboring and living in diaspora. Topics include Opium Wars, world system, export-processing zones, and anti-globalization movements. Students must submit applications to the International Center, Programs Abroad Office, and be accepted into the Global Seminar Program. Program or materials fees may apply.</p>
 
 </CourseCard>
-<h4 id="colloquia">Colloquia</h4>
+<h4 id="colloquia-2">Colloquia</h4>
 <p class="note">The following courses are available to both undergraduate and graduate students. Undergraduates must receive a department approval via Enrollment Authorization Request (EASY) on web registration or consent of the instructor to register for the course. Requirements for each course will differ for undergraduate, MA, and PhD students.</p>
 <CourseCard id="HITO164264" shortName="HITO 164/264" longName="Jews and Other Ethnics in the American Past" units="4" url="/HIST#HITO164264">
 	<p>In this course we compare the Jewish experience to other religious minorities in American history. Topics include motives and rates of immigration, education and work patterns, religious experiences, women’s roles, family life, and representations in popular and high culture.</p>
@@ -1305,7 +1305,7 @@ for more European courses (HISC 101ABC, <CourseLink id={3337} href="/HIST#HISC10
 <h3 id="united-states">United States</h3>
 <p class="note">See “History of Science”
 for more US courses (<CourseLink id={3336} href="/HIST#HISC105">HISC 105</CourseLink>, <CourseLink id={3339} href="/HIST#HISC108">HISC 108</CourseLink>, <CourseLink id={3342} href="/HIST#HISC111">HISC 111</CourseLink>).</p>
-<h4 id="lecture-courses">Lecture Courses</h4>
+<h4 id="lecture-courses-2">Lecture Courses</h4>
 <CourseCard id="HIUS103" shortName="HIUS 103/ETHN 103A" longName="The United States and the Pacific World" units="4" url="/HIST#HIUS103">
 	<p>History of the United States in the Pacific, with an emphasis on Hawai’i, Guam, the Mariana Islands, and the Marshall Islands, from the nineteenth century to the present. Topics include colonialism and imperialism, cultural representations, indigenous knowledge and sovereignty, militarism, tourism, and environmentalism. Students will not receive credit for both <CourseLink id={3408} href="/HIST#HIUS103">HIUS 103</CourseLink> and <CourseLink id={2712} href="/ETHN#103A">ETHN 103A</CourseLink>.</p>
 
@@ -1554,7 +1554,7 @@ for more US courses (<CourseLink id={3336} href="/HIST#HISC105">HISC 105</Course
 	<p>Cross-listed as Ethnic Studies 131. This course examines the history of the American Southwest from the U.S.-Mexican War in 1846–48 to the present, focusing on immigration, racial and ethnic conflict, and the growth of Chicano national identity.</p>
 
 </CourseCard>
-<h4 id="colloquia">Colloquia</h4>
+<h4 id="colloquia-2">Colloquia</h4>
 <p class="note">The following courses are available to both undergraduate and graduate students. Undergraduates must receive a department approval via Enrollment Authorization Request (EASY) on web registration or consent of the instructor to register for the course. Requirements for each course will differ for undergraduate, MA, and PhD students.</p>
 <CourseCard id="HIUS160260" shortName="HIUS 160/260" longName="Colloquium on the American Empire" units="4" url="/HIST#HIUS160260">
 	<p>Course explores the concept of an American Empire by examination of the literature on the topic. Particular attention will be on the work since 9/11/01. Students are expected to produce original work concerning the definition and/or existence of an American Empire. Graduate students are expected to submit an additional piece of work.</p>

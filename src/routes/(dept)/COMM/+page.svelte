@@ -650,7 +650,7 @@
 
 	<p>Prerequisites: <CourseLink id={1018} href="/COMM#10">COMM 10</CourseLink> and one from <CourseLink id={1023} href="/COMM#100A">COMM 100A</CourseLink>, 100B, 100C.</p>
 </CourseCard>
-<h4 id="other">Other</h4>
+<h4 id="other-2">Other</h4>
 <CourseCard id="194" shortName="COMM 194" longName="Research Seminar in Washington, D.C." units="4" url="/COMM#194">
 	<p>(Same as <CourseLink id={5426} href="/POLI#194">POLI 194</CourseLink>, <CourseLink id={6669} href="/USP#194">USP 194</CourseLink>, <CourseLink id={3401} href="/HIST#HITO193">HITO 193</CourseLink>, <CourseLink id={6279} href="/SOC#SOCI194">SOCI 194</CourseLink>, and COGS 194) Course attached to six-unit internship taken by students participating in the UCDC program. Involves weekly seminar meetings with faculty and teaching assistants and a substantial research paper.</p>
 

@@ -452,7 +452,7 @@
 </CourseCard>
 <h2 id="courses-in-chemical-engineering-ceng">Courses in Chemical Engineering (CENG)</h2>
 <p class="note">All undergraduate students enrolled in chemical engineering courses or admitted to the chemical engineering program are expected to meet prerequisite and performance standards, i.e., students may not enroll in any chemical engineering courses or courses in another department which are required for the major prior to having satisfied prerequisite courses with a C– or better. (The program does not consider D or F grades as adequate preparation for subsequent material.) Additional details are given under the program outline, course descriptions, and admission procedures for the Jacobs School of Engineering.</p>
-<h3 id="lower-division">Lower Division</h3>
+<h3 id="lower-division-2">Lower Division</h3>
 <CourseCard id="CENG4" shortName="CENG 4" longName="Experience Chemical Engineering" units="1" url="/NANO#CENG4">
 	<p>Hands-on, team-based laboratory activities to demonstrate modern applications of chemical engineering, and the role of the chemical engineer in academia and industry. Emphasis on teamwork, safe laboratory practices, and student-directed problem solving. (P/NP grading only; for incoming CENG first-year students and transfers. <CourseLink id={2497} href="/NANO#CENG4">CENG 4</CourseLink> is mandatory.)</p>
 
@@ -465,7 +465,7 @@
 	<p>(Cross-listed with <CourseLink id={2410} href="/NANO#15R">NANO 15R</CourseLink>.) Introduction to solution of engineering problems using computational methods. Formulating problem statements, selecting algorithms, writing computer programs, and analyzing output using MATLAB. Computational problems from NanoEngineering, chemical engineering, and materials science are introduced. This is a fully online, self-paced course that utilizes multi-platform instructional techniques (video, text, and instructional coding environments). The course requires no prior programming skills. Students may only receive credit for one of the following: <CourseLink id={2499} href="/NANO#CENG15R">CENG 15R</CourseLink>, <CourseLink id={2499} href="/NANO#CENG15R">CENG 15R</CourseLink>, <CourseLink id={2410} href="/NANO#15R">NANO 15R</CourseLink>, or <CourseLink id={2410} href="/NANO#15R">NANO 15R</CourseLink>.</p>
 
 </CourseCard>
-<h3 id="upper-division">Upper Division</h3>
+<h3 id="upper-division-2">Upper Division</h3>
 <CourseCard id="CENG100" shortName="CENG 100" longName="Material and Energy Balances" units="4" url="/NANO#CENG100">
 	<p>Introduction to steady and time-dependent material and energy balances using a variety of problem-solving strategies. Concepts include degrees-of-freedom analysis, unit operations, multiunit systems, chemical reaction kinetics and equilibrium, and phase equilibrium.</p>
 
@@ -556,7 +556,7 @@
 
 	<p>Prerequisites: consent of instructor.</p>
 </CourseCard>
-<h3 id="graduate">Graduate</h3>
+<h3 id="graduate-2">Graduate</h3>
 <CourseCard id="CENG205" shortName="CENG 205" longName="Graduate Seminar in Chemical Engineering" units="1" url="/NANO#CENG205">
 	<p>Each graduate student in chemical engineering is expected to attend one seminar per quarter, of his or her choice, dealing with current topics in chemical engineering. Topics will vary. P/NP grades only. May be taken for credit four times.</p>
 

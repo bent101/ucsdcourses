@@ -15,7 +15,7 @@
 
 </CourseCard>
 <h2 id="upper-division">Upper Division</h2>
-<h3 id="foundation-requirements">Foundation Requirements</h3>
+<h3 id="foundation-requirements-2">Foundation Requirements</h3>
 <CourseCard id="100A" shortName="CGS 100A" longName="Conceptualizing Gender: Theoretical Approaches" units="4" url="/CGS#100A">
 	<p>This course explores the significance of gender as a category of analysis by examining diverse theoretical frameworks from the field of critical gender studies. Particular attention is given to gender in relation to race, class, sexuality, nation, (dis)ability, and religion. Students will not receive credit for both CGS 100 and 100A.</p>
 
