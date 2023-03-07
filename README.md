@@ -1,38 +1,15 @@
-# create-svelte
+# UCSD Courses
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a searchable and better-looking version of the UC San Diego course catalog.
 
-## Creating a project
+- Adds links when other courses are mentioned in a description
+- Lets users copy a course's link
+- Adds a navbar
+- Lets users search for and switch between departments
 
-If you're seeing this, you've probably already done this step. Congrats!
+Future:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- Let users hover over course names to see details
+- Let users create/share lists of courses
+- Let users see all mentions of a course throught the whole catalog
+- Show GPA averages of courses
