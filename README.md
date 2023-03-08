@@ -8,7 +8,7 @@ This is a searchable and better-looking version of the UC San Diego course catal
 
 Future:
 
-- Let you hover over course names to see details
-- Let you create/share lists of courses
-- Let you see all mentions of a course throught the whole catalog
-- Show GPA averages of courses
+- Hover over course names to see details
+- Create/share lists of courses
+- See all mentions of a course throught the whole catalog
+- See GPA averages of courses
