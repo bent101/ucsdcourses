@@ -33,7 +33,7 @@
 </button>
 
 {#if showingDeptsSearch}
-	<div on:click={() => (showingDeptsSearch = false)} transition:fade={{ duration: 100 }} class="absolute inset-0 h-screen bg-gray-900/50" />
+	<div on:click={() => (showingDeptsSearch = false)} transition:fade={{ duration: 100 }} class="absolute top-0 h-[200vh] w-full bg-gray-900/50" />
 	<div transition:fly={{ duration: 200, y: -96 }} class="">
 		<SearchDepts on:exit={() => (showingDeptsSearch = false)} />
 	</div>
