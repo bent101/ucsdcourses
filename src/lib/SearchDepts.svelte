@@ -38,7 +38,6 @@
 
 <svelte:body
 	on:keydown={(e) => {
-		console.log(e.key);
 		if (e.key === "Escape") {
 			dispatch("exit");
 		}
