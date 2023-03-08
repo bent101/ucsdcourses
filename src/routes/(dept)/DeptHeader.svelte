@@ -3,7 +3,7 @@
 	import { depts } from "$lib/stores";
 	import { derived } from "svelte/store";
 	import SearchDepts from "$lib/SearchDepts.svelte";
-	import { fly } from "svelte/transition";
+	import { fly, fade } from "svelte/transition";
 
 	const short = derived(page, ($page) => {
 		const hashtag = $page.url.pathname.indexOf("#");
@@ -33,6 +33,7 @@
 </button>
 
 {#if showingDeptsSearch}
+	<div on:click={() => (showingDeptsSearch = false)} transition:fade={{ duration: 100 }} class="absolute inset-0 h-screen bg-gray-900/50" />
 	<div transition:fly={{ duration: 200, y: -96 }} class="">
 		<SearchDepts on:exit={() => (showingDeptsSearch = false)} />
 	</div>

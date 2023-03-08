@@ -25,7 +25,7 @@
 			<h5 class="inline text-lg font-extrabold tracking-wide text-white" {id}>
 				{shortName}
 			</h5>
-			<span class="-translate-y-[1px] rounded-full bg-sky-200/80 px-1.5 text-sm font-extrabold text-sky-800 empty:hidden">{units}</span>
+			<span class="-translate-y-px rounded-full bg-sky-200/80 px-1.5 text-sm font-extrabold text-sky-800 empty:hidden">{units}</span>
 			<button on:click={copyLink} class="ml-auto w-24 min-w-max rounded-full border border-sky-300/30 px-2 text-sky-200/60 opacity-0 transition-all duration-150 hover:border-transparent hover:bg-sky-300/10 group-hover:opacity-100 pointer-coarse:opacity-100 sm:opacity-0 ">{justCopied ? "Copied!" : "Copy link"}</button>
 		</div>
 		<h6 class="text-sm font-bold leading-tight tracking-wide text-sky-200">{longName}</h6>

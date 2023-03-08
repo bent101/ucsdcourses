@@ -6,6 +6,6 @@
 	<title>UCSD Courses</title>
 </svelte:head>
 
-<h1 class="mt-4 text-center text-4xl font-extrabold uppercase leading-relaxed tracking-wider text-gray-600 underline decoration-gray-700/50 underline-offset-[10px]">UCSD Course Catalog</h1>
+<h1 class="bg-gray-900 p-6 text-center text-3xl font-extrabold tracking-wide text-gray-600 shadow-lg">UCSD Course Catalog</h1>
 
 <SearchDepts noEscButton />
