@@ -12,14 +12,13 @@
 	const copyLink = async () => {
 		if (!justCopied) {
 			await navigator.clipboard.writeText(window.location.origin + url);
-			console.log(url);
 			justCopied = true;
 			setTimeout(() => (justCopied = false), 2000);
 		}
 	};
 </script>
 
-<section class="group my-4 scroll-mt-20 overflow-clip rounded-lg bg-gray-700/80 shadow-lg transition-all duration-200" {id}>
+<section class="group my-4 scroll-mt-32 overflow-clip rounded-lg bg-gray-700/80 shadow-lg transition-all duration-200" {id}>
 	<div class="bg-sky-800 py-2 pl-4 pr-2">
 		<div class="flex items-center gap-3">
 			<h5 class="inline text-lg font-extrabold tracking-wide text-white" {id}>
