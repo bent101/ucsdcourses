@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { afterNavigate } from "$app/navigation";
 	import { afterUpdate } from "svelte";
-	import { compute_slots } from "svelte/internal";
+	import { spring } from "svelte/motion";
+	import { writable } from "svelte/store";
 
 	const styles = new Map([
 		["H2", "border border-gray-700 bg-[#283140] text-gray-400 font-extrabold tracking-wide"],
@@ -27,17 +28,13 @@
 	let windowScrollY = 0;
 	let windowHeight = 0;
 	let ul: Element;
+	let scrollTarget = writable(0);
 
 	afterUpdate(() => {
 		const windowScroll = windowScrollY / (document.body.scrollHeight - windowHeight);
-		ul.scrollTo(0, windowScroll * (ul.scrollHeight - ul.clientHeight) - ul.clientHeight / 3);
-		// console.log({
-		// 	windowScrollY,
-		// 	windowHeight,
-		// 	documentScrollHeight: document.body.scrollHeight,
-		// 	ulHeight: ul.clientHeight,
-		// 	ulScrollHeight: ul.scrollHeight
-		// });
+		const offset = ul.clientHeight / 3;
+		scrollTarget.set(windowScroll * (ul.scrollHeight - ul.clientHeight + offset) - offset);
+		ul.scrollTo(0, $scrollTarget);
 	});
 
 	afterNavigate(() => {
@@ -59,7 +56,7 @@
 
 <svelte:window bind:scrollY={windowScrollY} bind:innerHeight={windowHeight} />
 
-<ul bind:this={ul} class="relative h-full overflow-y-scroll rounded-lg border border-gray-700 p-4 pb-0">
+<ul bind:this={ul} class="relative h-full overflow-y-scroll overscroll-y-contain rounded-lg border border-gray-700 p-4 pb-0">
 	{#each groups as { header, content, level }}
 		<li class:ml-2={level === 1} class:ml-4={level === 2} class:ml-6={level === 3} class="mt-2">
 			{#if header !== undefined}

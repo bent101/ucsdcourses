@@ -21,11 +21,11 @@
 
 <section class="group my-4 scroll-mt-20 overflow-clip rounded-lg bg-gray-700/80 shadow-lg transition-all duration-200" {id}>
 	<div class="bg-sky-800 py-2 pl-4 pr-2">
-		<div class="flex items-center gap-2">
+		<div class="flex items-center gap-3">
 			<h5 class="inline text-lg font-extrabold tracking-wide text-white" {id}>
 				{shortName}
 			</h5>
-			<span class="relative bottom-[1.5px] ml-2 rounded-full bg-sky-200/80 px-2 py-0.5 text-sm font-extrabold text-sky-800 empty:hidden">{units}</span>
+			<span class="-translate-y-[1px] rounded-full bg-sky-200/80 px-1.5 text-sm font-extrabold text-sky-800 empty:hidden">{units}</span>
 			<button on:click={copyLink} class="ml-auto w-24 min-w-max rounded-full border border-sky-300/30 px-2 text-sky-200/60 opacity-0 transition-all duration-150 hover:border-transparent hover:bg-sky-300/10 group-hover:opacity-100 pointer-coarse:opacity-100 sm:opacity-0 ">{justCopied ? "Copied!" : "Copy link"}</button>
 		</div>
 		<h6 class="text-sm font-bold leading-tight tracking-wide text-sky-200">{longName}</h6>

@@ -1,4 +1,6 @@
 import { readable } from "svelte/store";
+import { persisted } from "svelte-local-storage-store";
+import { browser } from "$app/environment";
 
 export const depts = readable([
 	["AIP", "Academic Internship Program"],
@@ -84,3 +86,5 @@ export const depts = readable([
 	["VIS", "Visual Arts"],
 	["WARR", "Warren College"]
 ]);
+
+export const recentDepts = browser ? persisted<number[]>("recentDepts", []) : undefined;

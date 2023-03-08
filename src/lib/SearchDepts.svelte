@@ -1,21 +1,41 @@
 <script lang="ts">
 	import { afterNavigate } from "$app/navigation";
-	import { depts } from "$lib/depts.js";
+	import { depts, recentDepts } from "$lib/stores.js";
 	import { createEventDispatcher } from "svelte";
+	import { flip } from "svelte/animate";
+	import { crossfade } from "svelte/transition";
 
 	export let noEscButton = false;
 	const dispatch = createEventDispatcher();
 
 	let rawQuery = "";
 	$: query = rawQuery.trim().toLowerCase();
-	$: filtered = $depts.filter(([short, long]) => {
+	$: indexed = $depts.map((e, i) => [...e, i]) as [string, string, number][];
+	$: filtered = indexed.filter(([short, long, i]) => {
+		if (!query) return $recentDepts?.indexOf(i) === -1;
 		return short.toLowerCase().includes(query) || long.toLowerCase().includes(query);
 	});
-	$: sorted = filtered.sort(([short1, long1], [short2, long2]) => {
+	$: sorted = filtered.sort(([short1], [short2]) => {
 		return +short2.toLowerCase().includes(query) - +short1.toLowerCase().includes(query);
 	});
 
 	afterNavigate(() => dispatch("exit"));
+
+	const addToRecents = async (i: number) => {
+		await new Promise((res) => setTimeout(res, 100));
+		if ($recentDepts) {
+			const j = $recentDepts.indexOf(i);
+			if (j === -1) {
+				$recentDepts = [i, ...$recentDepts];
+				if ($recentDepts.length > 5) {
+					$recentDepts = $recentDepts.slice(0, 5);
+				}
+			} else {
+				const k = $recentDepts.length - 1;
+				[$recentDepts[j], $recentDepts[k]] = [$recentDepts[k], $recentDepts[j]];
+			}
+		}
+	};
 </script>
 
 <svelte:body
@@ -27,18 +47,28 @@
 	}}
 />
 
-<div class=" absolute inset-8 top-32 z-10 min-h-[16rem] overflow-y-scroll rounded-xl bg-gray-900 text-sm shadow-lg md:inset-32">
-	<div class="sticky top-0 z-20 flex gap-2 bg-gray-900 p-2">
+<div class=" mx-auto h-96 max-w-lg overflow-y-scroll overscroll-y-contain rounded-b-2xl bg-gray-900 text-sm shadow-lg">
+	<div class="sticky top-0 flex gap-2 bg-gray-900 p-2">
 		<input autofocus spellcheck="false" type="search" placeholder="Search departments" class="flex-1 rounded-lg border border-gray-700 bg-transparent px-4 py-2 text-white placeholder:text-gray-700 focus:outline-none" bind:value={rawQuery} />
 		{#if !noEscButton}
 			<button on:click={() => dispatch("exit")} class="rounded-lg border border-gray-700 px-3 font-extrabold text-gray-400 hover:bg-gray-700/30">ESC</button>
 		{/if}
 	</div>
-	<div class="relative p-2">
+	<div class="p-2">
 		{#if sorted.length > 0}
-			<nav class="grid grid-cols-1 gap-1 lg:grid-cols-2 xl:grid-cols-3">
-				{#each sorted as [short, long]}
-					<a on:click={() => dispatch("exit")} href="/{short}" class="group block rounded-md px-4 py-1.5 hover:bg-gray-700/30">
+			<nav class="">
+				{#if !query && $recentDepts && $recentDepts.length > 0}
+					{#each $recentDepts as i}
+						{@const [short, long] = $depts[i]}
+						<a on:click={() => addToRecents(i)} href="/{short}" class="group block rounded-md px-4 py-1.5 hover:bg-gray-700/30">
+							<span class="font-bold tracking-wide text-white">{short}</span>
+							<span class="ml-2 text-gray-400">{long}</span>
+						</a>
+					{/each}
+					<hr class="m-2 border-t border-gray-700" />
+				{/if}
+				{#each sorted as [short, long, i]}
+					<a on:click={() => addToRecents(i)} href="/{short}" class="group block rounded-md px-4 py-1.5 hover:bg-gray-700/30">
 						<span class="font-bold tracking-wide text-white">{short}</span>
 						<span class="ml-2 text-gray-400">{long}</span>
 					</a>
