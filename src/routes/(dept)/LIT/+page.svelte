@@ -1145,8 +1145,7 @@
 	<p>Prerequisites:  <CourseLink id={4128} href="/LIT#LTRU2A">LTRU 2A</CourseLink> or its equivalent or consent of instructor.</p>
 </CourseCard>
 <h3 id="upper-division-2">Upper Division</h3>
-<p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.
-Note: Many Russian literature courses are cross-listed as courses in European and Eurasian Literatures (LTEU). Lectures and discussions are conducted in English, and students may choose whether to do the reading and writing assignments in translation, in which case they should enroll for the course under its LTEU rubric, or in Russian, in which case they should enroll under the LTRU rubric.</p>
+<p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.<br>Note: Many Russian literature courses are cross-listed as courses in European and Eurasian Literatures (LTEU). Lectures and discussions are conducted in English, and students may choose whether to do the reading and writing assignments in translation, in which case they should enroll for the course under its LTEU rubric, or in Russian, in which case they should enroll under the LTRU rubric.</p>
 <CourseCard id="LTRU104A" shortName="LTRU 104A" longName="Advanced Practicum in Russian: Linguistic Skills Development" units="4" url="/LIT#LTRU104A">
 	<p>Advanced Russian grammar taught for varying ability levels. Close work with original texts and film to develop comprehension, production, and analytical skills. May be taken for credit up to two times.</p>
 
@@ -1195,8 +1194,7 @@ Note: Many Russian literature courses are cross-listed as courses in European an
 </CourseCard>
 <h2 id="literatures-in-spanish">Literatures In Spanish</h2>
 <h3 id="lower-division-2">Lower Division</h3>
-<p class="note">(See “Department of Linguistics” for other course offerings in first-year Spanish.)
-Students entering the Spanish language/literature program must have completed one year of college-level Spanish (Linguistics/Spanish 1C/1CX) or its equivalent at another institution or have the consent of the instructor. Ordinarily, students take <CourseLink id={4140} href="/LIT#LTSP2A">LTSP 2A</CourseLink>, 2B, and 2C. Native speakers are encouraged to take <CourseLink id={4143} href="/LIT#LTSP2D">LTSP 2D</CourseLink>, 2E.</p>
+<p class="note">(See “Department of Linguistics” for other course offerings in first-year Spanish.)<br>Students entering the Spanish language/literature program must have completed one year of college-level Spanish (Linguistics/Spanish 1C/1CX) or its equivalent at another institution or have the consent of the instructor. Ordinarily, students take <CourseLink id={4140} href="/LIT#LTSP2A">LTSP 2A</CourseLink>, 2B, and 2C. Native speakers are encouraged to take <CourseLink id={4143} href="/LIT#LTSP2D">LTSP 2D</CourseLink>, 2E.</p>
 <CourseCard id="LTSP2A" shortName="LTSP 2A" longName="Intermediate Spanish I: Foundations" units="5" url="/LIT#LTSP2A">
 	<p>Course is taught in Spanish, emphasizing the development of reading ability, listening comprehension, and writing skills. It includes grammar review, weekly compositions, and class discussions.</p>
 
@@ -1371,8 +1369,7 @@ Students entering the Spanish language/literature program must have completed on
 
 </CourseCard>
 <h2 id="literaturetheory">Literature/Theory</h2>
-<p class="note">Courses in theory may apply to various literature majors. Please consult your adviser.
-Additional theory courses are offered in the various department sections. See quarterly course descriptions on the Department of Literature website.</p>
+<p class="note">Courses in theory may apply to various literature majors. Please consult your adviser.<br>Additional theory courses are offered in the various department sections. See quarterly course descriptions on the Department of Literature website.</p>
 <h3 id="upper-division-2">Upper Division</h3>
 <p class="note">Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.</p>
 <CourseCard id="LTTH110" shortName="LTTH 110" longName="History of Criticism" units="4" url="/LIT#LTTH110">
@@ -1642,9 +1639,7 @@ Additional theory courses are offered in the various department sections. See qu
 	<p>Prerequisites: <CourseLink id={1269} href="/CAT#2">CAT 2</CourseLink> and 3 or <CourseLink id={1335} href="/DOC#2">DOC 2</CourseLink> and 3 or <CourseLink id={3580} href="/HUM#1">HUM 1</CourseLink> and 2 or <CourseLink id={4770} href="/MCWP#40">MCWP 40</CourseLink> and 50 or <CourseLink id={4269} href="/MMW#12">MMW 12</CourseLink> and 13 or WARR 11A-B or <CourseLink id={6925} href="/WARR#WCWP10A">WCWP 10A</CourseLink>-B or <CourseLink id={6338} href="/SYN#1">SYN 1</CourseLink> and 2. Completion of college writing requirement.</p>
 </CourseCard>
 <h3 id="upper-division-2">Upper Division</h3>
-<p class="note">Department approval is required for any students who are not declared literature/writing majors or minors.
-Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.
-(See “Department of Theatre and Dance” for course offerings in dramatic writing.)</p>
+<p class="note">Department approval is required for any students who are not declared literature/writing majors or minors.<br>Prerequisites: upper-division standing or consent of instructor. Additional prerequisites may be specified below.<br>(See “Department of Theatre and Dance” for course offerings in dramatic writing.)</p>
 <h4 id="prose-fiction-poetry-media-workshops">Prose Fiction, Poetry, Media Workshops</h4>
 <CourseCard id="LTWR100" shortName="LTWR 100" longName="Short Fiction Workshop" units="4" url="/LIT#LTWR100">
 	<p>A workshop for students with some experience and special interest in writing fiction. This workshop is designed to encourage regular writing in the short forms of prose fiction and to permit students to experiment with various forms. There will be discussion of student work, together with analysis and discussion of representative examples of short fiction from the present and previous ages. May be taken for credit up to three times. Restricted to major/minor code <MajorLink name="Literature/ Writing">LT34</MajorLink> during first pass of registration. All other students may register during second pass of registration with the approval of the department.</p>

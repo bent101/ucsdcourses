@@ -145,17 +145,7 @@
 <CourseCard id="95" shortName="MUS 95" longName="Ensemble Performance" units="2" url="/MUS#95">
 	<p>Performance in an ensemble appropriate to student abilities and interests. Normally each section requires student participation for the whole academic year, with credit for participation each quarter. Sections of MUS 95W have included: African drumming, Korean percussion, Indian sitar and tabla, koto, and Indonesian flute. Not all sections will be offered every year. May be repeated for credit. Grading on participation level, individual testing, comparative papers on repertoire covered, etc.</p>
 
-	<p>Prerequisites: audition and consent of instructor for each section. Materials fee required.
-Note: Students in the <CourseLink id={4805} href="/MUS#95">MUS 95</CourseLink> series courses may enroll with a letter grade option a total of twelve units for registered music majors and a total of six units for all other students; after which students may continue to enroll in <CourseLink id={4805} href="/MUS#95">MUS 95</CourseLink> courses, but only with a P/NP grade option. There is one exception to the above grading policy. MUS 95G, Gospel Choir, can only be taken for a P/NP grading option.
-Section B. Instrument Choir
-Section C. Concert Choir
-Section D. Symphonic Chorus
-Section E. Chamber Orchestra
-Section G. Gospel Choir
-Section JC. Jazz Chamber Ensembles
-Section K. Chamber Singers
-Section L. Wind Ensemble
-Section W. World Music Ensembles</p>
+	<p>Prerequisites: audition and consent of instructor for each section. Materials fee required.<br>Note: Students in the <CourseLink id={4805} href="/MUS#95">MUS 95</CourseLink> series courses may enroll with a letter grade option a total of twelve units for registered music majors and a total of six units for all other students; after which students may continue to enroll in <CourseLink id={4805} href="/MUS#95">MUS 95</CourseLink> courses, but only with a P/NP grade option. There is one exception to the above grading policy. MUS 95G, Gospel Choir, can only be taken for a P/NP grading option.<br>Section B. Instrument Choir<br>Section C. Concert Choir<br>Section D. Symphonic Chorus<br>Section E. Chamber Orchestra<br>Section G. Gospel Choir<br>Section JC. Jazz Chamber Ensembles<br>Section K. Chamber Singers<br>Section L. Wind Ensemble<br>Section W. World Music Ensembles</p>
 </CourseCard>
 <h2 id="upper-division">Upper Division</h2>
 <CourseCard id="101A" shortName="MUS 101A" longName="Music Theory and Practice I" units="4" url="/MUS#101A">

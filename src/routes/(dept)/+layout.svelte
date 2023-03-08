@@ -29,4 +29,8 @@
 	div :global(.note) {
 		@apply mt-4 border-l-2 border-sky-700 bg-sky-900/30 p-4 text-sky-200/80;
 	}
+
+	div :global(.link) {
+		@apply underline underline-offset-2 hover:text-white;
+	}
 </style>

@@ -490,12 +490,7 @@
 </CourseCard>
 <h2 id="courses">Courses</h2>
 <h2 id="language">Language</h2>
-<p class="note">Linguistics Language Program Office, 3101 Applied Physics and Mathematics Building, Muir College
-Students are placed in foreign language courses based on prior preparation and, for French, German, Italian, and Spanish, on the results of a placement test. Information on taking the placement exam is available at http://ling.ucsd.edu/language/placement-test.html or at the Linguistics Language Program Office (3101 Applied Physics and Mathematics Building). For placement in Arabic, American Sign Language, or Portuguese contact the Linguistics Language Program Office (3101 Applied Physics and Mathematics Building).
-Conversation sections (Linguistics 1A-1B-1C-1D) consist of small tutorial meetings, plus reading and assigned laboratory work. Analysis sections (Linguistics 1AX-1BX-1CX-1DX) consist of presentation and practice of grammatical structures, discussion sections, assigned laboratory work, and outside reading. Each course in the 1A-1B-1C-1D series must be taken concurrently with the corresponding course in the 1AX-1BX-1CX-1DX series.
-Heritage Language courses are offered in Arabic, Armenian, Cantonese, Filipino, Hindi, Korean, Persian, and Vietnamese. These courses are designed for students with a background in the language who want to improve their oral and written expression.
-Linguistics 11 courses are self-instructional: intended for reading the language for scholarly purposes. They are particularly aimed at graduate students preparing to fulfill French or German reading requirements.
-Linguistics 19 courses, offered in more than sixty languages, are designed for self-instructional study at an introductory level. Students may enroll for two or four units of credit. For some languages, depending on the availability of suitable materials, the course may be repeated for credit.</p>
+<p class="note">Linguistics Language Program Office, 3101 Applied Physics and Mathematics Building, Muir College<br>Students are placed in foreign language courses based on prior preparation and, for French, German, Italian, and Spanish, on the results of a placement test. Information on taking the placement exam is available at <a target="_blank" class="link" href="http://ling.ucsd.edu">http://ling.ucsd.edu</a>/language/placement-test.html or at the Linguistics Language Program Office (3101 Applied Physics and Mathematics Building). For placement in Arabic, American Sign Language, or Portuguese contact the Linguistics Language Program Office (3101 Applied Physics and Mathematics Building).<br>Conversation sections (Linguistics 1A-1B-1C-1D) consist of small tutorial meetings, plus reading and assigned laboratory work. Analysis sections (Linguistics 1AX-1BX-1CX-1DX) consist of presentation and practice of grammatical structures, discussion sections, assigned laboratory work, and outside reading. Each course in the 1A-1B-1C-1D series must be taken concurrently with the corresponding course in the 1AX-1BX-1CX-1DX series.<br>Heritage Language courses are offered in Arabic, Armenian, Cantonese, Filipino, Hindi, Korean, Persian, and Vietnamese. These courses are designed for students with a background in the language who want to improve their oral and written expression.<br>Linguistics 11 courses are self-instructional: intended for reading the language for scholarly purposes. They are particularly aimed at graduate students preparing to fulfill French or German reading requirements.<br>Linguistics 19 courses, offered in more than sixty languages, are designed for self-instructional study at an introductory level. Students may enroll for two or four units of credit. For some languages, depending on the availability of suitable materials, the course may be repeated for credit.</p>
 <h3 id="american-sign-language">American Sign Language</h3>
 <CourseCard id="LISL1A" shortName="Linguistics/American Sign Language (LISL) 1A" longName="American Sign Language Conversation" units="2.5" url="/LING#LISL1A">
 	<p>Small tutorial meetings with a signer of American Sign Language (ASL). Conversational practice organized around common everyday communicative situations. Must be taken with <CourseLink id={3755} href="/LING#LISL1AX">LISL 1AX</CourseLink>.</p>
@@ -610,9 +605,7 @@ Linguistics 19 courses, offered in more than sixty languages, are designed for s
 	<p>Prerequisites: <CourseLink id={3774} href="/LING#LIAB1F">LIAB 1F</CourseLink> or equivalent.</p>
 </CourseCard>
 <h3 id="chinese">Chinese</h3>
-<p class="note">See “Chinese Studies.”
-See also Linguistics “Directed Study.”
-See also “Linguistics/Heritage Cantonese.”</p>
+<p class="note">See “Chinese Studies.”<br>See also Linguistics “Directed Study.”<br>See also “Linguistics/Heritage Cantonese.”</p>
 <h3 id="esperanto">Esperanto</h3>
 <p class="note">See also Linguistics “Directed Study.”</p>
 <h3 id="french">French</h3>
@@ -662,8 +655,7 @@ See also “Linguistics/Heritage Cantonese.”</p>
 	<p>Prerequisites: none for 5A; for 5B, two or more years of French in high school or the first semester of college-level French. (Offered in Summer Session only.)</p>
 </CourseCard>
 <CourseCard id="LIFR11" shortName="Linguistics/French (LIFR) 11" longName="Elementary French Reading" units="2–4" url="/LING#LIFR11">
-	<p>A self-instructional program designed to prepare graduate students to meet reading requirements in French. After a one-week introduction to French orthography/ sound correspondence, students work with a self-instructional textbook. Midterm and final examinations. (F,W,S)
-See also “Department of Literature.”</p>
+	<p>A self-instructional program designed to prepare graduate students to meet reading requirements in French. After a one-week introduction to French orthography/ sound correspondence, students work with a self-instructional textbook. Midterm and final examinations. (F,W,S)<br>See also “Department of Literature.”</p>
 
 </CourseCard>
 <h3 id="german">German</h3>
@@ -714,15 +706,12 @@ See also “Department of Literature.”</p>
 <CourseCard id="LinguisticsGermanLIGM5A5B5C5D" shortName="Linguistics/German (LIGM) 5A, 5B, 5C, 5D" longName="Fundamentals of German" units="5" url="/LING#LinguisticsGermanLIGM5A5B5C5D">
 	<p>This course concentrates on those language skills essential for communication: listening comprehension, reading, writing, and grammar analysis. UC San Diego students: <CourseLink id={3795} href="/LING#LinguisticsGermanLIGM5A5B5C5D">LIGM 5A</CourseLink> is equivalent to <CourseLink id={3786} href="/LING#LIGM1A">LIGM 1A</CourseLink>/1AX, <CourseLink id={3795} href="/LING#LinguisticsGermanLIGM5A5B5C5D">LIGM 5B</CourseLink> to <CourseLink id={3788} href="/LING#LIGM1B">LIGM 1B</CourseLink>/1BX, and <CourseLink id={3795} href="/LING#LinguisticsGermanLIGM5A5B5C5D">LIGM 5C</CourseLink> to <CourseLink id={3790} href="/LING#LIGM1C">LIGM 1C</CourseLink>/1CX. Enrollment is limited.</p>
 
-	<p>Prerequisites: none for 5A; for 5B, two or more years of German in high school or the first semester of college-level German. (Offered in Summer Session only.)
-See also “Department of Literature.”</p>
+	<p>Prerequisites: none for 5A; for 5B, two or more years of German in high school or the first semester of college-level German. (Offered in Summer Session only.)<br>See also “Department of Literature.”</p>
 </CourseCard>
 <h3 id="greek">Greek</h3>
-<p class="note">See “Department of Literature.”
-See also Linguistics “Directed Study.”</p>
+<p class="note">See “Department of Literature.”<br>See also Linguistics “Directed Study.”</p>
 <h3 id="hebrew">Hebrew</h3>
-<p class="note">See “Jewish Studies.”
-See also Linguistics “Directed Study.”</p>
+<p class="note">See “Jewish Studies.”<br>See also Linguistics “Directed Study.”</p>
 <h3 id="heritage-language-program">Heritage Language Program</h3>
 <p class="note">A “heritage” language is a language, typically spoken in the home, to which individuals are exposed during childhood. These heritage language speakers may learn to understand and speak this language to some degree but are usually more comfortable speaking the dominant language (e.g., English). The idea behind the department’s innovative Heritage Language Program is that heritage language students have a set of skills, competencies, and needs that are distinct from those of both native speakers learning to read and write the language for the first time, and also nonnative learners who may study it as a foreign language during adulthood. These students therefore require a different type of language instruction, one that builds on and enhances the linguistic skills they already possess and amplifies their cultural competence and literacy. The Heritage Language Program allows students to work toward developing higher levels of proficiency in order to pursue personal and professional goals.</p>
 <CourseCard id="LIHL16" shortName="Linguistics/Heritage Languages (LIHL) 16" longName="Arabic Literacy for Arabic Speakers" units="4" url="/LING#LIHL16">
@@ -1021,12 +1010,10 @@ See also Linguistics “Directed Study.”</p>
 <CourseCard id="LIIT5DS" shortName="Linguistics/Italian (LIIT) 5DS" longName="Fundamentals of Italian IV" units="5" url="/LING#LIIT5DS">
 	<p>A course to increase the proficiency level of students who have completed <CourseLink id={3847} href="/LING#LIIT1C">LIIT 1C</CourseLink>/1CX, 5CS or who are at an equivalent level. Attention to listening comprehension, conversation, reading, writing, grammar analysis, and culture. Equivalent to LIIT1D/1DX.</p>
 
-	<p>Prerequisites: <CourseLink id={3847} href="/LING#LIIT1C">LIIT 1C</CourseLink>/1CX, 5CS or equivalent or consent of instructor.
-See also “Department of Literature.”</p>
+	<p>Prerequisites: <CourseLink id={3847} href="/LING#LIIT1C">LIIT 1C</CourseLink>/1CX, 5CS or equivalent or consent of instructor.<br>See also “Department of Literature.”</p>
 </CourseCard>
 <h3 id="japanese">Japanese</h3>
-<p class="note">See “Japanese Studies.”
-See also Linguistics “Directed Study.”</p>
+<p class="note">See “Japanese Studies.”<br>See also Linguistics “Directed Study.”</p>
 <h3 id="latin">Latin</h3>
 <p class="note">See “Department of Literature.”</p>
 <h3 id="portuguese">Portuguese</h3>
@@ -1086,8 +1073,7 @@ See also Linguistics “Directed Study.”</p>
 	<p>Prerequisites: <CourseLink id={3861} href="/LING#LIPO1D">LIPO 1D</CourseLink> and 1DX or equivalent or by consent of instructor.</p>
 </CourseCard>
 <h3 id="russian">Russian</h3>
-<p class="note">See “Department of Literature.”
-See also Linguistics “Directed Study.”</p>
+<p class="note">See “Department of Literature.”<br>See also Linguistics “Directed Study.”</p>
 <h3 id="spanish">Spanish</h3>
 <CourseCard id="LISP1A" shortName="Linguistics/Spanish (LISP) 1A" longName="Spanish Conversation" units="2.5" url="/LING#LISP1A">
 	<p>Small conversation sections taught entirely in the target language. Emphasis on listening comprehension, speaking, vocabulary building, reading, and culture. Must be taken in conjunction with <CourseLink id={3867} href="/LING#LISP1AX">LISP 1AX</CourseLink>.</p>
@@ -1142,77 +1128,10 @@ See also Linguistics “Directed Study.”</p>
 <CourseCard id="LISP18" shortName="Linguistics/Spanish (LISP) 18" longName="Intermediate Spanish for the Health Sciences" units="2" url="/LING#LISP18">
 	<p>An intermediate-level course on Spanish as used in the health sciences, especially in clinical and field settings. Attention to listening, speaking, relevant vocabulary, cultural knowledge, reading, and writing. May be taken for credit up to two times.</p>
 
-	<p>Prerequisites: <CourseLink id={3872} href="/LING#LISP1D">LISP 1D</CourseLink>/DX.
-See also “Department of Literature.”</p>
+	<p>Prerequisites: <CourseLink id={3872} href="/LING#LISP1D">LISP 1D</CourseLink>/DX.<br>See also “Department of Literature.”</p>
 </CourseCard>
 <h3 id="directed-study">Directed Study</h3>
 <CourseCard id="LIDS19" shortName="Linguistics (LIDS) 19" longName="Directed Study—Language" units="2–4" url="/LING#LIDS19">
-	<p>Introductory-level study of a language in the language laboratory on a self-instructional basis. Depending on the availability of appropriate study materials, the course may be taken in blocks of two or four units of credit and may be repeated up to the total number of units available for that language.
-Albanian
-American Sign Language
-Amharic
-Arabic, Eastern
-Arabic, Egyptian
-Arabic, Iraqi
-Arabic, Moroccan
-Arabic, Saudi
-Armenian, Eastern
-Bengali
-Bulgarian
-Burmese
-Cambodian
-Catalan
-Chinese, Cantonese
-Chinese, Mandarin
-Chinyanja
-Cree
-Czech
-Danish
-Dutch
-Esperanto
-Finnish
-French
-Fula
-German
-Greek, Modern
-Haitian Creole
-Hausa
-Hawaiian
-Hebrew, Modern
-Hindi-Urdu
-Hungarian
-Indonesian
-Irish
-Italian
-Japanese
-Kannada
-Kituba
-Korean
-Latin
-Latvian
-Lithuanian
-Malay
-Navajo
-New Guinea Pidgin
-Norwegian
-Persian
-Polish
-Portuguese
-Romanian
-Russian
-Serbo-Croatian
-Slovenian
-Spanish
-Swahili
-Swedish
-Tagalog
-Taiwanese
-Telugu
-Thai
-Tibetan
-Turkish
-Twi
-Vietnamese
-Yoruba</p>
+	<p>Introductory-level study of a language in the language laboratory on a self-instructional basis. Depending on the availability of appropriate study materials, the course may be taken in blocks of two or four units of credit and may be repeated up to the total number of units available for that language.<br>Albanian<br>American Sign Language<br>Amharic<br>Arabic, Eastern<br>Arabic, Egyptian<br>Arabic, Iraqi<br>Arabic, Moroccan<br>Arabic, Saudi<br>Armenian, Eastern<br>Bengali<br>Bulgarian<br>Burmese<br>Cambodian<br>Catalan<br>Chinese, Cantonese<br>Chinese, Mandarin<br>Chinyanja<br>Cree<br>Czech<br>Danish<br>Dutch<br>Esperanto<br>Finnish<br>French<br>Fula<br>German<br>Greek, Modern<br>Haitian Creole<br>Hausa<br>Hawaiian<br>Hebrew, Modern<br>Hindi-Urdu<br>Hungarian<br>Indonesian<br>Irish<br>Italian<br>Japanese<br>Kannada<br>Kituba<br>Korean<br>Latin<br>Latvian<br>Lithuanian<br>Malay<br>Navajo<br>New Guinea Pidgin<br>Norwegian<br>Persian<br>Polish<br>Portuguese<br>Romanian<br>Russian<br>Serbo-Croatian<br>Slovenian<br>Spanish<br>Swahili<br>Swedish<br>Tagalog<br>Taiwanese<br>Telugu<br>Thai<br>Tibetan<br>Turkish<br>Twi<br>Vietnamese<br>Yoruba</p>
 
 </CourseCard>

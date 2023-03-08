@@ -308,8 +308,7 @@
 
 </CourseCard>
 <h3 id="europe">Europe</h3>
-<p class="note">See “History of Science”
-for more European courses (HISC 101ABC, <CourseLink id={3337} href="/HIST#HISC106">HISC 106</CourseLink>).</p>
+<p class="note">See “History of Science”<br>for more European courses (HISC 101ABC, <CourseLink id={3337} href="/HIST#HISC106">HISC 106</CourseLink>).</p>
 <h4 id="lecture-courses-2">Lecture Courses</h4>
 <CourseCard id="HIEU102" shortName="HIEU 102" longName="Roman History" units="4" url="/HIST#HIEU102">
 	<p>The course treats the history of Rome from the foundation of the city in the eighth century BC until the end of the Flavian dynasty in 96 AD. It focuses particularly on the political, social, and cultural elements that fueled Roman development and expansion. +</p>
@@ -1303,8 +1302,7 @@ for more European courses (HISC 101ABC, <CourseLink id={3337} href="/HIST#HISC10
 
 </CourseCard>
 <h3 id="united-states">United States</h3>
-<p class="note">See “History of Science”
-for more US courses (<CourseLink id={3336} href="/HIST#HISC105">HISC 105</CourseLink>, <CourseLink id={3339} href="/HIST#HISC108">HISC 108</CourseLink>, <CourseLink id={3342} href="/HIST#HISC111">HISC 111</CourseLink>).</p>
+<p class="note">See “History of Science”<br>for more US courses (<CourseLink id={3336} href="/HIST#HISC105">HISC 105</CourseLink>, <CourseLink id={3339} href="/HIST#HISC108">HISC 108</CourseLink>, <CourseLink id={3342} href="/HIST#HISC111">HISC 111</CourseLink>).</p>
 <h4 id="lecture-courses-2">Lecture Courses</h4>
 <CourseCard id="HIUS103" shortName="HIUS 103/ETHN 103A" longName="The United States and the Pacific World" units="4" url="/HIST#HIUS103">
 	<p>History of the United States in the Pacific, with an emphasis on Hawai’i, Guam, the Mariana Islands, and the Marshall Islands, from the nineteenth century to the present. Topics include colonialism and imperialism, cultural representations, indigenous knowledge and sovereignty, militarism, tourism, and environmentalism. Students will not receive credit for both <CourseLink id={3408} href="/HIST#HIUS103">HIUS 103</CourseLink> and <CourseLink id={2712} href="/ETHN#103A">ETHN 103A</CourseLink>.</p>

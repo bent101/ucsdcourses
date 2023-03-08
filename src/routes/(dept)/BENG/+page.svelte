@@ -578,7 +578,7 @@
 	<p>Prerequisites: consent of instructor. (F)</p>
 </CourseCard>
 <CourseCard id="292" shortName="BENG 292" longName="Scientific Ethics" units="1" url="/BENG#292">
-	<p>Lectures, readings, and discussions about the responsible conduct and reporting of research, working with others in science, and social responsibilities; the course is designed as an option for meeting federal regulations for such training. Students should review the following web page prior to enrollment: https://ethics.ucsd.edu/courses/ethics/index.html. (S/U grades only.)</p>
+	<p>Lectures, readings, and discussions about the responsible conduct and reporting of research, working with others in science, and social responsibilities; the course is designed as an option for meeting federal regulations for such training. Students should review the following web page prior to enrollment: <a target="_blank" class="link" href="https://ethics.ucsd.edu">https://ethics.ucsd.edu</a>/courses/ethics/index.html. (S/U grades only.)</p>
 
 	<p>Prerequisites: doctoral students only or consent of department. (F,W,S)</p>
 </CourseCard>

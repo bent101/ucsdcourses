@@ -60,8 +60,7 @@
 <CourseCard id="23" shortName="VIS 23" longName="Seminar in Art History Methods" units="4" url="/VIS#23">
 	<p>This course, a lower-division seminar for art history majors, covers the research tools and fundamental skills needed for advanced work in the field. Topics include descriptive and analytical writing; revision and peer review; compiling annotated bibliographies with traditional and online resources, indexes, and databases; evaluating source materials (including those found online); defining research programs; and preparing and delivering art history presentations.</p>
 
-	<p>Prerequisites: none. Art history majors only.
-Note: Prerequisite for <CourseLink id={6738} href="/VIS#112">VIS 112</CourseLink> and highly recommended for all other seminars. Must be taken within a year of declaring major or transferring into the art history program.</p>
+	<p>Prerequisites: none. Art history majors only.<br>Note: Prerequisite for <CourseLink id={6738} href="/VIS#112">VIS 112</CourseLink> and highly recommended for all other seminars. Must be taken within a year of declaring major or transferring into the art history program.</p>
 </CourseCard>
 <CourseCard id="30" shortName="VIS 30" longName="Introduction to Speculative Design" units="4" url="/VIS#30">
 	<p>Speculative design uses design methods to question and investigate material culture with critical creative purpose. This course provides a historical, theoretical, and methodological introduction to speculative design as a distinct program. Emphasis is tracing the integration of interdisciplinary intellectual and technical problems toward creative, unexpected propositions and prototypes.</p>

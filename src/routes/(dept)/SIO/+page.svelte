@@ -263,7 +263,7 @@
 	<p>Prerequisites: CHEM 140C or consent of instructor.</p>
 </CourseCard>
 <CourseCard id="130" shortName="SIO 130" longName="Scientific Diving" units="4" url="/SIO#130">
-	<p>This course includes theoretical and practical training to meet Scripps Institution of Oceanography and AAUS standards for scientific diving authorization and involves classroom, field, and ocean skin and scuba diving sessions. Topics include scientific diving programs and policy; physics and physiology of diving; decompression theory; dive planning; navigation; search and recovery; equipment and environmental considerations; subtidal sampling techniques; hazardous marine life; diving first aid; and diver rescue. Please see course preparation requirements here: https://scripps.ucsd.edu/scientific-diving-program/authorization-training. P/NP grades only. Program or materials fees may apply.</p>
+	<p>This course includes theoretical and practical training to meet Scripps Institution of Oceanography and AAUS standards for scientific diving authorization and involves classroom, field, and ocean skin and scuba diving sessions. Topics include scientific diving programs and policy; physics and physiology of diving; decompression theory; dive planning; navigation; search and recovery; equipment and environmental considerations; subtidal sampling techniques; hazardous marine life; diving first aid; and diver rescue. Please see course preparation requirements here: <a target="_blank" class="link" href="https://scripps.ucsd.edu">https://scripps.ucsd.edu</a>/scientific-diving-program/authorization-training. P/NP grades only. Program or materials fees may apply.</p>
 
 	<p>Prerequisites: department approval required.</p>
 </CourseCard>
@@ -546,15 +546,7 @@
 	<p>Prerequisites: current earth sciences BS/MS student. Department approval required. Must be taken for letter grade only.</p>
 </CourseCard>
 <h3 id="graduate">Graduate</h3>
-<p class="note">The SIO Department offers graduate courses across three broad curricular areas:
-Climate-Ocean-Atmosphere Program (COAP)
-Geosciences of Earth, Oceans, and Planets (GEO)
-Ocean Biosciences Program (OBP)
-Graduate courses are organized under the following course prefixes:
-SIOC: COAP courses
-SIOG: GEO courses
-SIOB: OBP courses
-SIO: courses not specific to one program</p>
+<p class="note">The SIO Department offers graduate courses across three broad curricular areas:<br>Climate-Ocean-Atmosphere Program (COAP)<br>Geosciences of Earth, Oceans, and Planets (GEO)<br>Ocean Biosciences Program (OBP)<br>Graduate courses are organized under the following course prefixes:<br>SIOC: COAP courses<br>SIOG: GEO courses<br>SIOB: OBP courses<br>SIO: courses not specific to one program</p>
 <CourseCard id="SIOC200A" shortName="SIOC 200A" longName="Computational Ocean Acoustics and Signal Processing I" units="4" url="/SIO#SIOC200A">
 	<p>Overview of ocean acoustics. Acoustics Wave Equation with some analytic solution techniques. Ray Methods. Introduction to Spectral and Normal Modes methods. Introduction to beamforming, including matched field processing. Computer programs will be constructed on all subjects covered.</p>
 

@@ -736,7 +736,7 @@
 	<p>Prerequisites: <CourseLink id={490} href="/BIOL#BGGN206A">BGGN 206A</CourseLink>. Enrollment restricted to the following major codes: BI77 and BI78.</p>
 </CourseCard>
 <CourseCard id="BGGN207" shortName="BGGN 207" longName="Scientific Ethics" units="1" url="/BIOL#BGGN207">
-	<p>(Cross-listed with SOMI 226.) Lectures, reading, and discussions about the responsible conduct and reporting of research, working with others in science, and social responsibilities; the course is designed as an option for meeting current federal regulations. S/U grades only. Enrollment restricted to PhD students only in the following major codes: BI77 and BI78. Students should review the following web page prior to enrollment: https://ethics.ucsd.edu/courses/ethics/index.html. Biology PhD students should enroll during spring of year two.</p>
+	<p>(Cross-listed with SOMI 226.) Lectures, reading, and discussions about the responsible conduct and reporting of research, working with others in science, and social responsibilities; the course is designed as an option for meeting current federal regulations. S/U grades only. Enrollment restricted to PhD students only in the following major codes: BI77 and BI78. Students should review the following web page prior to enrollment: <a target="_blank" class="link" href="https://ethics.ucsd.edu">https://ethics.ucsd.edu</a>/courses/ethics/index.html. Biology PhD students should enroll during spring of year two.</p>
 
 </CourseCard>
 <CourseCard id="BGGN208" shortName="BGGN 208" longName="Biological Sciences Graduate Boot Camp" units="4" url="/BIOL#BGGN208">
