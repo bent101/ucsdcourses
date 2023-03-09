@@ -75,5 +75,5 @@
 			<div class="mt-4 text-center text-gray-400">No results</div>
 		{/if}
 	</div>
-	<div class=" pointer-events-none sticky inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-gray-900" />
+	<div class=" pointer-events-none sticky inset-x-0 bottom-0 h-[13rem] bg-gradient-to-b from-transparent via-transparent to-gray-900" />
 </div>
