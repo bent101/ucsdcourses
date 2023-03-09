@@ -46,7 +46,7 @@
 
 <div class="relative mx-auto h-[28rem] max-w-lg overflow-y-scroll overscroll-y-contain rounded-b-2xl bg-gray-900 text-sm shadow-lg">
 	<div class="sticky top-0 flex gap-2 bg-gray-900 p-2">
-		<input autofocus spellcheck="false" type="search" placeholder="Search departments" class="flex-1 rounded-lg border border-gray-700 bg-transparent px-4 py-2 text-white placeholder:text-gray-700 focus:outline-none" bind:value={rawQuery} />
+		<input spellcheck="false" type="search" placeholder="Search departments" class="flex-1 rounded-lg border border-gray-700 bg-transparent px-4 py-2 text-white placeholder:text-gray-700 focus:outline-none" bind:value={rawQuery} />
 		{#if !noEscButton}
 			<button on:click={() => dispatch("exit")} class="rounded-lg border border-gray-700 px-3 font-extrabold text-gray-400 hover:bg-gray-700/30">ESC</button>
 		{/if}
