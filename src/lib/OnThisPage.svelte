@@ -64,7 +64,7 @@
 			{/if}
 			<div>
 				{#each content as { href, text, styles }}
-					<a {href} class="{styles} block rounded-md px-2 py-0.5 hover:bg-gray-700 hover:text-white">{text}</a>
+					<a {href} class="{styles} block rounded-md px-2 py-0.5 font-semibold tracking-wide hover:bg-gray-700 hover:text-white">{text}</a>
 				{/each}
 			</div>
 		</li>

@@ -22,10 +22,10 @@
 	<title>{$short} | UCSD Courses</title>
 </svelte:head>
 
-<button on:click={() => (showingDeptsSearch = !showingDeptsSearch)} class="group relative z-10 flex w-full items-center justify-center bg-gray-900 p-6 text-center text-xl tracking-wide shadow-lg">
+<button on:click={() => (showingDeptsSearch = !showingDeptsSearch)} class="group relative z-10 flex w-full items-center justify-center bg-gray-900 p-6 text-center tracking-wide shadow-lg focus:outline-none">
 	<div class="">
-		<span class="font-extrabold tracking-wide text-white">{$short}</span>
-		<span class="ml-2 font-bold text-gray-400">{$long}</span>
+		<span class="text-lg font-extrabold tracking-wide text-white sm:text-xl">{$short}</span>
+		<span class="text-md ml-2 font-bold text-gray-400 sm:text-xl">{$long}</span>
 	</div>
 	<svg class="relative top-0 mx-4 inline w-5 fill-none stroke-gray-600 stroke-[3] transition-all duration-200 group-hover:top-1 group-hover:stroke-white group-hover:stroke-[4]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 15">
 		<path d="M2,2 l8,7 l8,-7" stroke-linecap="round" />

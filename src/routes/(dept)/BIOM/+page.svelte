@@ -63,7 +63,7 @@
 	<p>Prerequisites: graduate student status or consent of graduate program director.</p>
 </CourseCard>
 <CourseCard id="229" shortName="BIOM 229" longName="Advanced Anthropogeny" units="2" url="/BIOM#229">
-	<p>Advanced discussions following on “Introduction to Anthropogeny.” Online “Museum of Comparative Anthropogeny (MOCA)” will serve as major scaffold for this in-depth course. MOCA (<a target="_blank" class="link" href="http://carta.anthropogeny.org">http://carta.anthropogeny.org</a>/content/about-moca) has over 500 topics addressing uniquely human traits across twenty-four domains of knowledge and scientific disciplines.</p>
+	<p>Advanced discussions following on “Introduction to Anthropogeny.” Online “Museum of Comparative Anthropogeny (MOCA)” will serve as major scaffold for this in-depth course. MOCA (<a target="_blank" rel="noreferrer" class="link" href="http://carta.anthropogeny.org/content/about-moca">http://carta.anthropogeny.org/content/about-moca</a>) has over 500 topics addressing uniquely human traits across twenty-four domains of knowledge and scientific disciplines.</p>
 
 	<p>Prerequisites: <CourseLink id={583} href="/BIOM#225">BIOM 225</CourseLink>.</p>
 </CourseCard>

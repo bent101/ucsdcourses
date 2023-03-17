@@ -3,7 +3,7 @@
 	import DeptHeader from "./DeptHeader.svelte";
 </script>
 
-<div class="fixed top-0 z-10 w-full">
+<div class="fixed top-0 z-20 w-full">
 	<DeptHeader />
 </div>
 

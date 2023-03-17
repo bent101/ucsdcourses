@@ -26,7 +26,7 @@
 <CourseCard id="BNFO294" shortName="BNFO 294" longName="Scientific Ethics" units="1" url="/BIOI#BNFO294">
 	<p>Lectures, readings, and discussions about the responsible conduct and reporting of research, working with others in science, and social responsibilities; the course is designed as an option for meeting federal regulations for such training. S/U grades only.</p>
 
-	<p>Prerequisites: bioinformatics and systems biology graduate students only. Students should review the following web page prior to enrollment: <a target="_blank" class="link" href="https://ethics.ucsd.edu">https://ethics.ucsd.edu</a>/courses/ethics/index.html.</p>
+	<p>Prerequisites: bioinformatics and systems biology graduate students only. Students should review the following web page prior to enrollment: <a target="_blank" rel="noreferrer" class="link" href="https://ethics.ucsd.edu/courses/ethics/index.html">https://ethics.ucsd.edu/courses/ethics/index.html</a>.</p>
 </CourseCard>
 <CourseCard id="BNFO298" shortName="BNFO 298" longName="Research Rotation" units="4" url="/BIOI#BNFO298">
 	<p>Laboratory research of special topics under the direction of a program faculty member. The purpose is to train students in specific research methodologies and identify a laboratory in which to pursue doctoral dissertation research. Three quarters are required for PhD candidates. May be taken for credit up to six times.</p>

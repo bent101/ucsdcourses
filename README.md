@@ -1,6 +1,6 @@
 # UCSD Courses
 
-This is a searchable and better-looking version of the UC San Diego course catalog.
+This is a searchable and better-looking version of the original [UC San Diego course catalog](https://catalog.ucsd.edu/front/courses.html).
 
 - It adds links when other courses are mentioned in a description
 - You can copy a course's link
