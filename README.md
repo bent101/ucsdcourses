@@ -10,5 +10,5 @@ Future:
 
 - Hover over course names to see details
 - Create/share lists of courses
-- See all mentions of a course throught the whole catalog
+- See all mentions of a course throughout the whole catalog
 - See GPA averages of courses
